@@ -75,23 +75,8 @@ CREATE TABLE IF NOT EXISTS industrial_production (
     value FLOAT
 );
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+-- Create the stage to upload the local raw data csv files into
+CREATE STAGE raw_data_stage
+    FILE_FORMAT = (TYPE = 'CSV');
 
 
