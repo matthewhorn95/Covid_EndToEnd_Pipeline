@@ -5,3 +5,325 @@
 [2025-01-03T09:44:41.972-0800] {logging_mixin.py:190} INFO - [2025-01-03T09:44:41.972-0800] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-01-03T09:44:42.001-0800] {logging_mixin.py:190} INFO - [2025-01-03T09:44:42.000-0800] {dag.py:4180} INFO - Setting next_dagrun for CovidE2EPipeDag to 2025-01-03 09:45:00+00:00, run_after=2025-01-03 09:46:00+00:00
 [2025-01-03T09:44:42.042-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/test_dag.py took 1.753 seconds
+[2025-01-03T09:51:28.330-0800] {processor.py:186} INFO - Started process (PID=46342) to work on /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T09:51:28.332-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/test_dag.py for tasks to queue
+[2025-01-03T09:51:28.333-0800] {logging_mixin.py:190} INFO - [2025-01-03T09:51:28.333-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T09:51:29.524-0800] {processor.py:925} INFO - DAG(s) 'CovidE2EPipeDag' retrieved from /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T09:51:29.862-0800] {logging_mixin.py:190} INFO - [2025-01-03T09:51:29.862-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-03T09:51:29.895-0800] {logging_mixin.py:190} INFO - [2025-01-03T09:51:29.894-0800] {dag.py:4180} INFO - Setting next_dagrun for CovidE2EPipeDag to 2025-01-03 09:52:00+00:00, run_after=2025-01-03 09:53:00+00:00
+[2025-01-03T09:51:29.918-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/test_dag.py took 1.592 seconds
+[2025-01-03T09:54:30.236-0800] {processor.py:186} INFO - Started process (PID=46464) to work on /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T09:54:30.239-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/test_dag.py for tasks to queue
+[2025-01-03T09:54:30.241-0800] {logging_mixin.py:190} INFO - [2025-01-03T09:54:30.240-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T09:54:32.627-0800] {processor.py:925} INFO - DAG(s) 'CovidE2EPipeDag' retrieved from /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T09:54:33.457-0800] {logging_mixin.py:190} INFO - [2025-01-03T09:54:33.456-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-03T09:54:33.505-0800] {logging_mixin.py:190} INFO - [2025-01-03T09:54:33.505-0800] {dag.py:4180} INFO - Setting next_dagrun for CovidE2EPipeDag to 2025-01-03 09:55:00+00:00, run_after=2025-01-03 09:56:00+00:00
+[2025-01-03T09:54:33.558-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/test_dag.py took 3.329 seconds
+[2025-01-03T09:58:22.905-0800] {processor.py:186} INFO - Started process (PID=46577) to work on /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T09:58:22.907-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/test_dag.py for tasks to queue
+[2025-01-03T09:58:22.909-0800] {logging_mixin.py:190} INFO - [2025-01-03T09:58:22.909-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T09:58:23.925-0800] {processor.py:925} INFO - DAG(s) 'CovidE2EPipeDag' retrieved from /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T09:58:24.427-0800] {logging_mixin.py:190} INFO - [2025-01-03T09:58:24.426-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-03T09:58:24.477-0800] {logging_mixin.py:190} INFO - [2025-01-03T09:58:24.476-0800] {dag.py:4180} INFO - Setting next_dagrun for CovidE2EPipeDag to 2025-01-03 09:59:00+00:00, run_after=2025-01-03 10:00:00+00:00
+[2025-01-03T09:58:24.544-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/test_dag.py took 1.644 seconds
+[2025-01-03T10:02:29.831-0800] {processor.py:186} INFO - Started process (PID=46718) to work on /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T10:02:29.836-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/test_dag.py for tasks to queue
+[2025-01-03T10:02:29.839-0800] {logging_mixin.py:190} INFO - [2025-01-03T10:02:29.838-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T10:02:33.584-0800] {processor.py:925} INFO - DAG(s) 'CovidE2EPipeDag' retrieved from /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T10:02:34.740-0800] {logging_mixin.py:190} INFO - [2025-01-03T10:02:34.740-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-03T10:02:34.816-0800] {logging_mixin.py:190} INFO - [2025-01-03T10:02:34.815-0800] {dag.py:4180} INFO - Setting next_dagrun for CovidE2EPipeDag to 2025-01-03 10:03:00+00:00, run_after=2025-01-03 10:04:00+00:00
+[2025-01-03T10:02:34.896-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/test_dag.py took 5.111 seconds
+[2025-01-03T10:06:17.842-0800] {processor.py:186} INFO - Started process (PID=46843) to work on /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T10:06:17.844-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/test_dag.py for tasks to queue
+[2025-01-03T10:06:17.846-0800] {logging_mixin.py:190} INFO - [2025-01-03T10:06:17.845-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T10:06:19.185-0800] {processor.py:925} INFO - DAG(s) 'CovidE2EPipeDag' retrieved from /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T10:06:19.583-0800] {logging_mixin.py:190} INFO - [2025-01-03T10:06:19.583-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-03T10:06:19.614-0800] {logging_mixin.py:190} INFO - [2025-01-03T10:06:19.614-0800] {dag.py:4180} INFO - Setting next_dagrun for CovidE2EPipeDag to 2025-01-03 10:07:00+00:00, run_after=2025-01-03 10:08:00+00:00
+[2025-01-03T10:06:19.641-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/test_dag.py took 1.806 seconds
+[2025-01-03T10:09:42.924-0800] {processor.py:186} INFO - Started process (PID=46954) to work on /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T10:09:42.926-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/test_dag.py for tasks to queue
+[2025-01-03T10:09:42.928-0800] {logging_mixin.py:190} INFO - [2025-01-03T10:09:42.927-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T10:09:44.413-0800] {processor.py:925} INFO - DAG(s) 'CovidE2EPipeDag' retrieved from /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T10:09:44.947-0800] {logging_mixin.py:190} INFO - [2025-01-03T10:09:44.947-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-03T10:09:44.973-0800] {logging_mixin.py:190} INFO - [2025-01-03T10:09:44.972-0800] {dag.py:4180} INFO - Setting next_dagrun for CovidE2EPipeDag to 2025-01-03 10:10:00+00:00, run_after=2025-01-03 10:11:00+00:00
+[2025-01-03T10:09:45.000-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/test_dag.py took 2.080 seconds
+[2025-01-03T10:13:05.761-0800] {processor.py:186} INFO - Started process (PID=47067) to work on /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T10:13:05.763-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/test_dag.py for tasks to queue
+[2025-01-03T10:13:05.765-0800] {logging_mixin.py:190} INFO - [2025-01-03T10:13:05.764-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T10:13:07.176-0800] {processor.py:925} INFO - DAG(s) 'CovidE2EPipeDag' retrieved from /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T10:13:07.739-0800] {logging_mixin.py:190} INFO - [2025-01-03T10:13:07.739-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-03T10:13:07.768-0800] {logging_mixin.py:190} INFO - [2025-01-03T10:13:07.767-0800] {dag.py:4180} INFO - Setting next_dagrun for CovidE2EPipeDag to 2025-01-03 10:14:00+00:00, run_after=2025-01-03 10:15:00+00:00
+[2025-01-03T10:13:07.795-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/test_dag.py took 2.040 seconds
+[2025-01-03T10:16:56.857-0800] {processor.py:186} INFO - Started process (PID=47315) to work on /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T10:16:56.863-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/test_dag.py for tasks to queue
+[2025-01-03T10:16:56.865-0800] {logging_mixin.py:190} INFO - [2025-01-03T10:16:56.865-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T10:16:58.552-0800] {processor.py:925} INFO - DAG(s) 'CovidE2EPipeDag' retrieved from /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T10:16:59.096-0800] {logging_mixin.py:190} INFO - [2025-01-03T10:16:59.096-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-03T10:16:59.123-0800] {logging_mixin.py:190} INFO - [2025-01-03T10:16:59.122-0800] {dag.py:4180} INFO - Setting next_dagrun for CovidE2EPipeDag to 2025-01-03 10:17:00+00:00, run_after=2025-01-03 10:18:00+00:00
+[2025-01-03T10:16:59.152-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/test_dag.py took 2.306 seconds
+[2025-01-03T10:21:00.911-0800] {processor.py:186} INFO - Started process (PID=47475) to work on /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T10:21:00.914-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/test_dag.py for tasks to queue
+[2025-01-03T10:21:00.916-0800] {logging_mixin.py:190} INFO - [2025-01-03T10:21:00.915-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T10:21:02.696-0800] {processor.py:925} INFO - DAG(s) 'CovidE2EPipeDag' retrieved from /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T10:21:03.702-0800] {logging_mixin.py:190} INFO - [2025-01-03T10:21:03.702-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-03T10:21:03.735-0800] {logging_mixin.py:190} INFO - [2025-01-03T10:21:03.735-0800] {dag.py:4180} INFO - Setting next_dagrun for CovidE2EPipeDag to 2025-01-03 10:22:00+00:00, run_after=2025-01-03 10:23:00+00:00
+[2025-01-03T10:21:03.776-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/test_dag.py took 2.873 seconds
+[2025-01-03T10:25:00.194-0800] {processor.py:186} INFO - Started process (PID=47648) to work on /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T10:25:00.197-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/test_dag.py for tasks to queue
+[2025-01-03T10:25:00.199-0800] {logging_mixin.py:190} INFO - [2025-01-03T10:25:00.198-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T10:25:01.599-0800] {logging_mixin.py:190} INFO - [2025-01-03T10:25:01.596-0800] {dagbag.py:387} ERROR - Failed to import: /Users/matthewmac/airflow/dags/test_dag.py
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/matthewmac/airflow/dags/test_dag.py", line 39, in <module>
+    local_raw_to_snowstage = SnowflakeOperator(
+NameError: name 'SnowflakeOperator' is not defined
+[2025-01-03T10:25:01.600-0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T10:25:02.206-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/test_dag.py took 2.017 seconds
+[2025-01-03T10:29:11.793-0800] {processor.py:186} INFO - Started process (PID=47764) to work on /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T10:29:11.796-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/test_dag.py for tasks to queue
+[2025-01-03T10:29:11.798-0800] {logging_mixin.py:190} INFO - [2025-01-03T10:29:11.797-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T10:29:13.233-0800] {logging_mixin.py:190} INFO - [2025-01-03T10:29:13.224-0800] {dagbag.py:387} ERROR - Failed to import: /Users/matthewmac/airflow/dags/test_dag.py
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/matthewmac/airflow/dags/test_dag.py", line 39, in <module>
+    local_raw_to_snowstage = SnowflakeOperator(
+NameError: name 'SnowflakeOperator' is not defined
+[2025-01-03T10:29:13.234-0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T10:29:13.682-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/test_dag.py took 1.892 seconds
+[2025-01-03T10:33:41.266-0800] {processor.py:186} INFO - Started process (PID=47901) to work on /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T10:33:41.269-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/test_dag.py for tasks to queue
+[2025-01-03T10:33:41.271-0800] {logging_mixin.py:190} INFO - [2025-01-03T10:33:41.270-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T10:33:43.010-0800] {logging_mixin.py:190} INFO - [2025-01-03T10:33:43.008-0800] {dagbag.py:387} ERROR - Failed to import: /Users/matthewmac/airflow/dags/test_dag.py
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/matthewmac/airflow/dags/test_dag.py", line 39, in <module>
+    local_raw_to_snowstage = SnowflakeOperator(
+NameError: name 'SnowflakeOperator' is not defined
+[2025-01-03T10:33:43.011-0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T10:33:43.409-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/test_dag.py took 2.149 seconds
+[2025-01-03T10:37:52.487-0800] {processor.py:186} INFO - Started process (PID=48035) to work on /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T10:37:52.489-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/test_dag.py for tasks to queue
+[2025-01-03T10:37:52.491-0800] {logging_mixin.py:190} INFO - [2025-01-03T10:37:52.490-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T10:37:53.584-0800] {logging_mixin.py:190} INFO - [2025-01-03T10:37:53.581-0800] {dagbag.py:387} ERROR - Failed to import: /Users/matthewmac/airflow/dags/test_dag.py
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/matthewmac/airflow/dags/test_dag.py", line 39, in <module>
+    local_raw_to_snowstage = SnowflakeOperator(
+NameError: name 'SnowflakeOperator' is not defined
+[2025-01-03T10:37:53.585-0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T10:37:54.351-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/test_dag.py took 1.869 seconds
+[2025-01-03T10:42:13.522-0800] {processor.py:186} INFO - Started process (PID=48165) to work on /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T10:42:13.525-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/test_dag.py for tasks to queue
+[2025-01-03T10:42:13.528-0800] {logging_mixin.py:190} INFO - [2025-01-03T10:42:13.527-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T10:42:14.979-0800] {logging_mixin.py:190} INFO - [2025-01-03T10:42:14.975-0800] {dagbag.py:387} ERROR - Failed to import: /Users/matthewmac/airflow/dags/test_dag.py
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/matthewmac/airflow/dags/test_dag.py", line 39, in <module>
+    local_raw_to_snowstage = SnowflakeOperator(
+NameError: name 'SnowflakeOperator' is not defined
+[2025-01-03T10:42:14.980-0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T10:42:15.343-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/test_dag.py took 1.826 seconds
+[2025-01-03T10:46:12.038-0800] {processor.py:186} INFO - Started process (PID=48285) to work on /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T10:46:12.046-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/test_dag.py for tasks to queue
+[2025-01-03T10:46:12.050-0800] {logging_mixin.py:190} INFO - [2025-01-03T10:46:12.050-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T10:46:13.761-0800] {logging_mixin.py:190} INFO - [2025-01-03T10:46:13.758-0800] {dagbag.py:387} ERROR - Failed to import: /Users/matthewmac/airflow/dags/test_dag.py
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/matthewmac/airflow/dags/test_dag.py", line 39, in <module>
+    local_raw_to_snowstage = SnowflakeOperator(
+NameError: name 'SnowflakeOperator' is not defined
+[2025-01-03T10:46:13.762-0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T10:46:14.141-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/test_dag.py took 2.121 seconds
+[2025-01-03T10:50:03.199-0800] {processor.py:186} INFO - Started process (PID=48492) to work on /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T10:50:03.201-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/test_dag.py for tasks to queue
+[2025-01-03T10:50:03.202-0800] {logging_mixin.py:190} INFO - [2025-01-03T10:50:03.202-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T10:50:04.663-0800] {logging_mixin.py:190} INFO - [2025-01-03T10:50:04.660-0800] {dagbag.py:387} ERROR - Failed to import: /Users/matthewmac/airflow/dags/test_dag.py
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/matthewmac/airflow/dags/test_dag.py", line 39, in <module>
+    local_raw_to_snowstage = SnowflakeOperator(
+NameError: name 'SnowflakeOperator' is not defined
+[2025-01-03T10:50:04.664-0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T10:50:04.913-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/test_dag.py took 1.718 seconds
+[2025-01-03T10:54:30.958-0800] {processor.py:186} INFO - Started process (PID=48641) to work on /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T10:54:30.962-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/test_dag.py for tasks to queue
+[2025-01-03T10:54:30.965-0800] {logging_mixin.py:190} INFO - [2025-01-03T10:54:30.965-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T10:54:32.559-0800] {logging_mixin.py:190} INFO - [2025-01-03T10:54:32.555-0800] {dagbag.py:387} ERROR - Failed to import: /Users/matthewmac/airflow/dags/test_dag.py
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/matthewmac/airflow/dags/test_dag.py", line 39, in <module>
+    local_raw_to_snowstage = SnowflakeOperator(
+NameError: name 'SnowflakeOperator' is not defined
+[2025-01-03T10:54:32.560-0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T10:54:32.816-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/test_dag.py took 1.871 seconds
+[2025-01-03T10:58:35.863-0800] {processor.py:186} INFO - Started process (PID=48845) to work on /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T10:58:35.866-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/test_dag.py for tasks to queue
+[2025-01-03T10:58:35.867-0800] {logging_mixin.py:190} INFO - [2025-01-03T10:58:35.867-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T10:58:37.299-0800] {logging_mixin.py:190} INFO - [2025-01-03T10:58:37.296-0800] {dagbag.py:387} ERROR - Failed to import: /Users/matthewmac/airflow/dags/test_dag.py
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/matthewmac/airflow/dags/test_dag.py", line 39, in <module>
+    local_raw_to_snowstage = SnowflakeOperator(
+NameError: name 'SnowflakeOperator' is not defined
+[2025-01-03T10:58:37.300-0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T10:58:37.590-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/test_dag.py took 1.734 seconds
+[2025-01-03T11:03:20.173-0800] {processor.py:186} INFO - Started process (PID=49000) to work on /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T11:03:20.176-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/test_dag.py for tasks to queue
+[2025-01-03T11:03:20.177-0800] {logging_mixin.py:190} INFO - [2025-01-03T11:03:20.177-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T11:03:21.206-0800] {logging_mixin.py:190} INFO - [2025-01-03T11:03:21.201-0800] {dagbag.py:387} ERROR - Failed to import: /Users/matthewmac/airflow/dags/test_dag.py
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/matthewmac/airflow/dags/test_dag.py", line 39, in <module>
+    local_raw_to_snowstage = SnowflakeOperator(
+NameError: name 'SnowflakeOperator' is not defined
+[2025-01-03T11:03:21.206-0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T11:03:21.650-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/test_dag.py took 1.483 seconds
+[2025-01-03T11:07:30.825-0800] {processor.py:186} INFO - Started process (PID=49150) to work on /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T11:07:30.827-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/test_dag.py for tasks to queue
+[2025-01-03T11:07:30.829-0800] {logging_mixin.py:190} INFO - [2025-01-03T11:07:30.829-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T11:07:32.328-0800] {logging_mixin.py:190} INFO - [2025-01-03T11:07:32.325-0800] {dagbag.py:387} ERROR - Failed to import: /Users/matthewmac/airflow/dags/test_dag.py
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/matthewmac/airflow/dags/test_dag.py", line 39, in <module>
+    local_raw_to_snowstage = SnowflakeOperator(
+NameError: name 'SnowflakeOperator' is not defined
+[2025-01-03T11:07:32.329-0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T11:07:32.672-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/test_dag.py took 1.852 seconds
+[2025-01-03T11:11:55.548-0800] {processor.py:186} INFO - Started process (PID=49355) to work on /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T11:11:55.551-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/test_dag.py for tasks to queue
+[2025-01-03T11:11:55.552-0800] {logging_mixin.py:190} INFO - [2025-01-03T11:11:55.552-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T11:11:57.839-0800] {logging_mixin.py:190} INFO - [2025-01-03T11:11:57.833-0800] {dagbag.py:387} ERROR - Failed to import: /Users/matthewmac/airflow/dags/test_dag.py
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/matthewmac/airflow/dags/test_dag.py", line 39, in <module>
+    local_raw_to_snowstage = SnowflakeOperator(
+NameError: name 'SnowflakeOperator' is not defined
+[2025-01-03T11:11:57.840-0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T11:11:58.308-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/test_dag.py took 2.766 seconds
+[2025-01-03T11:16:31.952-0800] {processor.py:186} INFO - Started process (PID=49704) to work on /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T11:16:31.954-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/test_dag.py for tasks to queue
+[2025-01-03T11:16:31.955-0800] {logging_mixin.py:190} INFO - [2025-01-03T11:16:31.955-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T11:16:33.385-0800] {processor.py:925} INFO - DAG(s) 'CovidE2EPipeDag' retrieved from /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T11:16:34.014-0800] {logging_mixin.py:190} INFO - [2025-01-03T11:16:34.013-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-03T11:16:34.057-0800] {logging_mixin.py:190} INFO - [2025-01-03T11:16:34.057-0800] {dag.py:4180} INFO - Setting next_dagrun for CovidE2EPipeDag to 2025-01-03 11:17:00+00:00, run_after=2025-01-03 11:18:00+00:00
+[2025-01-03T11:16:34.160-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/test_dag.py took 2.215 seconds
+[2025-01-03T11:20:58.396-0800] {processor.py:186} INFO - Started process (PID=49847) to work on /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T11:20:58.400-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/test_dag.py for tasks to queue
+[2025-01-03T11:20:58.401-0800] {logging_mixin.py:190} INFO - [2025-01-03T11:20:58.401-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T11:21:00.016-0800] {processor.py:925} INFO - DAG(s) 'CovidE2EPipeDag' retrieved from /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T11:21:00.692-0800] {logging_mixin.py:190} INFO - [2025-01-03T11:21:00.692-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-03T11:21:00.723-0800] {logging_mixin.py:190} INFO - [2025-01-03T11:21:00.722-0800] {dag.py:4180} INFO - Setting next_dagrun for CovidE2EPipeDag to 2025-01-03 11:21:00+00:00, run_after=2025-01-03 11:22:00+00:00
+[2025-01-03T11:21:00.755-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/test_dag.py took 2.364 seconds
+[2025-01-03T11:25:28.074-0800] {processor.py:186} INFO - Started process (PID=49987) to work on /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T11:25:28.077-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/test_dag.py for tasks to queue
+[2025-01-03T11:25:28.078-0800] {logging_mixin.py:190} INFO - [2025-01-03T11:25:28.078-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T11:25:30.290-0800] {processor.py:925} INFO - DAG(s) 'CovidE2EPipeDag' retrieved from /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T11:25:31.093-0800] {logging_mixin.py:190} INFO - [2025-01-03T11:25:31.092-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-03T11:25:31.156-0800] {logging_mixin.py:190} INFO - [2025-01-03T11:25:31.156-0800] {dag.py:4180} INFO - Setting next_dagrun for CovidE2EPipeDag to 2025-01-03 11:26:00+00:00, run_after=2025-01-03 11:27:00+00:00
+[2025-01-03T11:25:31.203-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/test_dag.py took 3.134 seconds
+[2025-01-03T11:30:12.675-0800] {processor.py:186} INFO - Started process (PID=50211) to work on /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T11:30:12.680-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/test_dag.py for tasks to queue
+[2025-01-03T11:30:12.681-0800] {logging_mixin.py:190} INFO - [2025-01-03T11:30:12.681-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T11:30:15.701-0800] {logging_mixin.py:190} INFO - [2025-01-03T11:30:15.697-0800] {dagbag.py:387} ERROR - Failed to import: /Users/matthewmac/airflow/dags/test_dag.py
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/matthewmac/airflow/dags/test_dag.py", line 4, in <module>
+    from airflow.providers.snowflake.operators.snowflake import SnowflakeOperator
+ImportError: cannot import name 'SnowflakeOperator' from 'airflow.providers.snowflake.operators.snowflake' (/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/providers/snowflake/operators/snowflake.py)
+[2025-01-03T11:30:15.701-0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T11:30:15.948-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/test_dag.py took 3.278 seconds
+[2025-01-03T11:35:11.017-0800] {processor.py:186} INFO - Started process (PID=50411) to work on /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T11:35:11.023-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/test_dag.py for tasks to queue
+[2025-01-03T11:35:11.024-0800] {logging_mixin.py:190} INFO - [2025-01-03T11:35:11.024-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T11:35:14.486-0800] {logging_mixin.py:190} INFO - [2025-01-03T11:35:14.481-0800] {dagbag.py:387} ERROR - Failed to import: /Users/matthewmac/airflow/dags/test_dag.py
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/matthewmac/airflow/dags/test_dag.py", line 4, in <module>
+    from airflow.providers.snowflake.operators.snowflake import SnowflakeOperator
+ImportError: cannot import name 'SnowflakeOperator' from 'airflow.providers.snowflake.operators.snowflake' (/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/providers/snowflake/operators/snowflake.py)
+[2025-01-03T11:35:14.487-0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T11:35:14.918-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/test_dag.py took 3.911 seconds
+[2025-01-03T11:39:51.362-0800] {processor.py:186} INFO - Started process (PID=50605) to work on /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T11:39:51.364-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/test_dag.py for tasks to queue
+[2025-01-03T11:39:51.365-0800] {logging_mixin.py:190} INFO - [2025-01-03T11:39:51.365-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T11:39:55.019-0800] {logging_mixin.py:190} INFO - [2025-01-03T11:39:55.011-0800] {dagbag.py:387} ERROR - Failed to import: /Users/matthewmac/airflow/dags/test_dag.py
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/matthewmac/airflow/dags/test_dag.py", line 4, in <module>
+    from airflow.providers.snowflake.operators.snowflake import SnowflakeOperator
+ImportError: cannot import name 'SnowflakeOperator' from 'airflow.providers.snowflake.operators.snowflake' (/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/providers/snowflake/operators/snowflake.py)
+[2025-01-03T11:39:55.023-0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T11:39:55.683-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/test_dag.py took 4.325 seconds
+[2025-01-03T11:44:11.386-0800] {processor.py:186} INFO - Started process (PID=50760) to work on /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T11:44:11.389-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/test_dag.py for tasks to queue
+[2025-01-03T11:44:11.390-0800] {logging_mixin.py:190} INFO - [2025-01-03T11:44:11.390-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T11:44:14.183-0800] {logging_mixin.py:190} INFO - [2025-01-03T11:44:14.180-0800] {dagbag.py:387} ERROR - Failed to import: /Users/matthewmac/airflow/dags/test_dag.py
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/matthewmac/airflow/dags/test_dag.py", line 4, in <module>
+    from airflow.providers.snowflake.operators.snowflake import SnowflakeOperator
+ImportError: cannot import name 'SnowflakeOperator' from 'airflow.providers.snowflake.operators.snowflake' (/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/providers/snowflake/operators/snowflake.py)
+[2025-01-03T11:44:14.187-0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T11:44:14.412-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/test_dag.py took 3.031 seconds
+[2025-01-03T11:49:04.332-0800] {processor.py:186} INFO - Started process (PID=50954) to work on /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T11:49:04.337-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/test_dag.py for tasks to queue
+[2025-01-03T11:49:04.338-0800] {logging_mixin.py:190} INFO - [2025-01-03T11:49:04.338-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T11:49:08.550-0800] {logging_mixin.py:190} INFO - [2025-01-03T11:49:08.547-0800] {dagbag.py:387} ERROR - Failed to import: /Users/matthewmac/airflow/dags/test_dag.py
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/matthewmac/airflow/dags/test_dag.py", line 4, in <module>
+    from airflow.providers.snowflake.operators.snowflake import SnowflakeOperator
+ImportError: cannot import name 'SnowflakeOperator' from 'airflow.providers.snowflake.operators.snowflake' (/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/providers/snowflake/operators/snowflake.py)
+[2025-01-03T11:49:08.552-0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T11:49:08.796-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/test_dag.py took 4.471 seconds
