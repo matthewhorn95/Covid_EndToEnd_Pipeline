@@ -11,6 +11,7 @@ sys.path.insert(0, '/Users/matthewmac/airflow')
 
 # Import helper functions for tasks
 from helper_scripts.print_helper import helper_print_task
+from helper_scripts.api_fetch import main as api_fetch
 
 # Set the default arguments for the DAG
 default_args = {
@@ -26,6 +27,12 @@ dag = DAG(
     default_args=default_args,
     description='Covid End To End Pipeline Data Engineering Project',
     schedule_interval='* * * * *'
+)
+
+# Task to fetch raw data from api's and store locally in csv files
+fetch_raw_data = PythonOperator(
+    task_id='fetch_raw',
+    python_callable=api_fetch
 )
 
 # Define the bash echo task
@@ -54,4 +61,4 @@ task3 = PythonOperator(
 )
 
 # Define the pipeline dependencies
-task1 >> [task2, task3]
+task1 >> [task2, task3] >> fetch_raw_data

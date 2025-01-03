@@ -1,0 +1,7 @@
+[2025-01-03T09:44:40.294-0800] {processor.py:186} INFO - Started process (PID=45592) to work on /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T09:44:40.295-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/test_dag.py for tasks to queue
+[2025-01-03T09:44:40.296-0800] {logging_mixin.py:190} INFO - [2025-01-03T09:44:40.296-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T09:44:41.477-0800] {processor.py:925} INFO - DAG(s) 'CovidE2EPipeDag' retrieved from /Users/matthewmac/airflow/dags/test_dag.py
+[2025-01-03T09:44:41.972-0800] {logging_mixin.py:190} INFO - [2025-01-03T09:44:41.972-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-03T09:44:42.001-0800] {logging_mixin.py:190} INFO - [2025-01-03T09:44:42.000-0800] {dag.py:4180} INFO - Setting next_dagrun for CovidE2EPipeDag to 2025-01-03 09:45:00+00:00, run_after=2025-01-03 09:46:00+00:00
+[2025-01-03T09:44:42.042-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/test_dag.py took 1.753 seconds
