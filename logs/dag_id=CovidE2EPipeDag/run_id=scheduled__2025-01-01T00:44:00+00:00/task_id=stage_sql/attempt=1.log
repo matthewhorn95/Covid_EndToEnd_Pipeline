@@ -1,0 +1,81 @@
+[2025-01-03T22:44:36.890-0800] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-01-03T22:44:36.911-0800] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: CovidE2EPipeDag.stage_sql scheduled__2025-01-01T00:44:00+00:00 [queued]>
+[2025-01-03T22:44:36.918-0800] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: CovidE2EPipeDag.stage_sql scheduled__2025-01-01T00:44:00+00:00 [queued]>
+[2025-01-03T22:44:36.919-0800] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2025-01-03T22:44:36.933-0800] {taskinstance.py:2889} INFO - Executing <Task(BashOperator): stage_sql> on 2025-01-01 00:44:00+00:00
+[2025-01-03T22:44:36.936-0800] {standard_task_runner.py:72} INFO - Started process 72472 to run task
+[2025-01-03T22:44:36.944-0800] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'CovidE2EPipeDag', 'stage_sql', 'scheduled__2025-01-01T00:44:00+00:00', '--job-id', '694', '--raw', '--subdir', 'DAGS_FOLDER/CovidE2EPipeDag.py', '--cfg-path', '/var/folders/vm/rn9v1g1j739_mq8j5pfl1yxm0000gn/T/tmp54wy1kqd']
+[2025-01-03T22:44:36.947-0800] {standard_task_runner.py:105} INFO - Job 694: Subtask stage_sql
+[2025-01-03T22:44:36.999-0800] {task_command.py:467} INFO - Running <TaskInstance: CovidE2EPipeDag.stage_sql scheduled__2025-01-01T00:44:00+00:00 [running]> on host Matthews-MacBook-Air.local
+[2025-01-03T22:44:37.069-0800] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Matthew Horn' AIRFLOW_CTX_DAG_ID='CovidE2EPipeDag' AIRFLOW_CTX_TASK_ID='stage_sql' AIRFLOW_CTX_EXECUTION_DATE='2025-01-01T00:44:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-01-01T00:44:00+00:00'
+[2025-01-03T22:44:37.070-0800] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-01-03T22:44:37.071-0800] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-01-03T22:44:37.072-0800] {logging_mixin.py:190} INFO - Current task name:stage_sql state:running start_date:2025-01-04 06:44:36.911610+00:00
+[2025-01-03T22:44:37.073-0800] {logging_mixin.py:190} INFO - Dag name:CovidE2EPipeDag and current dag run status:running
+[2025-01-03T22:44:37.074-0800] {taskinstance.py:731} INFO - ::endgroup::
+[2025-01-03T22:44:37.075-0800] {subprocess.py:78} INFO - Tmp dir root location: /var/folders/vm/rn9v1g1j739_mq8j5pfl1yxm0000gn/T
+[2025-01-03T22:44:37.077-0800] {subprocess.py:88} INFO - Running command: ['/bin/bash', '-c', 'snow stage copy ~/airflow/helper_scripts/load_staged_data_2025-01-03.sql']
+[2025-01-03T22:44:37.084-0800] {subprocess.py:99} INFO - Output:
+[2025-01-03T22:44:40.263-0800] {subprocess.py:106} INFO - Usage: snow stage copy [OPTIONS] SOURCE_PATH DESTINATION_PATH
+[2025-01-03T22:44:40.264-0800] {subprocess.py:106} INFO - Try 'snow stage copy --help' for help.
+[2025-01-03T22:44:40.265-0800] {subprocess.py:106} INFO - ╭─ Error ──────────────────────────────────────────────────────────────╮
+[2025-01-03T22:44:40.266-0800] {subprocess.py:106} INFO - │ Missing argument 'DESTINATION_PATH'.                                 │
+[2025-01-03T22:44:40.267-0800] {subprocess.py:106} INFO - ╰──────────────────────────────────────────────────────────────────────╯
+[2025-01-03T22:44:40.526-0800] {subprocess.py:110} INFO - Command exited with return code 2
+[2025-01-03T22:44:40.537-0800] {taskinstance.py:3311} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 422, in wrapper
+    return func(self, *args, **kwargs)
+  File "/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/operators/bash.py", line 276, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 2.
+[2025-01-03T22:44:40.548-0800] {logging_mixin.py:190} INFO - Task instance in failure state
+[2025-01-03T22:44:40.549-0800] {logging_mixin.py:190} INFO - Task start:2025-01-04 06:44:36.911610+00:00 end:2025-01-04 06:44:40.547428+00:00 duration:3.635818
+[2025-01-03T22:44:40.549-0800] {logging_mixin.py:190} INFO - Task:<Task(BashOperator): stage_sql> dag:<DAG: CovidE2EPipeDag> dagrun:<DagRun CovidE2EPipeDag @ 2025-01-01 00:44:00+00:00: scheduled__2025-01-01T00:44:00+00:00, state:running, queued_at: 2025-01-04 06:43:14.350791+00:00. externally triggered: False>
+[2025-01-03T22:44:40.550-0800] {logging_mixin.py:190} INFO - Failure caused by Bash command failed. The command returned a non-zero exit code 2.
+[2025-01-03T22:44:40.551-0800] {taskinstance.py:1225} INFO - Marking task as UP_FOR_RETRY. dag_id=CovidE2EPipeDag, task_id=stage_sql, run_id=scheduled__2025-01-01T00:44:00+00:00, execution_date=20250101T004400, start_date=20250104T064436, end_date=20250104T064440
+[2025-01-03T22:44:40.567-0800] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-01-03T22:44:40.568-0800] {standard_task_runner.py:124} ERROR - Failed to execute job 694 for task stage_sql (Bash command failed. The command returned a non-zero exit code 2.; 72472)
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+  File "/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+  File "/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+  File "/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+  File "/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+  File "/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+  File "/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 3005, in _run_raw_task
+    return _run_raw_task(
+  File "/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 3159, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+  File "/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 3183, in _execute_task
+    return _execute_task(self, context, task_orig)
+  File "/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 422, in wrapper
+    return func(self, *args, **kwargs)
+  File "/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/operators/bash.py", line 276, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 2.
+[2025-01-03T22:44:40.606-0800] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2025-01-03T22:44:40.634-0800] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-01-03T22:44:40.635-0800] {local_task_job_runner.py:245} INFO - ::endgroup::

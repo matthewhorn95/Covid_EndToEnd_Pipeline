@@ -70,3 +70,4 @@ def main():
     api_to_csv(f"{fred_series_url}NETEXP{fred_ending}", 'trade_balance', process_fred_observations)"""
     api_to_csv(f"{fred_series_url}INDPRO{fred_ending}", 'industrial_production', process_fred_observations)
 
+main()

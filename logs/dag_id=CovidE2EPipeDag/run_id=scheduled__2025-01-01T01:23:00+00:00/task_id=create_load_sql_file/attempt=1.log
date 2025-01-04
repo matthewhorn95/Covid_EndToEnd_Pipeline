@@ -1,0 +1,20 @@
+[2025-01-04T12:48:15.404-0800] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-01-04T12:48:15.425-0800] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: CovidE2EPipeDag.create_load_sql_file scheduled__2025-01-01T01:23:00+00:00 [queued]>
+[2025-01-04T12:48:15.440-0800] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: CovidE2EPipeDag.create_load_sql_file scheduled__2025-01-01T01:23:00+00:00 [queued]>
+[2025-01-04T12:48:15.441-0800] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2025-01-04T12:48:15.470-0800] {taskinstance.py:2889} INFO - Executing <Task(BashOperator): create_load_sql_file> on 2025-01-01 01:23:00+00:00
+[2025-01-04T12:48:15.474-0800] {standard_task_runner.py:72} INFO - Started process 86210 to run task
+[2025-01-04T12:48:15.485-0800] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'CovidE2EPipeDag', 'create_load_sql_file', 'scheduled__2025-01-01T01:23:00+00:00', '--job-id', '1087', '--raw', '--subdir', 'DAGS_FOLDER/CovidE2EPipeDag.py', '--cfg-path', '/var/folders/vm/rn9v1g1j739_mq8j5pfl1yxm0000gn/T/tmpjr6r5oqf']
+[2025-01-04T12:48:15.488-0800] {standard_task_runner.py:105} INFO - Job 1087: Subtask create_load_sql_file
+[2025-01-04T12:48:15.573-0800] {task_command.py:467} INFO - Running <TaskInstance: CovidE2EPipeDag.create_load_sql_file scheduled__2025-01-01T01:23:00+00:00 [running]> on host Matthews-MacBook-Air.local
+[2025-01-04T12:48:15.710-0800] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Matthew Horn' AIRFLOW_CTX_DAG_ID='CovidE2EPipeDag' AIRFLOW_CTX_TASK_ID='create_load_sql_file' AIRFLOW_CTX_EXECUTION_DATE='2025-01-01T01:23:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-01-01T01:23:00+00:00'
+[2025-01-04T12:48:15.713-0800] {taskinstance.py:731} INFO - ::endgroup::
+[2025-01-04T12:48:15.780-0800] {subprocess.py:78} INFO - Tmp dir root location: /var/folders/vm/rn9v1g1j739_mq8j5pfl1yxm0000gn/T
+[2025-01-04T12:48:15.782-0800] {subprocess.py:88} INFO - Running command: ['/bin/bash', '-c', 'echo "COPY INTO CovidE2EPipeDatabase.raw_data.industrial_production\n    FROM @CovidE2EPipeDatabase.raw_data.raw_data_stage\n    FILES = (\'/Users/matthewmac/airflow/data/raw/industrial_production_2025-01-04.csv\')\n    FILE_FORMAT = ( TYPE=\'CSV\' )\n    ON_ERROR = \'CONTINUE\';\n    " > /Users/matthewmac/airflow/helper_scripts/load_staged_data_2025-01-04.sql']
+[2025-01-04T12:48:15.792-0800] {subprocess.py:99} INFO - Output:
+[2025-01-04T12:48:15.799-0800] {subprocess.py:110} INFO - Command exited with return code 0
+[2025-01-04T12:48:15.826-0800] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-01-04T12:48:15.828-0800] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=CovidE2EPipeDag, task_id=create_load_sql_file, run_id=scheduled__2025-01-01T01:23:00+00:00, execution_date=20250101T012300, start_date=20250104T204815, end_date=20250104T204815
+[2025-01-04T12:48:15.890-0800] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-01-04T12:48:15.925-0800] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-01-04T12:48:15.926-0800] {local_task_job_runner.py:245} INFO - ::endgroup::

@@ -26,3 +26,38 @@
 [2025-01-03T17:25:51.957-0800] {logging_mixin.py:190} INFO - [2025-01-03T17:25:51.957-0800] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-01-03T17:25:52.003-0800] {logging_mixin.py:190} INFO - [2025-01-03T17:25:52.002-0800] {dag.py:4180} INFO - Setting next_dagrun for CovidE2EPipeDag to 2025-01-03 09:50:00+00:00, run_after=2025-01-03 09:51:00+00:00
 [2025-01-03T17:25:52.050-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/CovidPipeDag.py took 2.013 seconds
+[2025-01-03T17:55:15.493-0800] {processor.py:186} INFO - Started process (PID=60583) to work on /Users/matthewmac/airflow/dags/CovidPipeDag.py
+[2025-01-03T17:55:15.496-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/CovidPipeDag.py for tasks to queue
+[2025-01-03T17:55:15.499-0800] {logging_mixin.py:190} INFO - [2025-01-03T17:55:15.498-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/CovidPipeDag.py
+[2025-01-03T17:55:17.048-0800] {processor.py:925} INFO - DAG(s) 'CovidE2EPipeDag' retrieved from /Users/matthewmac/airflow/dags/CovidPipeDag.py
+[2025-01-03T17:55:17.376-0800] {logging_mixin.py:190} INFO - [2025-01-03T17:55:17.376-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-03T17:55:17.429-0800] {logging_mixin.py:190} INFO - [2025-01-03T17:55:17.429-0800] {dag.py:4180} INFO - Setting next_dagrun for CovidE2EPipeDag to 2025-01-03 09:51:00+00:00, run_after=2025-01-03 09:52:00+00:00
+[2025-01-03T17:55:17.480-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/CovidPipeDag.py took 1.996 seconds
+[2025-01-03T19:05:59.938-0800] {processor.py:186} INFO - Started process (PID=62053) to work on /Users/matthewmac/airflow/dags/CovidPipeDag.py
+[2025-01-03T19:05:59.940-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/CovidPipeDag.py for tasks to queue
+[2025-01-03T19:05:59.942-0800] {logging_mixin.py:190} INFO - [2025-01-03T19:05:59.942-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/CovidPipeDag.py
+[2025-01-03T19:06:02.423-0800] {logging_mixin.py:190} INFO - industrial_production data was saved to /Users/matthewmac/airflow/data/raw/industrial_production_2025-01-03.csv
+[2025-01-03T19:06:02.470-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end        date   value
+0     2024-12-17   2024-12-17  1919-01-01  4.8654
+1     2024-12-17   2024-12-17  1919-02-01  4.6504
+2     2024-12-17   2024-12-17  1919-03-01   4.516
+3     2024-12-17   2024-12-17  1919-04-01  4.5966
+4     2024-12-17   2024-12-17  1919-05-01  4.6235
+[2025-01-03T19:06:02.502-0800] {processor.py:925} INFO - DAG(s) 'CovidE2EPipeDag' retrieved from /Users/matthewmac/airflow/dags/CovidPipeDag.py
+[2025-01-03T19:06:03.334-0800] {logging_mixin.py:190} INFO - [2025-01-03T19:06:03.334-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-03T19:06:03.452-0800] {logging_mixin.py:190} INFO - [2025-01-03T19:06:03.452-0800] {dag.py:4180} INFO - Setting next_dagrun for CovidE2EPipeDag to 2025-01-03 09:51:00+00:00, run_after=2025-01-03 09:52:00+00:00
+[2025-01-03T19:06:03.499-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/CovidPipeDag.py took 3.568 seconds
+[2025-01-03T19:06:27.035-0800] {processor.py:186} INFO - Started process (PID=62079) to work on /Users/matthewmac/airflow/dags/CovidPipeDag.py
+[2025-01-03T19:06:27.039-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/CovidPipeDag.py for tasks to queue
+[2025-01-03T19:06:27.041-0800] {logging_mixin.py:190} INFO - [2025-01-03T19:06:27.041-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/CovidPipeDag.py
+[2025-01-03T19:06:28.589-0800] {logging_mixin.py:190} INFO - industrial_production data was saved to /Users/matthewmac/airflow/data/raw/industrial_production_2025-01-03.csv
+[2025-01-03T19:06:28.604-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end        date   value
+0     2024-12-17   2024-12-17  1919-01-01  4.8654
+1     2024-12-17   2024-12-17  1919-02-01  4.6504
+2     2024-12-17   2024-12-17  1919-03-01   4.516
+3     2024-12-17   2024-12-17  1919-04-01  4.5966
+4     2024-12-17   2024-12-17  1919-05-01  4.6235
+[2025-01-03T19:06:28.627-0800] {processor.py:925} INFO - DAG(s) 'CovidE2EPipeDag' retrieved from /Users/matthewmac/airflow/dags/CovidPipeDag.py
+[2025-01-03T19:06:28.633-0800] {logging_mixin.py:190} INFO - [2025-01-03T19:06:28.633-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-03T19:06:28.789-0800] {logging_mixin.py:190} INFO - [2025-01-03T19:06:28.789-0800] {dag.py:4180} INFO - Setting next_dagrun for CovidE2EPipeDag to 2025-01-03 09:51:00+00:00, run_after=2025-01-03 09:52:00+00:00
+[2025-01-03T19:06:28.814-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/CovidPipeDag.py took 1.785 seconds
