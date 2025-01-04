@@ -103,3 +103,17 @@
 [2025-01-03T11:43:56.262-0800] {logging_mixin.py:190} INFO - [2025-01-03T11:43:56.259-0800] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-01-03T11:43:56.288-0800] {logging_mixin.py:190} INFO - [2025-01-03T11:43:56.287-0800] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
 [2025-01-03T11:43:56.323-0800] {processor.py:208} INFO - Processing /opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.372 seconds
+[2025-01-03T12:00:18.123-0800] {processor.py:186} INFO - Started process (PID=52072) to work on /opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2025-01-03T12:00:18.126-0800] {processor.py:914} INFO - Processing file /opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-01-03T12:00:18.127-0800] {logging_mixin.py:190} INFO - [2025-01-03T12:00:18.127-0800] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2025-01-03T12:00:18.144-0800] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2025-01-03T12:00:18.347-0800] {logging_mixin.py:190} INFO - [2025-01-03T12:00:18.347-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-03T12:00:18.370-0800] {logging_mixin.py:190} INFO - [2025-01-03T12:00:18.370-0800] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-01-03T12:00:18.401-0800] {processor.py:208} INFO - Processing /opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.284 seconds
+[2025-01-03T12:06:19.714-0800] {processor.py:186} INFO - Started process (PID=52366) to work on /opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2025-01-03T12:06:19.719-0800] {processor.py:914} INFO - Processing file /opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-01-03T12:06:19.720-0800] {logging_mixin.py:190} INFO - [2025-01-03T12:06:19.720-0800] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2025-01-03T12:06:19.746-0800] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2025-01-03T12:06:20.099-0800] {logging_mixin.py:190} INFO - [2025-01-03T12:06:20.099-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-03T12:06:20.163-0800] {logging_mixin.py:190} INFO - [2025-01-03T12:06:20.162-0800] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-01-03T12:06:20.201-0800] {processor.py:208} INFO - Processing /opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.492 seconds

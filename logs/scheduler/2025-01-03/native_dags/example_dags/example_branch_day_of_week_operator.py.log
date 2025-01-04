@@ -103,3 +103,17 @@
 [2025-01-03T11:48:44.413-0800] {logging_mixin.py:190} INFO - [2025-01-03T11:48:44.412-0800] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-01-03T11:48:44.454-0800] {logging_mixin.py:190} INFO - [2025-01-03T11:48:44.453-0800] {dag.py:4180} INFO - Setting next_dagrun for example_weekday_branch_operator to 2025-01-02 00:00:00+00:00, run_after=2025-01-03 00:00:00+00:00
 [2025-01-03T11:48:44.493-0800] {processor.py:208} INFO - Processing /opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.348 seconds
+[2025-01-03T12:00:38.213-0800] {processor.py:186} INFO - Started process (PID=52082) to work on /opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2025-01-03T12:00:38.215-0800] {processor.py:914} INFO - Processing file /opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2025-01-03T12:00:38.217-0800] {logging_mixin.py:190} INFO - [2025-01-03T12:00:38.217-0800] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2025-01-03T12:00:38.234-0800] {processor.py:925} INFO - DAG(s) 'example_weekday_branch_operator' retrieved from /opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2025-01-03T12:00:38.375-0800] {logging_mixin.py:190} INFO - [2025-01-03T12:00:38.375-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-03T12:00:38.405-0800] {logging_mixin.py:190} INFO - [2025-01-03T12:00:38.404-0800] {dag.py:4180} INFO - Setting next_dagrun for example_weekday_branch_operator to 2025-01-02 00:00:00+00:00, run_after=2025-01-03 00:00:00+00:00
+[2025-01-03T12:00:38.431-0800] {processor.py:208} INFO - Processing /opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.222 seconds
+[2025-01-03T12:11:28.715-0800] {processor.py:186} INFO - Started process (PID=52792) to work on /opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2025-01-03T12:11:28.717-0800] {processor.py:914} INFO - Processing file /opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2025-01-03T12:11:28.720-0800] {logging_mixin.py:190} INFO - [2025-01-03T12:11:28.719-0800] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2025-01-03T12:11:28.747-0800] {processor.py:925} INFO - DAG(s) 'example_weekday_branch_operator' retrieved from /opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2025-01-03T12:11:28.913-0800] {logging_mixin.py:190} INFO - [2025-01-03T12:11:28.912-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-03T12:11:28.951-0800] {logging_mixin.py:190} INFO - [2025-01-03T12:11:28.950-0800] {dag.py:4180} INFO - Setting next_dagrun for example_weekday_branch_operator to 2025-01-02 00:00:00+00:00, run_after=2025-01-03 00:00:00+00:00
+[2025-01-03T12:11:28.989-0800] {processor.py:208} INFO - Processing /opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.283 seconds

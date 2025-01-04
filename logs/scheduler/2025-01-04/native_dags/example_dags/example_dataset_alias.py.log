@@ -1,0 +1,10 @@
+[2025-01-03T17:16:33.794-0800] {processor.py:186} INFO - Started process (PID=57110) to work on /opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_dataset_alias.py
+[2025-01-03T17:16:33.796-0800] {processor.py:914} INFO - Processing file /opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_dataset_alias.py for tasks to queue
+[2025-01-03T17:16:33.798-0800] {logging_mixin.py:190} INFO - [2025-01-03T17:16:33.797-0800] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_dataset_alias.py
+[2025-01-03T17:16:34.152-0800] {processor.py:925} INFO - DAG(s) 'dataset_alias_example_alias_producer', 'dataset_alias_example_alias_consumer', 'dataset_s3_bucket_producer', 'dataset_s3_bucket_consumer' retrieved from /opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_dataset_alias.py
+[2025-01-03T17:16:34.191-0800] {logging_mixin.py:190} INFO - [2025-01-03T17:16:34.191-0800] {dag.py:3239} INFO - Sync 4 DAGs
+[2025-01-03T17:16:34.217-0800] {logging_mixin.py:190} INFO - [2025-01-03T17:16:34.217-0800] {dag.py:4180} INFO - Setting next_dagrun for dataset_alias_example_alias_consumer to None, run_after=None
+[2025-01-03T17:16:34.221-0800] {logging_mixin.py:190} INFO - [2025-01-03T17:16:34.221-0800] {dag.py:4180} INFO - Setting next_dagrun for dataset_alias_example_alias_producer to None, run_after=None
+[2025-01-03T17:16:34.222-0800] {logging_mixin.py:190} INFO - [2025-01-03T17:16:34.222-0800] {dag.py:4180} INFO - Setting next_dagrun for dataset_s3_bucket_consumer to None, run_after=None
+[2025-01-03T17:16:34.224-0800] {logging_mixin.py:190} INFO - [2025-01-03T17:16:34.224-0800] {dag.py:4180} INFO - Setting next_dagrun for dataset_s3_bucket_producer to None, run_after=None
+[2025-01-03T17:16:34.261-0800] {processor.py:208} INFO - Processing /opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_dataset_alias.py took 0.473 seconds

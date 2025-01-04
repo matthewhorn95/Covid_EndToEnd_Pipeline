@@ -73,3 +73,13 @@
 [2025-01-03T11:48:34.241-0800] {logging_mixin.py:190} INFO - [2025-01-03T11:48:34.234-0800] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
 [2025-01-03T11:48:34.366-0800] {processor.py:927} WARNING - No viable dags retrieved from /opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
 [2025-01-03T11:48:34.597-0800] {processor.py:208} INFO - Processing /opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py took 0.408 seconds
+[2025-01-03T12:00:30.153-0800] {processor.py:186} INFO - Started process (PID=52078) to work on /opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-01-03T12:00:30.157-0800] {processor.py:914} INFO - Processing file /opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-01-03T12:00:30.160-0800] {logging_mixin.py:190} INFO - [2025-01-03T12:00:30.159-0800] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-01-03T12:00:30.240-0800] {processor.py:927} WARNING - No viable dags retrieved from /opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-01-03T12:00:30.440-0800] {processor.py:208} INFO - Processing /opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py took 0.311 seconds
+[2025-01-03T12:11:18.073-0800] {processor.py:186} INFO - Started process (PID=52787) to work on /opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-01-03T12:11:18.079-0800] {processor.py:914} INFO - Processing file /opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-01-03T12:11:18.081-0800] {logging_mixin.py:190} INFO - [2025-01-03T12:11:18.080-0800] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-01-03T12:11:18.122-0800] {processor.py:927} WARNING - No viable dags retrieved from /opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-01-03T12:11:18.441-0800] {processor.py:208} INFO - Processing /opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py took 0.378 seconds

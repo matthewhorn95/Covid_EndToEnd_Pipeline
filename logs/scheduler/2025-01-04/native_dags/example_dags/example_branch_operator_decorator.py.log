@@ -1,0 +1,5 @@
+[2025-01-03T17:16:51.950-0800] {processor.py:186} INFO - Started process (PID=57119) to work on /opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2025-01-03T17:16:51.952-0800] {processor.py:914} INFO - Processing file /opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2025-01-03T17:16:51.954-0800] {logging_mixin.py:190} INFO - [2025-01-03T17:16:51.954-0800] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2025-01-03T17:16:51.983-0800] {processor.py:927} WARNING - No viable dags retrieved from /opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2025-01-03T17:16:52.103-0800] {processor.py:208} INFO - Processing /opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.167 seconds
