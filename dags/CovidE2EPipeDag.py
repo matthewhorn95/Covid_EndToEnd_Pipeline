@@ -50,8 +50,7 @@ stage_raw_data = BashOperator(
 create_load_sql_file = BashOperator(
     task_id='create_load_sql_file',
     bash_command=f"""echo "COPY INTO CovidE2EPipeDatabase.raw_data.industrial_production
-    FROM @CovidE2EPipeDatabase.raw_data.raw_data_stage
-    FILES = ('/Users/matthewmac/airflow/data/raw/industrial_production_{datetime.now().date()}.csv')
+    FROM @CovidE2EPipeDatabase.raw_data.raw_data_stage/industrial_production_{datetime.now().date()}.csv
     FILE_FORMAT = ( TYPE='CSV' )
     ON_ERROR = 'CONTINUE';
     " > /Users/matthewmac/airflow/helper_scripts/load_staged_data_{datetime.now().date()}.sql""",
