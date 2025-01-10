@@ -29408,3 +29408,1823 @@
 [2025-01-10T12:06:18.666-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:06:18.665-0800] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-01-10T12:06:18.688-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:06:18.687-0800] {dag.py:4180} INFO - Setting next_dagrun for CovidE2EPipeDag to 2025-01-10 20:00:00+00:00, run_after=2025-01-11 20:00:00+00:00
 [2025-01-10T12:06:18.712-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py took 3.462 seconds
+[2025-01-10T12:06:54.532-0800] {processor.py:186} INFO - Started process (PID=26715) to work on /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:06:54.537-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py for tasks to queue
+[2025-01-10T12:06:54.540-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:06:54.539-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:06:56.196-0800] {logging_mixin.py:190} INFO - 30yr_mortage data was saved to /Users/matthewmac/airflow/data/raw/30yr_mortage_2025-01-10.csv
+[2025-01-10T12:06:56.228-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date value
+0     2025-01-09   2025-01-09  1971-04-02  7.33
+1     2025-01-09   2025-01-09  1971-04-09  7.31
+2     2025-01-09   2025-01-09  1971-04-16  7.31
+3     2025-01-09   2025-01-09  1971-04-23  7.31
+4     2025-01-09   2025-01-09  1971-04-30  7.29
+[2025-01-10T12:06:56.501-0800] {logging_mixin.py:190} INFO - unemployment_rate data was saved to /Users/matthewmac/airflow/data/raw/unemployment_rate_2025-01-10.csv
+[2025-01-10T12:06:56.512-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date value
+0     2025-01-10   2025-01-10  1948-01-01   3.4
+1     2025-01-10   2025-01-10  1948-02-01   3.8
+2     2025-01-10   2025-01-10  1948-03-01   4.0
+3     2025-01-10   2025-01-10  1948-04-01   3.9
+4     2025-01-10   2025-01-10  1948-05-01   3.5
+[2025-01-10T12:06:56.749-0800] {logging_mixin.py:190} INFO - GDP data was saved to /Users/matthewmac/airflow/data/raw/GDP_2025-01-10.csv
+[2025-01-10T12:06:56.764-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date    value
+0     2024-12-19   2024-12-19  1946-01-01        .
+1     2024-12-19   2024-12-19  1946-04-01        .
+2     2024-12-19   2024-12-19  1946-07-01        .
+3     2024-12-19   2024-12-19  1946-10-01        .
+4     2024-12-19   2024-12-19  1947-01-01  243.164
+[2025-01-10T12:06:57.026-0800] {logging_mixin.py:190} INFO - US_CPI data was saved to /Users/matthewmac/airflow/data/raw/US_CPI_2025-01-10.csv
+[2025-01-10T12:06:57.043-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date  value
+0     2024-12-12   2024-12-12  1947-01-01  21.48
+1     2024-12-12   2024-12-12  1947-02-01  21.62
+2     2024-12-12   2024-12-12  1947-03-01   22.0
+3     2024-12-12   2024-12-12  1947-04-01   22.0
+4     2024-12-12   2024-12-12  1947-05-01  21.95
+[2025-01-10T12:06:57.252-0800] {logging_mixin.py:190} INFO - trade_balance data was saved to /Users/matthewmac/airflow/data/raw/trade_balance_2025-01-10.csv
+[2025-01-10T12:06:57.265-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date   value
+0     2024-12-21   2024-12-21  1946-01-01       .
+1     2024-12-21   2024-12-21  1946-04-01       .
+2     2024-12-21   2024-12-21  1946-07-01       .
+3     2024-12-21   2024-12-21  1946-10-01       .
+4     2024-12-21   2024-12-21  1947-01-01  10.875
+[2025-01-10T12:06:57.506-0800] {logging_mixin.py:190} INFO - industrial_production data was saved to /Users/matthewmac/airflow/data/raw/industrial_production_2025-01-10.csv
+[2025-01-10T12:06:57.519-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date   value
+0     2024-12-17   2024-12-17  1919-01-01  4.8654
+1     2024-12-17   2024-12-17  1919-02-01  4.6504
+2     2024-12-17   2024-12-17  1919-03-01   4.516
+3     2024-12-17   2024-12-17  1919-04-01  4.5966
+4     2024-12-17   2024-12-17  1919-05-01  4.6235
+[2025-01-10T12:06:57.548-0800] {processor.py:925} INFO - DAG(s) 'CovidE2EPipeDag' retrieved from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:06:57.756-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:06:57.755-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-10T12:06:57.794-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:06:57.794-0800] {dag.py:4180} INFO - Setting next_dagrun for CovidE2EPipeDag to 2025-01-10 20:00:00+00:00, run_after=2025-01-11 20:00:00+00:00
+[2025-01-10T12:06:57.829-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py took 3.302 seconds
+[2025-01-10T12:07:34.409-0800] {processor.py:186} INFO - Started process (PID=26735) to work on /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:07:34.412-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py for tasks to queue
+[2025-01-10T12:07:34.414-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:07:34.414-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:07:36.170-0800] {logging_mixin.py:190} INFO - 30yr_mortage data was saved to /Users/matthewmac/airflow/data/raw/30yr_mortage_2025-01-10.csv
+[2025-01-10T12:07:36.194-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date value
+0     2025-01-09   2025-01-09  1971-04-02  7.33
+1     2025-01-09   2025-01-09  1971-04-09  7.31
+2     2025-01-09   2025-01-09  1971-04-16  7.31
+3     2025-01-09   2025-01-09  1971-04-23  7.31
+4     2025-01-09   2025-01-09  1971-04-30  7.29
+[2025-01-10T12:07:36.418-0800] {logging_mixin.py:190} INFO - unemployment_rate data was saved to /Users/matthewmac/airflow/data/raw/unemployment_rate_2025-01-10.csv
+[2025-01-10T12:07:36.431-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date value
+0     2025-01-10   2025-01-10  1948-01-01   3.4
+1     2025-01-10   2025-01-10  1948-02-01   3.8
+2     2025-01-10   2025-01-10  1948-03-01   4.0
+3     2025-01-10   2025-01-10  1948-04-01   3.9
+4     2025-01-10   2025-01-10  1948-05-01   3.5
+[2025-01-10T12:07:36.676-0800] {logging_mixin.py:190} INFO - GDP data was saved to /Users/matthewmac/airflow/data/raw/GDP_2025-01-10.csv
+[2025-01-10T12:07:36.702-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date    value
+0     2024-12-19   2024-12-19  1946-01-01        .
+1     2024-12-19   2024-12-19  1946-04-01        .
+2     2024-12-19   2024-12-19  1946-07-01        .
+3     2024-12-19   2024-12-19  1946-10-01        .
+4     2024-12-19   2024-12-19  1947-01-01  243.164
+[2025-01-10T12:07:36.960-0800] {logging_mixin.py:190} INFO - US_CPI data was saved to /Users/matthewmac/airflow/data/raw/US_CPI_2025-01-10.csv
+[2025-01-10T12:07:36.970-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date  value
+0     2024-12-12   2024-12-12  1947-01-01  21.48
+1     2024-12-12   2024-12-12  1947-02-01  21.62
+2     2024-12-12   2024-12-12  1947-03-01   22.0
+3     2024-12-12   2024-12-12  1947-04-01   22.0
+4     2024-12-12   2024-12-12  1947-05-01  21.95
+[2025-01-10T12:07:37.295-0800] {logging_mixin.py:190} INFO - trade_balance data was saved to /Users/matthewmac/airflow/data/raw/trade_balance_2025-01-10.csv
+[2025-01-10T12:07:37.307-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date   value
+0     2024-12-21   2024-12-21  1946-01-01       .
+1     2024-12-21   2024-12-21  1946-04-01       .
+2     2024-12-21   2024-12-21  1946-07-01       .
+3     2024-12-21   2024-12-21  1946-10-01       .
+4     2024-12-21   2024-12-21  1947-01-01  10.875
+[2025-01-10T12:07:37.529-0800] {logging_mixin.py:190} INFO - industrial_production data was saved to /Users/matthewmac/airflow/data/raw/industrial_production_2025-01-10.csv
+[2025-01-10T12:07:37.539-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date   value
+0     2024-12-17   2024-12-17  1919-01-01  4.8654
+1     2024-12-17   2024-12-17  1919-02-01  4.6504
+2     2024-12-17   2024-12-17  1919-03-01   4.516
+3     2024-12-17   2024-12-17  1919-04-01  4.5966
+4     2024-12-17   2024-12-17  1919-05-01  4.6235
+[2025-01-10T12:07:37.567-0800] {processor.py:925} INFO - DAG(s) 'CovidE2EPipeDag' retrieved from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:07:37.769-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:07:37.769-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-10T12:07:37.794-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:07:37.794-0800] {dag.py:4180} INFO - Setting next_dagrun for CovidE2EPipeDag to 2025-01-10 20:00:00+00:00, run_after=2025-01-11 20:00:00+00:00
+[2025-01-10T12:07:37.822-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py took 3.419 seconds
+[2025-01-10T12:08:13.996-0800] {processor.py:186} INFO - Started process (PID=26798) to work on /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:08:13.999-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py for tasks to queue
+[2025-01-10T12:08:14.001-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:08:14.001-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:08:15.847-0800] {logging_mixin.py:190} INFO - 30yr_mortage data was saved to /Users/matthewmac/airflow/data/raw/30yr_mortage_2025-01-10.csv
+[2025-01-10T12:08:15.863-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date value
+0     2025-01-09   2025-01-09  1971-04-02  7.33
+1     2025-01-09   2025-01-09  1971-04-09  7.31
+2     2025-01-09   2025-01-09  1971-04-16  7.31
+3     2025-01-09   2025-01-09  1971-04-23  7.31
+4     2025-01-09   2025-01-09  1971-04-30  7.29
+[2025-01-10T12:08:16.108-0800] {logging_mixin.py:190} INFO - unemployment_rate data was saved to /Users/matthewmac/airflow/data/raw/unemployment_rate_2025-01-10.csv
+[2025-01-10T12:08:16.119-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date value
+0     2025-01-10   2025-01-10  1948-01-01   3.4
+1     2025-01-10   2025-01-10  1948-02-01   3.8
+2     2025-01-10   2025-01-10  1948-03-01   4.0
+3     2025-01-10   2025-01-10  1948-04-01   3.9
+4     2025-01-10   2025-01-10  1948-05-01   3.5
+[2025-01-10T12:08:16.351-0800] {logging_mixin.py:190} INFO - GDP data was saved to /Users/matthewmac/airflow/data/raw/GDP_2025-01-10.csv
+[2025-01-10T12:08:16.359-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date    value
+0     2024-12-19   2024-12-19  1946-01-01        .
+1     2024-12-19   2024-12-19  1946-04-01        .
+2     2024-12-19   2024-12-19  1946-07-01        .
+3     2024-12-19   2024-12-19  1946-10-01        .
+4     2024-12-19   2024-12-19  1947-01-01  243.164
+[2025-01-10T12:08:16.618-0800] {logging_mixin.py:190} INFO - US_CPI data was saved to /Users/matthewmac/airflow/data/raw/US_CPI_2025-01-10.csv
+[2025-01-10T12:08:16.628-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date  value
+0     2024-12-12   2024-12-12  1947-01-01  21.48
+1     2024-12-12   2024-12-12  1947-02-01  21.62
+2     2024-12-12   2024-12-12  1947-03-01   22.0
+3     2024-12-12   2024-12-12  1947-04-01   22.0
+4     2024-12-12   2024-12-12  1947-05-01  21.95
+[2025-01-10T12:08:16.880-0800] {logging_mixin.py:190} INFO - trade_balance data was saved to /Users/matthewmac/airflow/data/raw/trade_balance_2025-01-10.csv
+[2025-01-10T12:08:16.891-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date   value
+0     2024-12-21   2024-12-21  1946-01-01       .
+1     2024-12-21   2024-12-21  1946-04-01       .
+2     2024-12-21   2024-12-21  1946-07-01       .
+3     2024-12-21   2024-12-21  1946-10-01       .
+4     2024-12-21   2024-12-21  1947-01-01  10.875
+[2025-01-10T12:08:17.151-0800] {logging_mixin.py:190} INFO - industrial_production data was saved to /Users/matthewmac/airflow/data/raw/industrial_production_2025-01-10.csv
+[2025-01-10T12:08:17.162-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date   value
+0     2024-12-17   2024-12-17  1919-01-01  4.8654
+1     2024-12-17   2024-12-17  1919-02-01  4.6504
+2     2024-12-17   2024-12-17  1919-03-01   4.516
+3     2024-12-17   2024-12-17  1919-04-01  4.5966
+4     2024-12-17   2024-12-17  1919-05-01  4.6235
+[2025-01-10T12:08:17.189-0800] {processor.py:925} INFO - DAG(s) 'CovidE2EPipeDag' retrieved from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:08:17.370-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:08:17.370-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-10T12:08:17.394-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:08:17.393-0800] {dag.py:4180} INFO - Setting next_dagrun for CovidE2EPipeDag to 2025-01-10 20:00:00+00:00, run_after=2025-01-11 20:00:00+00:00
+[2025-01-10T12:08:17.416-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py took 3.425 seconds
+[2025-01-10T12:08:53.740-0800] {processor.py:186} INFO - Started process (PID=26874) to work on /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:08:53.744-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py for tasks to queue
+[2025-01-10T12:08:53.746-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:08:53.745-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:08:55.608-0800] {logging_mixin.py:190} INFO - 30yr_mortage data was saved to /Users/matthewmac/airflow/data/raw/30yr_mortage_2025-01-10.csv
+[2025-01-10T12:08:55.635-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date value
+0     2025-01-09   2025-01-09  1971-04-02  7.33
+1     2025-01-09   2025-01-09  1971-04-09  7.31
+2     2025-01-09   2025-01-09  1971-04-16  7.31
+3     2025-01-09   2025-01-09  1971-04-23  7.31
+4     2025-01-09   2025-01-09  1971-04-30  7.29
+[2025-01-10T12:08:55.878-0800] {logging_mixin.py:190} INFO - unemployment_rate data was saved to /Users/matthewmac/airflow/data/raw/unemployment_rate_2025-01-10.csv
+[2025-01-10T12:08:55.890-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date value
+0     2025-01-10   2025-01-10  1948-01-01   3.4
+1     2025-01-10   2025-01-10  1948-02-01   3.8
+2     2025-01-10   2025-01-10  1948-03-01   4.0
+3     2025-01-10   2025-01-10  1948-04-01   3.9
+4     2025-01-10   2025-01-10  1948-05-01   3.5
+[2025-01-10T12:08:56.113-0800] {logging_mixin.py:190} INFO - GDP data was saved to /Users/matthewmac/airflow/data/raw/GDP_2025-01-10.csv
+[2025-01-10T12:08:56.123-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date    value
+0     2024-12-19   2024-12-19  1946-01-01        .
+1     2024-12-19   2024-12-19  1946-04-01        .
+2     2024-12-19   2024-12-19  1946-07-01        .
+3     2024-12-19   2024-12-19  1946-10-01        .
+4     2024-12-19   2024-12-19  1947-01-01  243.164
+[2025-01-10T12:08:56.389-0800] {logging_mixin.py:190} INFO - US_CPI data was saved to /Users/matthewmac/airflow/data/raw/US_CPI_2025-01-10.csv
+[2025-01-10T12:08:56.400-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date  value
+0     2024-12-12   2024-12-12  1947-01-01  21.48
+1     2024-12-12   2024-12-12  1947-02-01  21.62
+2     2024-12-12   2024-12-12  1947-03-01   22.0
+3     2024-12-12   2024-12-12  1947-04-01   22.0
+4     2024-12-12   2024-12-12  1947-05-01  21.95
+[2025-01-10T12:08:56.653-0800] {logging_mixin.py:190} INFO - trade_balance data was saved to /Users/matthewmac/airflow/data/raw/trade_balance_2025-01-10.csv
+[2025-01-10T12:08:56.711-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date   value
+0     2024-12-21   2024-12-21  1946-01-01       .
+1     2024-12-21   2024-12-21  1946-04-01       .
+2     2024-12-21   2024-12-21  1946-07-01       .
+3     2024-12-21   2024-12-21  1946-10-01       .
+4     2024-12-21   2024-12-21  1947-01-01  10.875
+[2025-01-10T12:08:57.039-0800] {logging_mixin.py:190} INFO - industrial_production data was saved to /Users/matthewmac/airflow/data/raw/industrial_production_2025-01-10.csv
+[2025-01-10T12:08:57.052-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date   value
+0     2024-12-17   2024-12-17  1919-01-01  4.8654
+1     2024-12-17   2024-12-17  1919-02-01  4.6504
+2     2024-12-17   2024-12-17  1919-03-01   4.516
+3     2024-12-17   2024-12-17  1919-04-01  4.5966
+4     2024-12-17   2024-12-17  1919-05-01  4.6235
+[2025-01-10T12:08:57.078-0800] {processor.py:925} INFO - DAG(s) 'CovidE2EPipeDag' retrieved from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:08:57.320-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:08:57.320-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-10T12:08:57.364-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:08:57.363-0800] {dag.py:4180} INFO - Setting next_dagrun for CovidE2EPipeDag to 2025-01-10 20:00:00+00:00, run_after=2025-01-11 20:00:00+00:00
+[2025-01-10T12:08:57.398-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py took 3.663 seconds
+[2025-01-10T12:09:33.096-0800] {processor.py:186} INFO - Started process (PID=26896) to work on /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:09:33.097-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py for tasks to queue
+[2025-01-10T12:09:33.099-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:09:33.098-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:09:34.936-0800] {logging_mixin.py:190} INFO - 30yr_mortage data was saved to /Users/matthewmac/airflow/data/raw/30yr_mortage_2025-01-10.csv
+[2025-01-10T12:09:34.958-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date value
+0     2025-01-09   2025-01-09  1971-04-02  7.33
+1     2025-01-09   2025-01-09  1971-04-09  7.31
+2     2025-01-09   2025-01-09  1971-04-16  7.31
+3     2025-01-09   2025-01-09  1971-04-23  7.31
+4     2025-01-09   2025-01-09  1971-04-30  7.29
+[2025-01-10T12:09:35.471-0800] {logging_mixin.py:190} INFO - unemployment_rate data was saved to /Users/matthewmac/airflow/data/raw/unemployment_rate_2025-01-10.csv
+[2025-01-10T12:09:35.483-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date value
+0     2025-01-10   2025-01-10  1948-01-01   3.4
+1     2025-01-10   2025-01-10  1948-02-01   3.8
+2     2025-01-10   2025-01-10  1948-03-01   4.0
+3     2025-01-10   2025-01-10  1948-04-01   3.9
+4     2025-01-10   2025-01-10  1948-05-01   3.5
+[2025-01-10T12:09:35.823-0800] {logging_mixin.py:190} INFO - GDP data was saved to /Users/matthewmac/airflow/data/raw/GDP_2025-01-10.csv
+[2025-01-10T12:09:35.841-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date    value
+0     2024-12-19   2024-12-19  1946-01-01        .
+1     2024-12-19   2024-12-19  1946-04-01        .
+2     2024-12-19   2024-12-19  1946-07-01        .
+3     2024-12-19   2024-12-19  1946-10-01        .
+4     2024-12-19   2024-12-19  1947-01-01  243.164
+[2025-01-10T12:09:36.150-0800] {logging_mixin.py:190} INFO - US_CPI data was saved to /Users/matthewmac/airflow/data/raw/US_CPI_2025-01-10.csv
+[2025-01-10T12:09:36.161-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date  value
+0     2024-12-12   2024-12-12  1947-01-01  21.48
+1     2024-12-12   2024-12-12  1947-02-01  21.62
+2     2024-12-12   2024-12-12  1947-03-01   22.0
+3     2024-12-12   2024-12-12  1947-04-01   22.0
+4     2024-12-12   2024-12-12  1947-05-01  21.95
+[2025-01-10T12:09:36.493-0800] {logging_mixin.py:190} INFO - trade_balance data was saved to /Users/matthewmac/airflow/data/raw/trade_balance_2025-01-10.csv
+[2025-01-10T12:09:36.504-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date   value
+0     2024-12-21   2024-12-21  1946-01-01       .
+1     2024-12-21   2024-12-21  1946-04-01       .
+2     2024-12-21   2024-12-21  1946-07-01       .
+3     2024-12-21   2024-12-21  1946-10-01       .
+4     2024-12-21   2024-12-21  1947-01-01  10.875
+[2025-01-10T12:09:36.801-0800] {logging_mixin.py:190} INFO - industrial_production data was saved to /Users/matthewmac/airflow/data/raw/industrial_production_2025-01-10.csv
+[2025-01-10T12:09:36.815-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date   value
+0     2024-12-17   2024-12-17  1919-01-01  4.8654
+1     2024-12-17   2024-12-17  1919-02-01  4.6504
+2     2024-12-17   2024-12-17  1919-03-01   4.516
+3     2024-12-17   2024-12-17  1919-04-01  4.5966
+4     2024-12-17   2024-12-17  1919-05-01  4.6235
+[2025-01-10T12:09:36.845-0800] {processor.py:925} INFO - DAG(s) 'CovidE2EPipeDag' retrieved from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:09:37.025-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:09:37.025-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-10T12:09:37.048-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:09:37.047-0800] {dag.py:4180} INFO - Setting next_dagrun for CovidE2EPipeDag to 2025-01-10 20:00:00+00:00, run_after=2025-01-11 20:00:00+00:00
+[2025-01-10T12:09:37.069-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py took 3.980 seconds
+[2025-01-10T12:10:12.515-0800] {processor.py:186} INFO - Started process (PID=26929) to work on /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:10:12.519-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py for tasks to queue
+[2025-01-10T12:10:12.521-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:10:12.520-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:10:14.372-0800] {logging_mixin.py:190} INFO - 30yr_mortage data was saved to /Users/matthewmac/airflow/data/raw/30yr_mortage_2025-01-10.csv
+[2025-01-10T12:10:14.394-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date value
+0     2025-01-09   2025-01-09  1971-04-02  7.33
+1     2025-01-09   2025-01-09  1971-04-09  7.31
+2     2025-01-09   2025-01-09  1971-04-16  7.31
+3     2025-01-09   2025-01-09  1971-04-23  7.31
+4     2025-01-09   2025-01-09  1971-04-30  7.29
+[2025-01-10T12:10:14.652-0800] {logging_mixin.py:190} INFO - unemployment_rate data was saved to /Users/matthewmac/airflow/data/raw/unemployment_rate_2025-01-10.csv
+[2025-01-10T12:10:14.671-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date value
+0     2025-01-10   2025-01-10  1948-01-01   3.4
+1     2025-01-10   2025-01-10  1948-02-01   3.8
+2     2025-01-10   2025-01-10  1948-03-01   4.0
+3     2025-01-10   2025-01-10  1948-04-01   3.9
+4     2025-01-10   2025-01-10  1948-05-01   3.5
+[2025-01-10T12:10:14.993-0800] {logging_mixin.py:190} INFO - GDP data was saved to /Users/matthewmac/airflow/data/raw/GDP_2025-01-10.csv
+[2025-01-10T12:10:15.012-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date    value
+0     2024-12-19   2024-12-19  1946-01-01        .
+1     2024-12-19   2024-12-19  1946-04-01        .
+2     2024-12-19   2024-12-19  1946-07-01        .
+3     2024-12-19   2024-12-19  1946-10-01        .
+4     2024-12-19   2024-12-19  1947-01-01  243.164
+[2025-01-10T12:10:15.255-0800] {logging_mixin.py:190} INFO - US_CPI data was saved to /Users/matthewmac/airflow/data/raw/US_CPI_2025-01-10.csv
+[2025-01-10T12:10:15.265-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date  value
+0     2024-12-12   2024-12-12  1947-01-01  21.48
+1     2024-12-12   2024-12-12  1947-02-01  21.62
+2     2024-12-12   2024-12-12  1947-03-01   22.0
+3     2024-12-12   2024-12-12  1947-04-01   22.0
+4     2024-12-12   2024-12-12  1947-05-01  21.95
+[2025-01-10T12:10:15.507-0800] {logging_mixin.py:190} INFO - trade_balance data was saved to /Users/matthewmac/airflow/data/raw/trade_balance_2025-01-10.csv
+[2025-01-10T12:10:15.521-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date   value
+0     2024-12-21   2024-12-21  1946-01-01       .
+1     2024-12-21   2024-12-21  1946-04-01       .
+2     2024-12-21   2024-12-21  1946-07-01       .
+3     2024-12-21   2024-12-21  1946-10-01       .
+4     2024-12-21   2024-12-21  1947-01-01  10.875
+[2025-01-10T12:10:15.753-0800] {logging_mixin.py:190} INFO - industrial_production data was saved to /Users/matthewmac/airflow/data/raw/industrial_production_2025-01-10.csv
+[2025-01-10T12:10:15.764-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date   value
+0     2024-12-17   2024-12-17  1919-01-01  4.8654
+1     2024-12-17   2024-12-17  1919-02-01  4.6504
+2     2024-12-17   2024-12-17  1919-03-01   4.516
+3     2024-12-17   2024-12-17  1919-04-01  4.5966
+4     2024-12-17   2024-12-17  1919-05-01  4.6235
+[2025-01-10T12:10:15.794-0800] {processor.py:925} INFO - DAG(s) 'CovidE2EPipeDag' retrieved from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:10:15.967-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:10:15.966-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-10T12:10:16.038-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:10:16.038-0800] {dag.py:4180} INFO - Setting next_dagrun for CovidE2EPipeDag to 2025-01-10 20:00:00+00:00, run_after=2025-01-11 20:00:00+00:00
+[2025-01-10T12:10:16.066-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py took 3.555 seconds
+[2025-01-10T12:10:52.272-0800] {processor.py:186} INFO - Started process (PID=27052) to work on /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:10:52.275-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py for tasks to queue
+[2025-01-10T12:10:52.276-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:10:52.276-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:10:54.112-0800] {logging_mixin.py:190} INFO - 30yr_mortage data was saved to /Users/matthewmac/airflow/data/raw/30yr_mortage_2025-01-10.csv
+[2025-01-10T12:10:54.131-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date value
+0     2025-01-09   2025-01-09  1971-04-02  7.33
+1     2025-01-09   2025-01-09  1971-04-09  7.31
+2     2025-01-09   2025-01-09  1971-04-16  7.31
+3     2025-01-09   2025-01-09  1971-04-23  7.31
+4     2025-01-09   2025-01-09  1971-04-30  7.29
+[2025-01-10T12:10:54.470-0800] {logging_mixin.py:190} INFO - unemployment_rate data was saved to /Users/matthewmac/airflow/data/raw/unemployment_rate_2025-01-10.csv
+[2025-01-10T12:10:54.483-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date value
+0     2025-01-10   2025-01-10  1948-01-01   3.4
+1     2025-01-10   2025-01-10  1948-02-01   3.8
+2     2025-01-10   2025-01-10  1948-03-01   4.0
+3     2025-01-10   2025-01-10  1948-04-01   3.9
+4     2025-01-10   2025-01-10  1948-05-01   3.5
+[2025-01-10T12:10:54.891-0800] {logging_mixin.py:190} INFO - GDP data was saved to /Users/matthewmac/airflow/data/raw/GDP_2025-01-10.csv
+[2025-01-10T12:10:54.908-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date    value
+0     2024-12-19   2024-12-19  1946-01-01        .
+1     2024-12-19   2024-12-19  1946-04-01        .
+2     2024-12-19   2024-12-19  1946-07-01        .
+3     2024-12-19   2024-12-19  1946-10-01        .
+4     2024-12-19   2024-12-19  1947-01-01  243.164
+[2025-01-10T12:10:55.212-0800] {logging_mixin.py:190} INFO - US_CPI data was saved to /Users/matthewmac/airflow/data/raw/US_CPI_2025-01-10.csv
+[2025-01-10T12:10:55.230-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date  value
+0     2024-12-12   2024-12-12  1947-01-01  21.48
+1     2024-12-12   2024-12-12  1947-02-01  21.62
+2     2024-12-12   2024-12-12  1947-03-01   22.0
+3     2024-12-12   2024-12-12  1947-04-01   22.0
+4     2024-12-12   2024-12-12  1947-05-01  21.95
+[2025-01-10T12:10:55.484-0800] {logging_mixin.py:190} INFO - trade_balance data was saved to /Users/matthewmac/airflow/data/raw/trade_balance_2025-01-10.csv
+[2025-01-10T12:10:55.494-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date   value
+0     2024-12-21   2024-12-21  1946-01-01       .
+1     2024-12-21   2024-12-21  1946-04-01       .
+2     2024-12-21   2024-12-21  1946-07-01       .
+3     2024-12-21   2024-12-21  1946-10-01       .
+4     2024-12-21   2024-12-21  1947-01-01  10.875
+[2025-01-10T12:10:55.720-0800] {logging_mixin.py:190} INFO - industrial_production data was saved to /Users/matthewmac/airflow/data/raw/industrial_production_2025-01-10.csv
+[2025-01-10T12:10:55.731-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date   value
+0     2024-12-17   2024-12-17  1919-01-01  4.8654
+1     2024-12-17   2024-12-17  1919-02-01  4.6504
+2     2024-12-17   2024-12-17  1919-03-01   4.516
+3     2024-12-17   2024-12-17  1919-04-01  4.5966
+4     2024-12-17   2024-12-17  1919-05-01  4.6235
+[2025-01-10T12:10:55.756-0800] {processor.py:925} INFO - DAG(s) 'CovidE2EPipeDag' retrieved from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:10:55.917-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:10:55.917-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-10T12:10:55.942-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:10:55.942-0800] {dag.py:4180} INFO - Setting next_dagrun for CovidE2EPipeDag to 2025-01-10 20:00:00+00:00, run_after=2025-01-11 20:00:00+00:00
+[2025-01-10T12:10:55.965-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py took 3.699 seconds
+[2025-01-10T12:11:32.708-0800] {processor.py:186} INFO - Started process (PID=27113) to work on /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:11:32.711-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py for tasks to queue
+[2025-01-10T12:11:32.713-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:11:32.713-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:11:34.489-0800] {logging_mixin.py:190} INFO - 30yr_mortage data was saved to /Users/matthewmac/airflow/data/raw/30yr_mortage_2025-01-10.csv
+[2025-01-10T12:11:34.520-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date value
+0     2025-01-09   2025-01-09  1971-04-02  7.33
+1     2025-01-09   2025-01-09  1971-04-09  7.31
+2     2025-01-09   2025-01-09  1971-04-16  7.31
+3     2025-01-09   2025-01-09  1971-04-23  7.31
+4     2025-01-09   2025-01-09  1971-04-30  7.29
+[2025-01-10T12:11:34.800-0800] {logging_mixin.py:190} INFO - unemployment_rate data was saved to /Users/matthewmac/airflow/data/raw/unemployment_rate_2025-01-10.csv
+[2025-01-10T12:11:34.812-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date value
+0     2025-01-10   2025-01-10  1948-01-01   3.4
+1     2025-01-10   2025-01-10  1948-02-01   3.8
+2     2025-01-10   2025-01-10  1948-03-01   4.0
+3     2025-01-10   2025-01-10  1948-04-01   3.9
+4     2025-01-10   2025-01-10  1948-05-01   3.5
+[2025-01-10T12:11:35.079-0800] {logging_mixin.py:190} INFO - GDP data was saved to /Users/matthewmac/airflow/data/raw/GDP_2025-01-10.csv
+[2025-01-10T12:11:35.096-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date    value
+0     2024-12-19   2024-12-19  1946-01-01        .
+1     2024-12-19   2024-12-19  1946-04-01        .
+2     2024-12-19   2024-12-19  1946-07-01        .
+3     2024-12-19   2024-12-19  1946-10-01        .
+4     2024-12-19   2024-12-19  1947-01-01  243.164
+[2025-01-10T12:11:35.353-0800] {logging_mixin.py:190} INFO - US_CPI data was saved to /Users/matthewmac/airflow/data/raw/US_CPI_2025-01-10.csv
+[2025-01-10T12:11:35.362-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date  value
+0     2024-12-12   2024-12-12  1947-01-01  21.48
+1     2024-12-12   2024-12-12  1947-02-01  21.62
+2     2024-12-12   2024-12-12  1947-03-01   22.0
+3     2024-12-12   2024-12-12  1947-04-01   22.0
+4     2024-12-12   2024-12-12  1947-05-01  21.95
+[2025-01-10T12:11:35.635-0800] {logging_mixin.py:190} INFO - trade_balance data was saved to /Users/matthewmac/airflow/data/raw/trade_balance_2025-01-10.csv
+[2025-01-10T12:11:35.649-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date   value
+0     2024-12-21   2024-12-21  1946-01-01       .
+1     2024-12-21   2024-12-21  1946-04-01       .
+2     2024-12-21   2024-12-21  1946-07-01       .
+3     2024-12-21   2024-12-21  1946-10-01       .
+4     2024-12-21   2024-12-21  1947-01-01  10.875
+[2025-01-10T12:11:35.915-0800] {logging_mixin.py:190} INFO - industrial_production data was saved to /Users/matthewmac/airflow/data/raw/industrial_production_2025-01-10.csv
+[2025-01-10T12:11:35.928-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date   value
+0     2024-12-17   2024-12-17  1919-01-01  4.8654
+1     2024-12-17   2024-12-17  1919-02-01  4.6504
+2     2024-12-17   2024-12-17  1919-03-01   4.516
+3     2024-12-17   2024-12-17  1919-04-01  4.5966
+4     2024-12-17   2024-12-17  1919-05-01  4.6235
+[2025-01-10T12:11:35.952-0800] {processor.py:925} INFO - DAG(s) 'CovidE2EPipeDag' retrieved from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:11:36.512-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:11:36.510-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-10T12:11:36.581-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:11:36.581-0800] {dag.py:4180} INFO - Setting next_dagrun for CovidE2EPipeDag to 2025-01-10 20:00:00+00:00, run_after=2025-01-11 20:00:00+00:00
+[2025-01-10T12:11:36.623-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py took 3.920 seconds
+[2025-01-10T12:12:13.070-0800] {processor.py:186} INFO - Started process (PID=27167) to work on /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:12:13.074-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py for tasks to queue
+[2025-01-10T12:12:13.076-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:12:13.076-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:12:14.699-0800] {logging_mixin.py:190} INFO - 30yr_mortage data was saved to /Users/matthewmac/airflow/data/raw/30yr_mortage_2025-01-10.csv
+[2025-01-10T12:12:14.724-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date value
+0     2025-01-09   2025-01-09  1971-04-02  7.33
+1     2025-01-09   2025-01-09  1971-04-09  7.31
+2     2025-01-09   2025-01-09  1971-04-16  7.31
+3     2025-01-09   2025-01-09  1971-04-23  7.31
+4     2025-01-09   2025-01-09  1971-04-30  7.29
+[2025-01-10T12:12:15.400-0800] {logging_mixin.py:190} INFO - unemployment_rate data was saved to /Users/matthewmac/airflow/data/raw/unemployment_rate_2025-01-10.csv
+[2025-01-10T12:12:15.410-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date value
+0     2025-01-10   2025-01-10  1948-01-01   3.4
+1     2025-01-10   2025-01-10  1948-02-01   3.8
+2     2025-01-10   2025-01-10  1948-03-01   4.0
+3     2025-01-10   2025-01-10  1948-04-01   3.9
+4     2025-01-10   2025-01-10  1948-05-01   3.5
+[2025-01-10T12:12:15.624-0800] {logging_mixin.py:190} INFO - GDP data was saved to /Users/matthewmac/airflow/data/raw/GDP_2025-01-10.csv
+[2025-01-10T12:12:15.636-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date    value
+0     2024-12-19   2024-12-19  1946-01-01        .
+1     2024-12-19   2024-12-19  1946-04-01        .
+2     2024-12-19   2024-12-19  1946-07-01        .
+3     2024-12-19   2024-12-19  1946-10-01        .
+4     2024-12-19   2024-12-19  1947-01-01  243.164
+[2025-01-10T12:12:15.849-0800] {logging_mixin.py:190} INFO - US_CPI data was saved to /Users/matthewmac/airflow/data/raw/US_CPI_2025-01-10.csv
+[2025-01-10T12:12:15.860-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date  value
+0     2024-12-12   2024-12-12  1947-01-01  21.48
+1     2024-12-12   2024-12-12  1947-02-01  21.62
+2     2024-12-12   2024-12-12  1947-03-01   22.0
+3     2024-12-12   2024-12-12  1947-04-01   22.0
+4     2024-12-12   2024-12-12  1947-05-01  21.95
+[2025-01-10T12:12:16.085-0800] {logging_mixin.py:190} INFO - trade_balance data was saved to /Users/matthewmac/airflow/data/raw/trade_balance_2025-01-10.csv
+[2025-01-10T12:12:16.104-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date   value
+0     2024-12-21   2024-12-21  1946-01-01       .
+1     2024-12-21   2024-12-21  1946-04-01       .
+2     2024-12-21   2024-12-21  1946-07-01       .
+3     2024-12-21   2024-12-21  1946-10-01       .
+4     2024-12-21   2024-12-21  1947-01-01  10.875
+[2025-01-10T12:12:16.355-0800] {logging_mixin.py:190} INFO - industrial_production data was saved to /Users/matthewmac/airflow/data/raw/industrial_production_2025-01-10.csv
+[2025-01-10T12:12:16.366-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date   value
+0     2024-12-17   2024-12-17  1919-01-01  4.8654
+1     2024-12-17   2024-12-17  1919-02-01  4.6504
+2     2024-12-17   2024-12-17  1919-03-01   4.516
+3     2024-12-17   2024-12-17  1919-04-01  4.5966
+4     2024-12-17   2024-12-17  1919-05-01  4.6235
+[2025-01-10T12:12:16.393-0800] {processor.py:925} INFO - DAG(s) 'CovidE2EPipeDag' retrieved from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:12:16.566-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:12:16.566-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-10T12:12:16.589-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:12:16.589-0800] {dag.py:4180} INFO - Setting next_dagrun for CovidE2EPipeDag to 2025-01-10 20:00:00+00:00, run_after=2025-01-11 20:00:00+00:00
+[2025-01-10T12:12:16.615-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py took 3.553 seconds
+[2025-01-10T12:12:52.650-0800] {processor.py:186} INFO - Started process (PID=27207) to work on /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:12:52.653-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py for tasks to queue
+[2025-01-10T12:12:52.655-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:12:52.654-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:12:54.405-0800] {logging_mixin.py:190} INFO - 30yr_mortage data was saved to /Users/matthewmac/airflow/data/raw/30yr_mortage_2025-01-10.csv
+[2025-01-10T12:12:54.422-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date value
+0     2025-01-09   2025-01-09  1971-04-02  7.33
+1     2025-01-09   2025-01-09  1971-04-09  7.31
+2     2025-01-09   2025-01-09  1971-04-16  7.31
+3     2025-01-09   2025-01-09  1971-04-23  7.31
+4     2025-01-09   2025-01-09  1971-04-30  7.29
+[2025-01-10T12:12:54.671-0800] {logging_mixin.py:190} INFO - unemployment_rate data was saved to /Users/matthewmac/airflow/data/raw/unemployment_rate_2025-01-10.csv
+[2025-01-10T12:12:54.682-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date value
+0     2025-01-10   2025-01-10  1948-01-01   3.4
+1     2025-01-10   2025-01-10  1948-02-01   3.8
+2     2025-01-10   2025-01-10  1948-03-01   4.0
+3     2025-01-10   2025-01-10  1948-04-01   3.9
+4     2025-01-10   2025-01-10  1948-05-01   3.5
+[2025-01-10T12:12:54.903-0800] {logging_mixin.py:190} INFO - GDP data was saved to /Users/matthewmac/airflow/data/raw/GDP_2025-01-10.csv
+[2025-01-10T12:12:54.919-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date    value
+0     2024-12-19   2024-12-19  1946-01-01        .
+1     2024-12-19   2024-12-19  1946-04-01        .
+2     2024-12-19   2024-12-19  1946-07-01        .
+3     2024-12-19   2024-12-19  1946-10-01        .
+4     2024-12-19   2024-12-19  1947-01-01  243.164
+[2025-01-10T12:12:55.159-0800] {logging_mixin.py:190} INFO - US_CPI data was saved to /Users/matthewmac/airflow/data/raw/US_CPI_2025-01-10.csv
+[2025-01-10T12:12:55.169-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date  value
+0     2024-12-12   2024-12-12  1947-01-01  21.48
+1     2024-12-12   2024-12-12  1947-02-01  21.62
+2     2024-12-12   2024-12-12  1947-03-01   22.0
+3     2024-12-12   2024-12-12  1947-04-01   22.0
+4     2024-12-12   2024-12-12  1947-05-01  21.95
+[2025-01-10T12:12:55.396-0800] {logging_mixin.py:190} INFO - trade_balance data was saved to /Users/matthewmac/airflow/data/raw/trade_balance_2025-01-10.csv
+[2025-01-10T12:12:55.407-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date   value
+0     2024-12-21   2024-12-21  1946-01-01       .
+1     2024-12-21   2024-12-21  1946-04-01       .
+2     2024-12-21   2024-12-21  1946-07-01       .
+3     2024-12-21   2024-12-21  1946-10-01       .
+4     2024-12-21   2024-12-21  1947-01-01  10.875
+[2025-01-10T12:12:55.632-0800] {logging_mixin.py:190} INFO - industrial_production data was saved to /Users/matthewmac/airflow/data/raw/industrial_production_2025-01-10.csv
+[2025-01-10T12:12:55.657-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date   value
+0     2024-12-17   2024-12-17  1919-01-01  4.8654
+1     2024-12-17   2024-12-17  1919-02-01  4.6504
+2     2024-12-17   2024-12-17  1919-03-01   4.516
+3     2024-12-17   2024-12-17  1919-04-01  4.5966
+4     2024-12-17   2024-12-17  1919-05-01  4.6235
+[2025-01-10T12:12:55.720-0800] {processor.py:925} INFO - DAG(s) 'CovidE2EPipeDag' retrieved from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:12:55.886-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:12:55.886-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-10T12:12:55.934-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:12:55.933-0800] {dag.py:4180} INFO - Setting next_dagrun for CovidE2EPipeDag to 2025-01-10 20:00:00+00:00, run_after=2025-01-11 20:00:00+00:00
+[2025-01-10T12:12:55.964-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py took 3.320 seconds
+[2025-01-10T12:13:31.970-0800] {processor.py:186} INFO - Started process (PID=27399) to work on /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:13:31.975-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py for tasks to queue
+[2025-01-10T12:13:31.976-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:13:31.976-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:13:33.853-0800] {logging_mixin.py:190} INFO - 30yr_mortage data was saved to /Users/matthewmac/airflow/data/raw/30yr_mortage_2025-01-10.csv
+[2025-01-10T12:13:33.873-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date value
+0     2025-01-09   2025-01-09  1971-04-02  7.33
+1     2025-01-09   2025-01-09  1971-04-09  7.31
+2     2025-01-09   2025-01-09  1971-04-16  7.31
+3     2025-01-09   2025-01-09  1971-04-23  7.31
+4     2025-01-09   2025-01-09  1971-04-30  7.29
+[2025-01-10T12:13:34.121-0800] {logging_mixin.py:190} INFO - unemployment_rate data was saved to /Users/matthewmac/airflow/data/raw/unemployment_rate_2025-01-10.csv
+[2025-01-10T12:13:34.133-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date value
+0     2025-01-10   2025-01-10  1948-01-01   3.4
+1     2025-01-10   2025-01-10  1948-02-01   3.8
+2     2025-01-10   2025-01-10  1948-03-01   4.0
+3     2025-01-10   2025-01-10  1948-04-01   3.9
+4     2025-01-10   2025-01-10  1948-05-01   3.5
+[2025-01-10T12:13:34.381-0800] {logging_mixin.py:190} INFO - GDP data was saved to /Users/matthewmac/airflow/data/raw/GDP_2025-01-10.csv
+[2025-01-10T12:13:34.393-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date    value
+0     2024-12-19   2024-12-19  1946-01-01        .
+1     2024-12-19   2024-12-19  1946-04-01        .
+2     2024-12-19   2024-12-19  1946-07-01        .
+3     2024-12-19   2024-12-19  1946-10-01        .
+4     2024-12-19   2024-12-19  1947-01-01  243.164
+[2025-01-10T12:13:34.665-0800] {logging_mixin.py:190} INFO - US_CPI data was saved to /Users/matthewmac/airflow/data/raw/US_CPI_2025-01-10.csv
+[2025-01-10T12:13:34.677-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date  value
+0     2024-12-12   2024-12-12  1947-01-01  21.48
+1     2024-12-12   2024-12-12  1947-02-01  21.62
+2     2024-12-12   2024-12-12  1947-03-01   22.0
+3     2024-12-12   2024-12-12  1947-04-01   22.0
+4     2024-12-12   2024-12-12  1947-05-01  21.95
+[2025-01-10T12:13:34.879-0800] {logging_mixin.py:190} INFO - trade_balance data was saved to /Users/matthewmac/airflow/data/raw/trade_balance_2025-01-10.csv
+[2025-01-10T12:13:34.892-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date   value
+0     2024-12-21   2024-12-21  1946-01-01       .
+1     2024-12-21   2024-12-21  1946-04-01       .
+2     2024-12-21   2024-12-21  1946-07-01       .
+3     2024-12-21   2024-12-21  1946-10-01       .
+4     2024-12-21   2024-12-21  1947-01-01  10.875
+[2025-01-10T12:13:35.132-0800] {logging_mixin.py:190} INFO - industrial_production data was saved to /Users/matthewmac/airflow/data/raw/industrial_production_2025-01-10.csv
+[2025-01-10T12:13:35.143-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date   value
+0     2024-12-17   2024-12-17  1919-01-01  4.8654
+1     2024-12-17   2024-12-17  1919-02-01  4.6504
+2     2024-12-17   2024-12-17  1919-03-01   4.516
+3     2024-12-17   2024-12-17  1919-04-01  4.5966
+4     2024-12-17   2024-12-17  1919-05-01  4.6235
+[2025-01-10T12:13:35.172-0800] {processor.py:925} INFO - DAG(s) 'CovidE2EPipeDag' retrieved from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:13:35.354-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:13:35.353-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-10T12:13:35.378-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:13:35.378-0800] {dag.py:4180} INFO - Setting next_dagrun for CovidE2EPipeDag to 2025-01-10 20:00:00+00:00, run_after=2025-01-11 20:00:00+00:00
+[2025-01-10T12:13:35.409-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py took 3.446 seconds
+[2025-01-10T12:14:08.654-0800] {processor.py:186} INFO - Started process (PID=27439) to work on /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:14:08.655-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py for tasks to queue
+[2025-01-10T12:14:08.656-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:14:08.656-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:14:09.814-0800] {logging_mixin.py:190} INFO - 30yr_mortage data was saved to /Users/matthewmac/airflow/data/raw/30yr_mortage_2025-01-10.csv
+[2025-01-10T12:14:09.837-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date value
+0     2025-01-09   2025-01-09  1971-04-02  7.33
+1     2025-01-09   2025-01-09  1971-04-09  7.31
+2     2025-01-09   2025-01-09  1971-04-16  7.31
+3     2025-01-09   2025-01-09  1971-04-23  7.31
+4     2025-01-09   2025-01-09  1971-04-30  7.29
+[2025-01-10T12:14:10.173-0800] {logging_mixin.py:190} INFO - unemployment_rate data was saved to /Users/matthewmac/airflow/data/raw/unemployment_rate_2025-01-10.csv
+[2025-01-10T12:14:10.184-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date value
+0     2025-01-10   2025-01-10  1948-01-01   3.4
+1     2025-01-10   2025-01-10  1948-02-01   3.8
+2     2025-01-10   2025-01-10  1948-03-01   4.0
+3     2025-01-10   2025-01-10  1948-04-01   3.9
+4     2025-01-10   2025-01-10  1948-05-01   3.5
+[2025-01-10T12:14:10.641-0800] {logging_mixin.py:190} INFO - GDP data was saved to /Users/matthewmac/airflow/data/raw/GDP_2025-01-10.csv
+[2025-01-10T12:14:10.650-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date    value
+0     2024-12-19   2024-12-19  1946-01-01        .
+1     2024-12-19   2024-12-19  1946-04-01        .
+2     2024-12-19   2024-12-19  1946-07-01        .
+3     2024-12-19   2024-12-19  1946-10-01        .
+4     2024-12-19   2024-12-19  1947-01-01  243.164
+[2025-01-10T12:14:10.953-0800] {logging_mixin.py:190} INFO - US_CPI data was saved to /Users/matthewmac/airflow/data/raw/US_CPI_2025-01-10.csv
+[2025-01-10T12:14:10.965-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date  value
+0     2024-12-12   2024-12-12  1947-01-01  21.48
+1     2024-12-12   2024-12-12  1947-02-01  21.62
+2     2024-12-12   2024-12-12  1947-03-01   22.0
+3     2024-12-12   2024-12-12  1947-04-01   22.0
+4     2024-12-12   2024-12-12  1947-05-01  21.95
+[2025-01-10T12:14:11.236-0800] {logging_mixin.py:190} INFO - trade_balance data was saved to /Users/matthewmac/airflow/data/raw/trade_balance_2025-01-10.csv
+[2025-01-10T12:14:11.246-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date   value
+0     2024-12-21   2024-12-21  1946-01-01       .
+1     2024-12-21   2024-12-21  1946-04-01       .
+2     2024-12-21   2024-12-21  1946-07-01       .
+3     2024-12-21   2024-12-21  1946-10-01       .
+4     2024-12-21   2024-12-21  1947-01-01  10.875
+[2025-01-10T12:14:11.505-0800] {logging_mixin.py:190} INFO - industrial_production data was saved to /Users/matthewmac/airflow/data/raw/industrial_production_2025-01-10.csv
+[2025-01-10T12:14:11.516-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date   value
+0     2024-12-17   2024-12-17  1919-01-01  4.8654
+1     2024-12-17   2024-12-17  1919-02-01  4.6504
+2     2024-12-17   2024-12-17  1919-03-01   4.516
+3     2024-12-17   2024-12-17  1919-04-01  4.5966
+4     2024-12-17   2024-12-17  1919-05-01  4.6235
+[2025-01-10T12:14:11.540-0800] {processor.py:925} INFO - DAG(s) 'CovidE2EPipeDag' retrieved from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:14:11.699-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:14:11.699-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-10T12:14:11.725-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:14:11.725-0800] {dag.py:4180} INFO - Setting next_dagrun for CovidE2EPipeDag to 2025-01-10 20:00:00+00:00, run_after=2025-01-11 20:00:00+00:00
+[2025-01-10T12:14:11.756-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py took 3.107 seconds
+[2025-01-10T12:14:46.015-0800] {processor.py:186} INFO - Started process (PID=27514) to work on /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:14:46.019-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py for tasks to queue
+[2025-01-10T12:14:46.020-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:14:46.020-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:14:47.740-0800] {logging_mixin.py:190} INFO - 30yr_mortage data was saved to /Users/matthewmac/airflow/data/raw/30yr_mortage_2025-01-10.csv
+[2025-01-10T12:14:47.765-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date value
+0     2025-01-09   2025-01-09  1971-04-02  7.33
+1     2025-01-09   2025-01-09  1971-04-09  7.31
+2     2025-01-09   2025-01-09  1971-04-16  7.31
+3     2025-01-09   2025-01-09  1971-04-23  7.31
+4     2025-01-09   2025-01-09  1971-04-30  7.29
+[2025-01-10T12:14:48.007-0800] {logging_mixin.py:190} INFO - unemployment_rate data was saved to /Users/matthewmac/airflow/data/raw/unemployment_rate_2025-01-10.csv
+[2025-01-10T12:14:48.016-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date value
+0     2025-01-10   2025-01-10  1948-01-01   3.4
+1     2025-01-10   2025-01-10  1948-02-01   3.8
+2     2025-01-10   2025-01-10  1948-03-01   4.0
+3     2025-01-10   2025-01-10  1948-04-01   3.9
+4     2025-01-10   2025-01-10  1948-05-01   3.5
+[2025-01-10T12:14:48.355-0800] {logging_mixin.py:190} INFO - GDP data was saved to /Users/matthewmac/airflow/data/raw/GDP_2025-01-10.csv
+[2025-01-10T12:14:48.371-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date    value
+0     2024-12-19   2024-12-19  1946-01-01        .
+1     2024-12-19   2024-12-19  1946-04-01        .
+2     2024-12-19   2024-12-19  1946-07-01        .
+3     2024-12-19   2024-12-19  1946-10-01        .
+4     2024-12-19   2024-12-19  1947-01-01  243.164
+[2025-01-10T12:14:48.594-0800] {logging_mixin.py:190} INFO - US_CPI data was saved to /Users/matthewmac/airflow/data/raw/US_CPI_2025-01-10.csv
+[2025-01-10T12:14:48.615-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date  value
+0     2024-12-12   2024-12-12  1947-01-01  21.48
+1     2024-12-12   2024-12-12  1947-02-01  21.62
+2     2024-12-12   2024-12-12  1947-03-01   22.0
+3     2024-12-12   2024-12-12  1947-04-01   22.0
+4     2024-12-12   2024-12-12  1947-05-01  21.95
+[2025-01-10T12:14:48.937-0800] {logging_mixin.py:190} INFO - trade_balance data was saved to /Users/matthewmac/airflow/data/raw/trade_balance_2025-01-10.csv
+[2025-01-10T12:14:48.955-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date   value
+0     2024-12-21   2024-12-21  1946-01-01       .
+1     2024-12-21   2024-12-21  1946-04-01       .
+2     2024-12-21   2024-12-21  1946-07-01       .
+3     2024-12-21   2024-12-21  1946-10-01       .
+4     2024-12-21   2024-12-21  1947-01-01  10.875
+[2025-01-10T12:14:49.319-0800] {logging_mixin.py:190} INFO - industrial_production data was saved to /Users/matthewmac/airflow/data/raw/industrial_production_2025-01-10.csv
+[2025-01-10T12:14:49.355-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date   value
+0     2024-12-17   2024-12-17  1919-01-01  4.8654
+1     2024-12-17   2024-12-17  1919-02-01  4.6504
+2     2024-12-17   2024-12-17  1919-03-01   4.516
+3     2024-12-17   2024-12-17  1919-04-01  4.5966
+4     2024-12-17   2024-12-17  1919-05-01  4.6235
+[2025-01-10T12:14:49.405-0800] {processor.py:925} INFO - DAG(s) 'CovidE2EPipeDag' retrieved from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:14:49.753-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:14:49.752-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-10T12:14:49.799-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:14:49.799-0800] {dag.py:4180} INFO - Setting next_dagrun for CovidE2EPipeDag to 2025-01-10 20:00:00+00:00, run_after=2025-01-11 20:00:00+00:00
+[2025-01-10T12:14:49.843-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py took 3.835 seconds
+[2025-01-10T12:15:22.738-0800] {processor.py:186} INFO - Started process (PID=27549) to work on /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:15:22.739-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py for tasks to queue
+[2025-01-10T12:15:22.740-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:15:22.740-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:15:23.750-0800] {logging_mixin.py:190} INFO - 30yr_mortage data was saved to /Users/matthewmac/airflow/data/raw/30yr_mortage_2025-01-10.csv
+[2025-01-10T12:15:23.765-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date value
+0     2025-01-09   2025-01-09  1971-04-02  7.33
+1     2025-01-09   2025-01-09  1971-04-09  7.31
+2     2025-01-09   2025-01-09  1971-04-16  7.31
+3     2025-01-09   2025-01-09  1971-04-23  7.31
+4     2025-01-09   2025-01-09  1971-04-30  7.29
+[2025-01-10T12:15:24.049-0800] {logging_mixin.py:190} INFO - unemployment_rate data was saved to /Users/matthewmac/airflow/data/raw/unemployment_rate_2025-01-10.csv
+[2025-01-10T12:15:24.062-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date value
+0     2025-01-10   2025-01-10  1948-01-01   3.4
+1     2025-01-10   2025-01-10  1948-02-01   3.8
+2     2025-01-10   2025-01-10  1948-03-01   4.0
+3     2025-01-10   2025-01-10  1948-04-01   3.9
+4     2025-01-10   2025-01-10  1948-05-01   3.5
+[2025-01-10T12:15:25.271-0800] {logging_mixin.py:190} INFO - GDP data was saved to /Users/matthewmac/airflow/data/raw/GDP_2025-01-10.csv
+[2025-01-10T12:15:25.290-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date    value
+0     2024-12-19   2024-12-19  1946-01-01        .
+1     2024-12-19   2024-12-19  1946-04-01        .
+2     2024-12-19   2024-12-19  1946-07-01        .
+3     2024-12-19   2024-12-19  1946-10-01        .
+4     2024-12-19   2024-12-19  1947-01-01  243.164
+[2025-01-10T12:15:25.551-0800] {logging_mixin.py:190} INFO - US_CPI data was saved to /Users/matthewmac/airflow/data/raw/US_CPI_2025-01-10.csv
+[2025-01-10T12:15:25.562-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date  value
+0     2024-12-12   2024-12-12  1947-01-01  21.48
+1     2024-12-12   2024-12-12  1947-02-01  21.62
+2     2024-12-12   2024-12-12  1947-03-01   22.0
+3     2024-12-12   2024-12-12  1947-04-01   22.0
+4     2024-12-12   2024-12-12  1947-05-01  21.95
+[2025-01-10T12:15:25.863-0800] {logging_mixin.py:190} INFO - trade_balance data was saved to /Users/matthewmac/airflow/data/raw/trade_balance_2025-01-10.csv
+[2025-01-10T12:15:25.896-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date   value
+0     2024-12-21   2024-12-21  1946-01-01       .
+1     2024-12-21   2024-12-21  1946-04-01       .
+2     2024-12-21   2024-12-21  1946-07-01       .
+3     2024-12-21   2024-12-21  1946-10-01       .
+4     2024-12-21   2024-12-21  1947-01-01  10.875
+[2025-01-10T12:15:26.150-0800] {logging_mixin.py:190} INFO - industrial_production data was saved to /Users/matthewmac/airflow/data/raw/industrial_production_2025-01-10.csv
+[2025-01-10T12:15:26.160-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date   value
+0     2024-12-17   2024-12-17  1919-01-01  4.8654
+1     2024-12-17   2024-12-17  1919-02-01  4.6504
+2     2024-12-17   2024-12-17  1919-03-01   4.516
+3     2024-12-17   2024-12-17  1919-04-01  4.5966
+4     2024-12-17   2024-12-17  1919-05-01  4.6235
+[2025-01-10T12:15:26.185-0800] {processor.py:925} INFO - DAG(s) 'CovidE2EPipeDag' retrieved from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:15:26.408-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:15:26.408-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-10T12:15:26.437-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:15:26.437-0800] {dag.py:4180} INFO - Setting next_dagrun for CovidE2EPipeDag to 2025-01-10 20:00:00+00:00, run_after=2025-01-11 20:00:00+00:00
+[2025-01-10T12:15:26.466-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py took 3.732 seconds
+[2025-01-10T12:15:59.940-0800] {processor.py:186} INFO - Started process (PID=27552) to work on /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:15:59.943-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py for tasks to queue
+[2025-01-10T12:15:59.946-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:15:59.945-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:16:02.745-0800] {logging_mixin.py:190} INFO - 30yr_mortage data was saved to /Users/matthewmac/airflow/data/raw/30yr_mortage_2025-01-10.csv
+[2025-01-10T12:16:02.766-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date value
+0     2025-01-09   2025-01-09  1971-04-02  7.33
+1     2025-01-09   2025-01-09  1971-04-09  7.31
+2     2025-01-09   2025-01-09  1971-04-16  7.31
+3     2025-01-09   2025-01-09  1971-04-23  7.31
+4     2025-01-09   2025-01-09  1971-04-30  7.29
+[2025-01-10T12:16:03.092-0800] {logging_mixin.py:190} INFO - unemployment_rate data was saved to /Users/matthewmac/airflow/data/raw/unemployment_rate_2025-01-10.csv
+[2025-01-10T12:16:03.102-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date value
+0     2025-01-10   2025-01-10  1948-01-01   3.4
+1     2025-01-10   2025-01-10  1948-02-01   3.8
+2     2025-01-10   2025-01-10  1948-03-01   4.0
+3     2025-01-10   2025-01-10  1948-04-01   3.9
+4     2025-01-10   2025-01-10  1948-05-01   3.5
+[2025-01-10T12:16:03.441-0800] {logging_mixin.py:190} INFO - GDP data was saved to /Users/matthewmac/airflow/data/raw/GDP_2025-01-10.csv
+[2025-01-10T12:16:03.456-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date    value
+0     2024-12-19   2024-12-19  1946-01-01        .
+1     2024-12-19   2024-12-19  1946-04-01        .
+2     2024-12-19   2024-12-19  1946-07-01        .
+3     2024-12-19   2024-12-19  1946-10-01        .
+4     2024-12-19   2024-12-19  1947-01-01  243.164
+[2025-01-10T12:16:03.792-0800] {logging_mixin.py:190} INFO - US_CPI data was saved to /Users/matthewmac/airflow/data/raw/US_CPI_2025-01-10.csv
+[2025-01-10T12:16:03.803-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date  value
+0     2024-12-12   2024-12-12  1947-01-01  21.48
+1     2024-12-12   2024-12-12  1947-02-01  21.62
+2     2024-12-12   2024-12-12  1947-03-01   22.0
+3     2024-12-12   2024-12-12  1947-04-01   22.0
+4     2024-12-12   2024-12-12  1947-05-01  21.95
+[2025-01-10T12:16:04.071-0800] {logging_mixin.py:190} INFO - trade_balance data was saved to /Users/matthewmac/airflow/data/raw/trade_balance_2025-01-10.csv
+[2025-01-10T12:16:04.085-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date   value
+0     2024-12-21   2024-12-21  1946-01-01       .
+1     2024-12-21   2024-12-21  1946-04-01       .
+2     2024-12-21   2024-12-21  1946-07-01       .
+3     2024-12-21   2024-12-21  1946-10-01       .
+4     2024-12-21   2024-12-21  1947-01-01  10.875
+[2025-01-10T12:16:04.464-0800] {logging_mixin.py:190} INFO - industrial_production data was saved to /Users/matthewmac/airflow/data/raw/industrial_production_2025-01-10.csv
+[2025-01-10T12:16:04.475-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date   value
+0     2024-12-17   2024-12-17  1919-01-01  4.8654
+1     2024-12-17   2024-12-17  1919-02-01  4.6504
+2     2024-12-17   2024-12-17  1919-03-01   4.516
+3     2024-12-17   2024-12-17  1919-04-01  4.5966
+4     2024-12-17   2024-12-17  1919-05-01  4.6235
+[2025-01-10T12:16:04.513-0800] {processor.py:925} INFO - DAG(s) 'CovidE2EPipeDag' retrieved from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:16:04.742-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:16:04.742-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-10T12:16:04.776-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:16:04.775-0800] {dag.py:4180} INFO - Setting next_dagrun for CovidE2EPipeDag to 2025-01-10 20:00:00+00:00, run_after=2025-01-11 20:00:00+00:00
+[2025-01-10T12:16:04.802-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py took 4.867 seconds
+[2025-01-10T12:16:39.929-0800] {processor.py:186} INFO - Started process (PID=27555) to work on /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:16:39.932-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py for tasks to queue
+[2025-01-10T12:16:39.934-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:16:39.934-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:16:41.763-0800] {logging_mixin.py:190} INFO - 30yr_mortage data was saved to /Users/matthewmac/airflow/data/raw/30yr_mortage_2025-01-10.csv
+[2025-01-10T12:16:41.784-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date value
+0     2025-01-09   2025-01-09  1971-04-02  7.33
+1     2025-01-09   2025-01-09  1971-04-09  7.31
+2     2025-01-09   2025-01-09  1971-04-16  7.31
+3     2025-01-09   2025-01-09  1971-04-23  7.31
+4     2025-01-09   2025-01-09  1971-04-30  7.29
+[2025-01-10T12:16:42.030-0800] {logging_mixin.py:190} INFO - unemployment_rate data was saved to /Users/matthewmac/airflow/data/raw/unemployment_rate_2025-01-10.csv
+[2025-01-10T12:16:42.041-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date value
+0     2025-01-10   2025-01-10  1948-01-01   3.4
+1     2025-01-10   2025-01-10  1948-02-01   3.8
+2     2025-01-10   2025-01-10  1948-03-01   4.0
+3     2025-01-10   2025-01-10  1948-04-01   3.9
+4     2025-01-10   2025-01-10  1948-05-01   3.5
+[2025-01-10T12:16:42.349-0800] {logging_mixin.py:190} INFO - GDP data was saved to /Users/matthewmac/airflow/data/raw/GDP_2025-01-10.csv
+[2025-01-10T12:16:42.360-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date    value
+0     2024-12-19   2024-12-19  1946-01-01        .
+1     2024-12-19   2024-12-19  1946-04-01        .
+2     2024-12-19   2024-12-19  1946-07-01        .
+3     2024-12-19   2024-12-19  1946-10-01        .
+4     2024-12-19   2024-12-19  1947-01-01  243.164
+[2025-01-10T12:16:42.632-0800] {logging_mixin.py:190} INFO - US_CPI data was saved to /Users/matthewmac/airflow/data/raw/US_CPI_2025-01-10.csv
+[2025-01-10T12:16:42.644-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date  value
+0     2024-12-12   2024-12-12  1947-01-01  21.48
+1     2024-12-12   2024-12-12  1947-02-01  21.62
+2     2024-12-12   2024-12-12  1947-03-01   22.0
+3     2024-12-12   2024-12-12  1947-04-01   22.0
+4     2024-12-12   2024-12-12  1947-05-01  21.95
+[2025-01-10T12:16:42.883-0800] {logging_mixin.py:190} INFO - trade_balance data was saved to /Users/matthewmac/airflow/data/raw/trade_balance_2025-01-10.csv
+[2025-01-10T12:16:42.894-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date   value
+0     2024-12-21   2024-12-21  1946-01-01       .
+1     2024-12-21   2024-12-21  1946-04-01       .
+2     2024-12-21   2024-12-21  1946-07-01       .
+3     2024-12-21   2024-12-21  1946-10-01       .
+4     2024-12-21   2024-12-21  1947-01-01  10.875
+[2025-01-10T12:16:43.221-0800] {logging_mixin.py:190} INFO - industrial_production data was saved to /Users/matthewmac/airflow/data/raw/industrial_production_2025-01-10.csv
+[2025-01-10T12:16:43.241-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date   value
+0     2024-12-17   2024-12-17  1919-01-01  4.8654
+1     2024-12-17   2024-12-17  1919-02-01  4.6504
+2     2024-12-17   2024-12-17  1919-03-01   4.516
+3     2024-12-17   2024-12-17  1919-04-01  4.5966
+4     2024-12-17   2024-12-17  1919-05-01  4.6235
+[2025-01-10T12:16:43.273-0800] {processor.py:925} INFO - DAG(s) 'CovidE2EPipeDag' retrieved from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:16:43.429-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:16:43.429-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-10T12:16:43.452-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:16:43.452-0800] {dag.py:4180} INFO - Setting next_dagrun for CovidE2EPipeDag to 2025-01-10 20:00:00+00:00, run_after=2025-01-11 20:00:00+00:00
+[2025-01-10T12:16:43.477-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py took 3.553 seconds
+[2025-01-10T12:17:19.734-0800] {processor.py:186} INFO - Started process (PID=27567) to work on /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:17:19.738-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py for tasks to queue
+[2025-01-10T12:17:19.739-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:17:19.739-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:17:21.378-0800] {logging_mixin.py:190} INFO - 30yr_mortage data was saved to /Users/matthewmac/airflow/data/raw/30yr_mortage_2025-01-10.csv
+[2025-01-10T12:17:21.405-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date value
+0     2025-01-09   2025-01-09  1971-04-02  7.33
+1     2025-01-09   2025-01-09  1971-04-09  7.31
+2     2025-01-09   2025-01-09  1971-04-16  7.31
+3     2025-01-09   2025-01-09  1971-04-23  7.31
+4     2025-01-09   2025-01-09  1971-04-30  7.29
+[2025-01-10T12:17:21.692-0800] {logging_mixin.py:190} INFO - unemployment_rate data was saved to /Users/matthewmac/airflow/data/raw/unemployment_rate_2025-01-10.csv
+[2025-01-10T12:17:21.702-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date value
+0     2025-01-10   2025-01-10  1948-01-01   3.4
+1     2025-01-10   2025-01-10  1948-02-01   3.8
+2     2025-01-10   2025-01-10  1948-03-01   4.0
+3     2025-01-10   2025-01-10  1948-04-01   3.9
+4     2025-01-10   2025-01-10  1948-05-01   3.5
+[2025-01-10T12:17:22.023-0800] {logging_mixin.py:190} INFO - GDP data was saved to /Users/matthewmac/airflow/data/raw/GDP_2025-01-10.csv
+[2025-01-10T12:17:22.034-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date    value
+0     2024-12-19   2024-12-19  1946-01-01        .
+1     2024-12-19   2024-12-19  1946-04-01        .
+2     2024-12-19   2024-12-19  1946-07-01        .
+3     2024-12-19   2024-12-19  1946-10-01        .
+4     2024-12-19   2024-12-19  1947-01-01  243.164
+[2025-01-10T12:17:22.429-0800] {logging_mixin.py:190} INFO - US_CPI data was saved to /Users/matthewmac/airflow/data/raw/US_CPI_2025-01-10.csv
+[2025-01-10T12:17:22.442-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date  value
+0     2024-12-12   2024-12-12  1947-01-01  21.48
+1     2024-12-12   2024-12-12  1947-02-01  21.62
+2     2024-12-12   2024-12-12  1947-03-01   22.0
+3     2024-12-12   2024-12-12  1947-04-01   22.0
+4     2024-12-12   2024-12-12  1947-05-01  21.95
+[2025-01-10T12:17:22.725-0800] {logging_mixin.py:190} INFO - trade_balance data was saved to /Users/matthewmac/airflow/data/raw/trade_balance_2025-01-10.csv
+[2025-01-10T12:17:22.739-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date   value
+0     2024-12-20   2024-12-20  1946-01-01       .
+1     2024-12-20   2024-12-20  1946-04-01       .
+2     2024-12-20   2024-12-20  1946-07-01       .
+3     2024-12-20   2024-12-20  1946-10-01       .
+4     2024-12-20   2024-12-20  1947-01-01  10.875
+[2025-01-10T12:17:23.101-0800] {logging_mixin.py:190} INFO - industrial_production data was saved to /Users/matthewmac/airflow/data/raw/industrial_production_2025-01-10.csv
+[2025-01-10T12:17:23.112-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date   value
+0     2024-12-17   2024-12-17  1919-01-01  4.8654
+1     2024-12-17   2024-12-17  1919-02-01  4.6504
+2     2024-12-17   2024-12-17  1919-03-01   4.516
+3     2024-12-17   2024-12-17  1919-04-01  4.5966
+4     2024-12-17   2024-12-17  1919-05-01  4.6235
+[2025-01-10T12:17:23.140-0800] {processor.py:925} INFO - DAG(s) 'CovidE2EPipeDag' retrieved from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:17:23.295-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:17:23.295-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-10T12:17:23.319-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:17:23.319-0800] {dag.py:4180} INFO - Setting next_dagrun for CovidE2EPipeDag to 2025-01-10 20:00:00+00:00, run_after=2025-01-11 20:00:00+00:00
+[2025-01-10T12:17:23.344-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py took 3.614 seconds
+[2025-01-10T12:17:59.465-0800] {processor.py:186} INFO - Started process (PID=27586) to work on /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:17:59.468-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py for tasks to queue
+[2025-01-10T12:17:59.472-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:17:59.470-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:18:01.266-0800] {logging_mixin.py:190} INFO - 30yr_mortage data was saved to /Users/matthewmac/airflow/data/raw/30yr_mortage_2025-01-10.csv
+[2025-01-10T12:18:01.298-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date value
+0     2025-01-09   2025-01-09  1971-04-02  7.33
+1     2025-01-09   2025-01-09  1971-04-09  7.31
+2     2025-01-09   2025-01-09  1971-04-16  7.31
+3     2025-01-09   2025-01-09  1971-04-23  7.31
+4     2025-01-09   2025-01-09  1971-04-30  7.29
+[2025-01-10T12:18:02.612-0800] {logging_mixin.py:190} INFO - unemployment_rate data was saved to /Users/matthewmac/airflow/data/raw/unemployment_rate_2025-01-10.csv
+[2025-01-10T12:18:02.621-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date value
+0     2025-01-10   2025-01-10  1948-01-01   3.4
+1     2025-01-10   2025-01-10  1948-02-01   3.8
+2     2025-01-10   2025-01-10  1948-03-01   4.0
+3     2025-01-10   2025-01-10  1948-04-01   3.9
+4     2025-01-10   2025-01-10  1948-05-01   3.5
+[2025-01-10T12:18:03.011-0800] {logging_mixin.py:190} INFO - GDP data was saved to /Users/matthewmac/airflow/data/raw/GDP_2025-01-10.csv
+[2025-01-10T12:18:03.025-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date    value
+0     2024-12-19   2024-12-19  1946-01-01        .
+1     2024-12-19   2024-12-19  1946-04-01        .
+2     2024-12-19   2024-12-19  1946-07-01        .
+3     2024-12-19   2024-12-19  1946-10-01        .
+4     2024-12-19   2024-12-19  1947-01-01  243.164
+[2025-01-10T12:18:03.284-0800] {logging_mixin.py:190} INFO - US_CPI data was saved to /Users/matthewmac/airflow/data/raw/US_CPI_2025-01-10.csv
+[2025-01-10T12:18:03.293-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date  value
+0     2024-12-12   2024-12-12  1947-01-01  21.48
+1     2024-12-12   2024-12-12  1947-02-01  21.62
+2     2024-12-12   2024-12-12  1947-03-01   22.0
+3     2024-12-12   2024-12-12  1947-04-01   22.0
+4     2024-12-12   2024-12-12  1947-05-01  21.95
+[2025-01-10T12:18:03.541-0800] {logging_mixin.py:190} INFO - trade_balance data was saved to /Users/matthewmac/airflow/data/raw/trade_balance_2025-01-10.csv
+[2025-01-10T12:18:03.553-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date   value
+0     2024-12-20   2024-12-20  1946-01-01       .
+1     2024-12-20   2024-12-20  1946-04-01       .
+2     2024-12-20   2024-12-20  1946-07-01       .
+3     2024-12-20   2024-12-20  1946-10-01       .
+4     2024-12-20   2024-12-20  1947-01-01  10.875
+[2025-01-10T12:18:03.863-0800] {logging_mixin.py:190} INFO - industrial_production data was saved to /Users/matthewmac/airflow/data/raw/industrial_production_2025-01-10.csv
+[2025-01-10T12:18:03.879-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date   value
+0     2024-12-17   2024-12-17  1919-01-01  4.8654
+1     2024-12-17   2024-12-17  1919-02-01  4.6504
+2     2024-12-17   2024-12-17  1919-03-01   4.516
+3     2024-12-17   2024-12-17  1919-04-01  4.5966
+4     2024-12-17   2024-12-17  1919-05-01  4.6235
+[2025-01-10T12:18:03.902-0800] {processor.py:925} INFO - DAG(s) 'CovidE2EPipeDag' retrieved from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:18:04.063-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:18:04.062-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-10T12:18:04.085-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:18:04.085-0800] {dag.py:4180} INFO - Setting next_dagrun for CovidE2EPipeDag to 2025-01-10 20:00:00+00:00, run_after=2025-01-11 20:00:00+00:00
+[2025-01-10T12:18:04.108-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py took 4.648 seconds
+[2025-01-10T12:18:39.810-0800] {processor.py:186} INFO - Started process (PID=27726) to work on /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:18:39.813-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py for tasks to queue
+[2025-01-10T12:18:39.815-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:18:39.814-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:18:41.386-0800] {logging_mixin.py:190} INFO - 30yr_mortage data was saved to /Users/matthewmac/airflow/data/raw/30yr_mortage_2025-01-10.csv
+[2025-01-10T12:18:41.406-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date value
+0     2025-01-09   2025-01-09  1971-04-02  7.33
+1     2025-01-09   2025-01-09  1971-04-09  7.31
+2     2025-01-09   2025-01-09  1971-04-16  7.31
+3     2025-01-09   2025-01-09  1971-04-23  7.31
+4     2025-01-09   2025-01-09  1971-04-30  7.29
+[2025-01-10T12:18:41.654-0800] {logging_mixin.py:190} INFO - unemployment_rate data was saved to /Users/matthewmac/airflow/data/raw/unemployment_rate_2025-01-10.csv
+[2025-01-10T12:18:41.669-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date value
+0     2025-01-10   2025-01-10  1948-01-01   3.4
+1     2025-01-10   2025-01-10  1948-02-01   3.8
+2     2025-01-10   2025-01-10  1948-03-01   4.0
+3     2025-01-10   2025-01-10  1948-04-01   3.9
+4     2025-01-10   2025-01-10  1948-05-01   3.5
+[2025-01-10T12:18:41.905-0800] {logging_mixin.py:190} INFO - GDP data was saved to /Users/matthewmac/airflow/data/raw/GDP_2025-01-10.csv
+[2025-01-10T12:18:41.917-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date    value
+0     2024-12-19   2024-12-19  1946-01-01        .
+1     2024-12-19   2024-12-19  1946-04-01        .
+2     2024-12-19   2024-12-19  1946-07-01        .
+3     2024-12-19   2024-12-19  1946-10-01        .
+4     2024-12-19   2024-12-19  1947-01-01  243.164
+[2025-01-10T12:18:42.190-0800] {logging_mixin.py:190} INFO - US_CPI data was saved to /Users/matthewmac/airflow/data/raw/US_CPI_2025-01-10.csv
+[2025-01-10T12:18:42.204-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date  value
+0     2024-12-12   2024-12-12  1947-01-01  21.48
+1     2024-12-12   2024-12-12  1947-02-01  21.62
+2     2024-12-12   2024-12-12  1947-03-01   22.0
+3     2024-12-12   2024-12-12  1947-04-01   22.0
+4     2024-12-12   2024-12-12  1947-05-01  21.95
+[2025-01-10T12:18:42.514-0800] {logging_mixin.py:190} INFO - trade_balance data was saved to /Users/matthewmac/airflow/data/raw/trade_balance_2025-01-10.csv
+[2025-01-10T12:18:42.524-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date   value
+0     2024-12-20   2024-12-20  1946-01-01       .
+1     2024-12-20   2024-12-20  1946-04-01       .
+2     2024-12-20   2024-12-20  1946-07-01       .
+3     2024-12-20   2024-12-20  1946-10-01       .
+4     2024-12-20   2024-12-20  1947-01-01  10.875
+[2025-01-10T12:18:42.807-0800] {logging_mixin.py:190} INFO - industrial_production data was saved to /Users/matthewmac/airflow/data/raw/industrial_production_2025-01-10.csv
+[2025-01-10T12:18:42.818-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date   value
+0     2024-12-17   2024-12-17  1919-01-01  4.8654
+1     2024-12-17   2024-12-17  1919-02-01  4.6504
+2     2024-12-17   2024-12-17  1919-03-01   4.516
+3     2024-12-17   2024-12-17  1919-04-01  4.5966
+4     2024-12-17   2024-12-17  1919-05-01  4.6235
+[2025-01-10T12:18:42.844-0800] {processor.py:925} INFO - DAG(s) 'CovidE2EPipeDag' retrieved from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:18:43.030-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:18:43.030-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-10T12:18:43.055-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:18:43.055-0800] {dag.py:4180} INFO - Setting next_dagrun for CovidE2EPipeDag to 2025-01-10 20:00:00+00:00, run_after=2025-01-11 20:00:00+00:00
+[2025-01-10T12:18:43.080-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py took 3.275 seconds
+[2025-01-10T12:19:16.751-0800] {processor.py:186} INFO - Started process (PID=27754) to work on /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:19:16.752-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py for tasks to queue
+[2025-01-10T12:19:16.753-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:19:16.753-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:19:17.650-0800] {logging_mixin.py:190} INFO - 30yr_mortage data was saved to /Users/matthewmac/airflow/data/raw/30yr_mortage_2025-01-10.csv
+[2025-01-10T12:19:17.665-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date value
+0     2025-01-09   2025-01-09  1971-04-02  7.33
+1     2025-01-09   2025-01-09  1971-04-09  7.31
+2     2025-01-09   2025-01-09  1971-04-16  7.31
+3     2025-01-09   2025-01-09  1971-04-23  7.31
+4     2025-01-09   2025-01-09  1971-04-30  7.29
+[2025-01-10T12:19:17.904-0800] {logging_mixin.py:190} INFO - unemployment_rate data was saved to /Users/matthewmac/airflow/data/raw/unemployment_rate_2025-01-10.csv
+[2025-01-10T12:19:17.915-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date value
+0     2025-01-10   2025-01-10  1948-01-01   3.4
+1     2025-01-10   2025-01-10  1948-02-01   3.8
+2     2025-01-10   2025-01-10  1948-03-01   4.0
+3     2025-01-10   2025-01-10  1948-04-01   3.9
+4     2025-01-10   2025-01-10  1948-05-01   3.5
+[2025-01-10T12:19:18.210-0800] {logging_mixin.py:190} INFO - GDP data was saved to /Users/matthewmac/airflow/data/raw/GDP_2025-01-10.csv
+[2025-01-10T12:19:18.218-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date    value
+0     2024-12-19   2024-12-19  1946-01-01        .
+1     2024-12-19   2024-12-19  1946-04-01        .
+2     2024-12-19   2024-12-19  1946-07-01        .
+3     2024-12-19   2024-12-19  1946-10-01        .
+4     2024-12-19   2024-12-19  1947-01-01  243.164
+[2025-01-10T12:19:18.473-0800] {logging_mixin.py:190} INFO - US_CPI data was saved to /Users/matthewmac/airflow/data/raw/US_CPI_2025-01-10.csv
+[2025-01-10T12:19:18.483-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date  value
+0     2024-12-12   2024-12-12  1947-01-01  21.48
+1     2024-12-12   2024-12-12  1947-02-01  21.62
+2     2024-12-12   2024-12-12  1947-03-01   22.0
+3     2024-12-12   2024-12-12  1947-04-01   22.0
+4     2024-12-12   2024-12-12  1947-05-01  21.95
+[2025-01-10T12:19:18.758-0800] {logging_mixin.py:190} INFO - trade_balance data was saved to /Users/matthewmac/airflow/data/raw/trade_balance_2025-01-10.csv
+[2025-01-10T12:19:18.768-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date   value
+0     2024-12-24   2024-12-24  1946-01-01       .
+1     2024-12-24   2024-12-24  1946-04-01       .
+2     2024-12-24   2024-12-24  1946-07-01       .
+3     2024-12-24   2024-12-24  1946-10-01       .
+4     2024-12-24   2024-12-24  1947-01-01  10.875
+[2025-01-10T12:19:19.022-0800] {logging_mixin.py:190} INFO - industrial_production data was saved to /Users/matthewmac/airflow/data/raw/industrial_production_2025-01-10.csv
+[2025-01-10T12:19:19.031-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date   value
+0     2024-12-17   2024-12-17  1919-01-01  4.8654
+1     2024-12-17   2024-12-17  1919-02-01  4.6504
+2     2024-12-17   2024-12-17  1919-03-01   4.516
+3     2024-12-17   2024-12-17  1919-04-01  4.5966
+4     2024-12-17   2024-12-17  1919-05-01  4.6235
+[2025-01-10T12:19:19.043-0800] {processor.py:925} INFO - DAG(s) 'CovidE2EPipeDag' retrieved from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:19:19.198-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:19:19.198-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-10T12:19:19.227-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:19:19.226-0800] {dag.py:4180} INFO - Setting next_dagrun for CovidE2EPipeDag to 2025-01-10 20:00:00+00:00, run_after=2025-01-11 20:00:00+00:00
+[2025-01-10T12:19:19.250-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py took 2.504 seconds
+[2025-01-10T12:19:54.951-0800] {processor.py:186} INFO - Started process (PID=27781) to work on /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:19:54.955-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py for tasks to queue
+[2025-01-10T12:19:54.957-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:19:54.956-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:19:56.674-0800] {logging_mixin.py:190} INFO - 30yr_mortage data was saved to /Users/matthewmac/airflow/data/raw/30yr_mortage_2025-01-10.csv
+[2025-01-10T12:19:56.702-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date value
+0     2025-01-09   2025-01-09  1971-04-02  7.33
+1     2025-01-09   2025-01-09  1971-04-09  7.31
+2     2025-01-09   2025-01-09  1971-04-16  7.31
+3     2025-01-09   2025-01-09  1971-04-23  7.31
+4     2025-01-09   2025-01-09  1971-04-30  7.29
+[2025-01-10T12:19:57.077-0800] {logging_mixin.py:190} INFO - unemployment_rate data was saved to /Users/matthewmac/airflow/data/raw/unemployment_rate_2025-01-10.csv
+[2025-01-10T12:19:57.105-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date value
+0     2025-01-10   2025-01-10  1948-01-01   3.4
+1     2025-01-10   2025-01-10  1948-02-01   3.8
+2     2025-01-10   2025-01-10  1948-03-01   4.0
+3     2025-01-10   2025-01-10  1948-04-01   3.9
+4     2025-01-10   2025-01-10  1948-05-01   3.5
+[2025-01-10T12:19:58.355-0800] {logging_mixin.py:190} INFO - GDP data was saved to /Users/matthewmac/airflow/data/raw/GDP_2025-01-10.csv
+[2025-01-10T12:19:58.368-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date    value
+0     2024-12-19   2024-12-19  1946-01-01        .
+1     2024-12-19   2024-12-19  1946-04-01        .
+2     2024-12-19   2024-12-19  1946-07-01        .
+3     2024-12-19   2024-12-19  1946-10-01        .
+4     2024-12-19   2024-12-19  1947-01-01  243.164
+[2025-01-10T12:19:58.657-0800] {logging_mixin.py:190} INFO - US_CPI data was saved to /Users/matthewmac/airflow/data/raw/US_CPI_2025-01-10.csv
+[2025-01-10T12:19:58.668-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date  value
+0     2024-12-12   2024-12-12  1947-01-01  21.48
+1     2024-12-12   2024-12-12  1947-02-01  21.62
+2     2024-12-12   2024-12-12  1947-03-01   22.0
+3     2024-12-12   2024-12-12  1947-04-01   22.0
+4     2024-12-12   2024-12-12  1947-05-01  21.95
+[2025-01-10T12:19:58.912-0800] {logging_mixin.py:190} INFO - trade_balance data was saved to /Users/matthewmac/airflow/data/raw/trade_balance_2025-01-10.csv
+[2025-01-10T12:19:58.927-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date   value
+0     2024-12-24   2024-12-24  1946-01-01       .
+1     2024-12-24   2024-12-24  1946-04-01       .
+2     2024-12-24   2024-12-24  1946-07-01       .
+3     2024-12-24   2024-12-24  1946-10-01       .
+4     2024-12-24   2024-12-24  1947-01-01  10.875
+[2025-01-10T12:19:59.170-0800] {logging_mixin.py:190} INFO - industrial_production data was saved to /Users/matthewmac/airflow/data/raw/industrial_production_2025-01-10.csv
+[2025-01-10T12:19:59.181-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date   value
+0     2024-12-17   2024-12-17  1919-01-01  4.8654
+1     2024-12-17   2024-12-17  1919-02-01  4.6504
+2     2024-12-17   2024-12-17  1919-03-01   4.516
+3     2024-12-17   2024-12-17  1919-04-01  4.5966
+4     2024-12-17   2024-12-17  1919-05-01  4.6235
+[2025-01-10T12:19:59.211-0800] {processor.py:925} INFO - DAG(s) 'CovidE2EPipeDag' retrieved from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:19:59.386-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:19:59.386-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-10T12:19:59.410-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:19:59.410-0800] {dag.py:4180} INFO - Setting next_dagrun for CovidE2EPipeDag to 2025-01-10 20:00:00+00:00, run_after=2025-01-11 20:00:00+00:00
+[2025-01-10T12:19:59.436-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py took 4.490 seconds
+[2025-01-10T12:20:34.256-0800] {processor.py:186} INFO - Started process (PID=27860) to work on /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:20:34.258-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py for tasks to queue
+[2025-01-10T12:20:34.260-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:20:34.260-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:20:35.200-0800] {logging_mixin.py:190} INFO - 30yr_mortage data was saved to /Users/matthewmac/airflow/data/raw/30yr_mortage_2025-01-10.csv
+[2025-01-10T12:20:35.223-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date value
+0     2025-01-09   2025-01-09  1971-04-02  7.33
+1     2025-01-09   2025-01-09  1971-04-09  7.31
+2     2025-01-09   2025-01-09  1971-04-16  7.31
+3     2025-01-09   2025-01-09  1971-04-23  7.31
+4     2025-01-09   2025-01-09  1971-04-30  7.29
+[2025-01-10T12:20:35.519-0800] {logging_mixin.py:190} INFO - unemployment_rate data was saved to /Users/matthewmac/airflow/data/raw/unemployment_rate_2025-01-10.csv
+[2025-01-10T12:20:35.538-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date value
+0     2025-01-10   2025-01-10  1948-01-01   3.4
+1     2025-01-10   2025-01-10  1948-02-01   3.8
+2     2025-01-10   2025-01-10  1948-03-01   4.0
+3     2025-01-10   2025-01-10  1948-04-01   3.9
+4     2025-01-10   2025-01-10  1948-05-01   3.5
+[2025-01-10T12:20:35.790-0800] {logging_mixin.py:190} INFO - GDP data was saved to /Users/matthewmac/airflow/data/raw/GDP_2025-01-10.csv
+[2025-01-10T12:20:35.799-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date    value
+0     2024-12-19   2024-12-19  1946-01-01        .
+1     2024-12-19   2024-12-19  1946-04-01        .
+2     2024-12-19   2024-12-19  1946-07-01        .
+3     2024-12-19   2024-12-19  1946-10-01        .
+4     2024-12-19   2024-12-19  1947-01-01  243.164
+[2025-01-10T12:20:36.195-0800] {logging_mixin.py:190} INFO - US_CPI data was saved to /Users/matthewmac/airflow/data/raw/US_CPI_2025-01-10.csv
+[2025-01-10T12:20:36.211-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date  value
+0     2024-12-12   2024-12-12  1947-01-01  21.48
+1     2024-12-12   2024-12-12  1947-02-01  21.62
+2     2024-12-12   2024-12-12  1947-03-01   22.0
+3     2024-12-12   2024-12-12  1947-04-01   22.0
+4     2024-12-12   2024-12-12  1947-05-01  21.95
+[2025-01-10T12:20:36.461-0800] {logging_mixin.py:190} INFO - trade_balance data was saved to /Users/matthewmac/airflow/data/raw/trade_balance_2025-01-10.csv
+[2025-01-10T12:20:36.473-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date   value
+0     2024-12-21   2024-12-21  1946-01-01       .
+1     2024-12-21   2024-12-21  1946-04-01       .
+2     2024-12-21   2024-12-21  1946-07-01       .
+3     2024-12-21   2024-12-21  1946-10-01       .
+4     2024-12-21   2024-12-21  1947-01-01  10.875
+[2025-01-10T12:20:36.741-0800] {logging_mixin.py:190} INFO - industrial_production data was saved to /Users/matthewmac/airflow/data/raw/industrial_production_2025-01-10.csv
+[2025-01-10T12:20:36.752-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date   value
+0     2024-12-17   2024-12-17  1919-01-01  4.8654
+1     2024-12-17   2024-12-17  1919-02-01  4.6504
+2     2024-12-17   2024-12-17  1919-03-01   4.516
+3     2024-12-17   2024-12-17  1919-04-01  4.5966
+4     2024-12-17   2024-12-17  1919-05-01  4.6235
+[2025-01-10T12:20:36.777-0800] {processor.py:925} INFO - DAG(s) 'CovidE2EPipeDag' retrieved from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:20:36.928-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:20:36.928-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-10T12:20:36.950-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:20:36.950-0800] {dag.py:4180} INFO - Setting next_dagrun for CovidE2EPipeDag to 2025-01-10 20:00:00+00:00, run_after=2025-01-11 20:00:00+00:00
+[2025-01-10T12:20:36.972-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py took 2.721 seconds
+[2025-01-10T12:21:10.576-0800] {processor.py:186} INFO - Started process (PID=27875) to work on /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:21:10.579-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py for tasks to queue
+[2025-01-10T12:21:10.581-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:21:10.580-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:21:12.314-0800] {logging_mixin.py:190} INFO - 30yr_mortage data was saved to /Users/matthewmac/airflow/data/raw/30yr_mortage_2025-01-10.csv
+[2025-01-10T12:21:12.334-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date value
+0     2025-01-09   2025-01-09  1971-04-02  7.33
+1     2025-01-09   2025-01-09  1971-04-09  7.31
+2     2025-01-09   2025-01-09  1971-04-16  7.31
+3     2025-01-09   2025-01-09  1971-04-23  7.31
+4     2025-01-09   2025-01-09  1971-04-30  7.29
+[2025-01-10T12:21:12.596-0800] {logging_mixin.py:190} INFO - unemployment_rate data was saved to /Users/matthewmac/airflow/data/raw/unemployment_rate_2025-01-10.csv
+[2025-01-10T12:21:12.606-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date value
+0     2025-01-10   2025-01-10  1948-01-01   3.4
+1     2025-01-10   2025-01-10  1948-02-01   3.8
+2     2025-01-10   2025-01-10  1948-03-01   4.0
+3     2025-01-10   2025-01-10  1948-04-01   3.9
+4     2025-01-10   2025-01-10  1948-05-01   3.5
+[2025-01-10T12:21:12.908-0800] {logging_mixin.py:190} INFO - GDP data was saved to /Users/matthewmac/airflow/data/raw/GDP_2025-01-10.csv
+[2025-01-10T12:21:12.924-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date    value
+0     2024-12-19   2024-12-19  1946-01-01        .
+1     2024-12-19   2024-12-19  1946-04-01        .
+2     2024-12-19   2024-12-19  1946-07-01        .
+3     2024-12-19   2024-12-19  1946-10-01        .
+4     2024-12-19   2024-12-19  1947-01-01  243.164
+[2025-01-10T12:21:13.244-0800] {logging_mixin.py:190} INFO - US_CPI data was saved to /Users/matthewmac/airflow/data/raw/US_CPI_2025-01-10.csv
+[2025-01-10T12:21:13.254-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date  value
+0     2024-12-12   2024-12-12  1947-01-01  21.48
+1     2024-12-12   2024-12-12  1947-02-01  21.62
+2     2024-12-12   2024-12-12  1947-03-01   22.0
+3     2024-12-12   2024-12-12  1947-04-01   22.0
+4     2024-12-12   2024-12-12  1947-05-01  21.95
+[2025-01-10T12:21:13.540-0800] {logging_mixin.py:190} INFO - trade_balance data was saved to /Users/matthewmac/airflow/data/raw/trade_balance_2025-01-10.csv
+[2025-01-10T12:21:13.560-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date   value
+0     2024-12-21   2024-12-21  1946-01-01       .
+1     2024-12-21   2024-12-21  1946-04-01       .
+2     2024-12-21   2024-12-21  1946-07-01       .
+3     2024-12-21   2024-12-21  1946-10-01       .
+4     2024-12-21   2024-12-21  1947-01-01  10.875
+[2025-01-10T12:21:13.792-0800] {logging_mixin.py:190} INFO - industrial_production data was saved to /Users/matthewmac/airflow/data/raw/industrial_production_2025-01-10.csv
+[2025-01-10T12:21:13.801-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date   value
+0     2024-12-17   2024-12-17  1919-01-01  4.8654
+1     2024-12-17   2024-12-17  1919-02-01  4.6504
+2     2024-12-17   2024-12-17  1919-03-01   4.516
+3     2024-12-17   2024-12-17  1919-04-01  4.5966
+4     2024-12-17   2024-12-17  1919-05-01  4.6235
+[2025-01-10T12:21:13.826-0800] {processor.py:925} INFO - DAG(s) 'CovidE2EPipeDag' retrieved from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:21:13.997-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:21:13.996-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-10T12:21:14.025-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:21:14.025-0800] {dag.py:4180} INFO - Setting next_dagrun for CovidE2EPipeDag to 2025-01-10 20:00:00+00:00, run_after=2025-01-11 20:00:00+00:00
+[2025-01-10T12:21:14.050-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py took 3.482 seconds
+[2025-01-10T12:21:50.210-0800] {processor.py:186} INFO - Started process (PID=27879) to work on /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:21:50.214-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py for tasks to queue
+[2025-01-10T12:21:50.215-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:21:50.215-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:21:51.882-0800] {logging_mixin.py:190} INFO - 30yr_mortage data was saved to /Users/matthewmac/airflow/data/raw/30yr_mortage_2025-01-10.csv
+[2025-01-10T12:21:51.903-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date value
+0     2025-01-09   2025-01-09  1971-04-02  7.33
+1     2025-01-09   2025-01-09  1971-04-09  7.31
+2     2025-01-09   2025-01-09  1971-04-16  7.31
+3     2025-01-09   2025-01-09  1971-04-23  7.31
+4     2025-01-09   2025-01-09  1971-04-30  7.29
+[2025-01-10T12:21:52.205-0800] {logging_mixin.py:190} INFO - unemployment_rate data was saved to /Users/matthewmac/airflow/data/raw/unemployment_rate_2025-01-10.csv
+[2025-01-10T12:21:52.213-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date value
+0     2025-01-10   2025-01-10  1948-01-01   3.4
+1     2025-01-10   2025-01-10  1948-02-01   3.8
+2     2025-01-10   2025-01-10  1948-03-01   4.0
+3     2025-01-10   2025-01-10  1948-04-01   3.9
+4     2025-01-10   2025-01-10  1948-05-01   3.5
+[2025-01-10T12:21:52.516-0800] {logging_mixin.py:190} INFO - GDP data was saved to /Users/matthewmac/airflow/data/raw/GDP_2025-01-10.csv
+[2025-01-10T12:21:52.531-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date    value
+0     2024-12-19   2024-12-19  1946-01-01        .
+1     2024-12-19   2024-12-19  1946-04-01        .
+2     2024-12-19   2024-12-19  1946-07-01        .
+3     2024-12-19   2024-12-19  1946-10-01        .
+4     2024-12-19   2024-12-19  1947-01-01  243.164
+[2025-01-10T12:21:52.826-0800] {logging_mixin.py:190} INFO - US_CPI data was saved to /Users/matthewmac/airflow/data/raw/US_CPI_2025-01-10.csv
+[2025-01-10T12:21:52.839-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date  value
+0     2024-12-12   2024-12-12  1947-01-01  21.48
+1     2024-12-12   2024-12-12  1947-02-01  21.62
+2     2024-12-12   2024-12-12  1947-03-01   22.0
+3     2024-12-12   2024-12-12  1947-04-01   22.0
+4     2024-12-12   2024-12-12  1947-05-01  21.95
+[2025-01-10T12:21:53.081-0800] {logging_mixin.py:190} INFO - trade_balance data was saved to /Users/matthewmac/airflow/data/raw/trade_balance_2025-01-10.csv
+[2025-01-10T12:21:53.092-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date   value
+0     2024-12-21   2024-12-21  1946-01-01       .
+1     2024-12-21   2024-12-21  1946-04-01       .
+2     2024-12-21   2024-12-21  1946-07-01       .
+3     2024-12-21   2024-12-21  1946-10-01       .
+4     2024-12-21   2024-12-21  1947-01-01  10.875
+[2025-01-10T12:21:53.367-0800] {logging_mixin.py:190} INFO - industrial_production data was saved to /Users/matthewmac/airflow/data/raw/industrial_production_2025-01-10.csv
+[2025-01-10T12:21:53.379-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date   value
+0     2024-12-17   2024-12-17  1919-01-01  4.8654
+1     2024-12-17   2024-12-17  1919-02-01  4.6504
+2     2024-12-17   2024-12-17  1919-03-01   4.516
+3     2024-12-17   2024-12-17  1919-04-01  4.5966
+4     2024-12-17   2024-12-17  1919-05-01  4.6235
+[2025-01-10T12:21:53.408-0800] {processor.py:925} INFO - DAG(s) 'CovidE2EPipeDag' retrieved from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:21:53.564-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:21:53.563-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-10T12:21:53.589-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:21:53.589-0800] {dag.py:4180} INFO - Setting next_dagrun for CovidE2EPipeDag to 2025-01-10 20:00:00+00:00, run_after=2025-01-11 20:00:00+00:00
+[2025-01-10T12:21:53.617-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py took 3.412 seconds
+[2025-01-10T12:22:29.824-0800] {processor.py:186} INFO - Started process (PID=27973) to work on /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:22:29.829-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py for tasks to queue
+[2025-01-10T12:22:29.830-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:22:29.830-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:22:32.013-0800] {logging_mixin.py:190} INFO - 30yr_mortage data was saved to /Users/matthewmac/airflow/data/raw/30yr_mortage_2025-01-10.csv
+[2025-01-10T12:22:32.043-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date value
+0     2025-01-09   2025-01-09  1971-04-02  7.33
+1     2025-01-09   2025-01-09  1971-04-09  7.31
+2     2025-01-09   2025-01-09  1971-04-16  7.31
+3     2025-01-09   2025-01-09  1971-04-23  7.31
+4     2025-01-09   2025-01-09  1971-04-30  7.29
+[2025-01-10T12:22:32.313-0800] {logging_mixin.py:190} INFO - unemployment_rate data was saved to /Users/matthewmac/airflow/data/raw/unemployment_rate_2025-01-10.csv
+[2025-01-10T12:22:32.323-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date value
+0     2025-01-10   2025-01-10  1948-01-01   3.4
+1     2025-01-10   2025-01-10  1948-02-01   3.8
+2     2025-01-10   2025-01-10  1948-03-01   4.0
+3     2025-01-10   2025-01-10  1948-04-01   3.9
+4     2025-01-10   2025-01-10  1948-05-01   3.5
+[2025-01-10T12:22:32.556-0800] {logging_mixin.py:190} INFO - GDP data was saved to /Users/matthewmac/airflow/data/raw/GDP_2025-01-10.csv
+[2025-01-10T12:22:32.570-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date    value
+0     2024-12-19   2024-12-19  1946-01-01        .
+1     2024-12-19   2024-12-19  1946-04-01        .
+2     2024-12-19   2024-12-19  1946-07-01        .
+3     2024-12-19   2024-12-19  1946-10-01        .
+4     2024-12-19   2024-12-19  1947-01-01  243.164
+[2025-01-10T12:22:32.851-0800] {logging_mixin.py:190} INFO - US_CPI data was saved to /Users/matthewmac/airflow/data/raw/US_CPI_2025-01-10.csv
+[2025-01-10T12:22:32.882-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date  value
+0     2024-12-12   2024-12-12  1947-01-01  21.48
+1     2024-12-12   2024-12-12  1947-02-01  21.62
+2     2024-12-12   2024-12-12  1947-03-01   22.0
+3     2024-12-12   2024-12-12  1947-04-01   22.0
+4     2024-12-12   2024-12-12  1947-05-01  21.95
+[2025-01-10T12:22:33.534-0800] {logging_mixin.py:190} INFO - trade_balance data was saved to /Users/matthewmac/airflow/data/raw/trade_balance_2025-01-10.csv
+[2025-01-10T12:22:33.542-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date   value
+0     2024-12-21   2024-12-21  1946-01-01       .
+1     2024-12-21   2024-12-21  1946-04-01       .
+2     2024-12-21   2024-12-21  1946-07-01       .
+3     2024-12-21   2024-12-21  1946-10-01       .
+4     2024-12-21   2024-12-21  1947-01-01  10.875
+[2025-01-10T12:22:33.822-0800] {logging_mixin.py:190} INFO - industrial_production data was saved to /Users/matthewmac/airflow/data/raw/industrial_production_2025-01-10.csv
+[2025-01-10T12:22:33.834-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date   value
+0     2024-12-17   2024-12-17  1919-01-01  4.8654
+1     2024-12-17   2024-12-17  1919-02-01  4.6504
+2     2024-12-17   2024-12-17  1919-03-01   4.516
+3     2024-12-17   2024-12-17  1919-04-01  4.5966
+4     2024-12-17   2024-12-17  1919-05-01  4.6235
+[2025-01-10T12:22:33.858-0800] {processor.py:925} INFO - DAG(s) 'CovidE2EPipeDag' retrieved from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:22:34.040-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:22:34.039-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-10T12:22:34.073-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:22:34.073-0800] {dag.py:4180} INFO - Setting next_dagrun for CovidE2EPipeDag to 2025-01-10 20:00:00+00:00, run_after=2025-01-11 20:00:00+00:00
+[2025-01-10T12:22:34.123-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py took 4.307 seconds
+[2025-01-10T12:23:10.075-0800] {processor.py:186} INFO - Started process (PID=27989) to work on /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:23:10.078-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py for tasks to queue
+[2025-01-10T12:23:10.079-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:23:10.079-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:23:12.177-0800] {logging_mixin.py:190} INFO - 30yr_mortage data was saved to /Users/matthewmac/airflow/data/raw/30yr_mortage_2025-01-10.csv
+[2025-01-10T12:23:12.195-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date value
+0     2025-01-09   2025-01-09  1971-04-02  7.33
+1     2025-01-09   2025-01-09  1971-04-09  7.31
+2     2025-01-09   2025-01-09  1971-04-16  7.31
+3     2025-01-09   2025-01-09  1971-04-23  7.31
+4     2025-01-09   2025-01-09  1971-04-30  7.29
+[2025-01-10T12:23:12.631-0800] {logging_mixin.py:190} INFO - unemployment_rate data was saved to /Users/matthewmac/airflow/data/raw/unemployment_rate_2025-01-10.csv
+[2025-01-10T12:23:12.639-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date value
+0     2025-01-10   2025-01-10  1948-01-01   3.4
+1     2025-01-10   2025-01-10  1948-02-01   3.8
+2     2025-01-10   2025-01-10  1948-03-01   4.0
+3     2025-01-10   2025-01-10  1948-04-01   3.9
+4     2025-01-10   2025-01-10  1948-05-01   3.5
+[2025-01-10T12:23:12.971-0800] {logging_mixin.py:190} INFO - GDP data was saved to /Users/matthewmac/airflow/data/raw/GDP_2025-01-10.csv
+[2025-01-10T12:23:12.992-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date    value
+0     2024-12-19   2024-12-19  1946-01-01        .
+1     2024-12-19   2024-12-19  1946-04-01        .
+2     2024-12-19   2024-12-19  1946-07-01        .
+3     2024-12-19   2024-12-19  1946-10-01        .
+4     2024-12-19   2024-12-19  1947-01-01  243.164
+[2025-01-10T12:23:13.238-0800] {logging_mixin.py:190} INFO - US_CPI data was saved to /Users/matthewmac/airflow/data/raw/US_CPI_2025-01-10.csv
+[2025-01-10T12:23:13.248-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date  value
+0     2024-12-12   2024-12-12  1947-01-01  21.48
+1     2024-12-12   2024-12-12  1947-02-01  21.62
+2     2024-12-12   2024-12-12  1947-03-01   22.0
+3     2024-12-12   2024-12-12  1947-04-01   22.0
+4     2024-12-12   2024-12-12  1947-05-01  21.95
+[2025-01-10T12:23:13.507-0800] {logging_mixin.py:190} INFO - trade_balance data was saved to /Users/matthewmac/airflow/data/raw/trade_balance_2025-01-10.csv
+[2025-01-10T12:23:13.516-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date   value
+0     2024-12-24   2024-12-24  1946-01-01       .
+1     2024-12-24   2024-12-24  1946-04-01       .
+2     2024-12-24   2024-12-24  1946-07-01       .
+3     2024-12-24   2024-12-24  1946-10-01       .
+4     2024-12-24   2024-12-24  1947-01-01  10.875
+[2025-01-10T12:23:13.767-0800] {logging_mixin.py:190} INFO - industrial_production data was saved to /Users/matthewmac/airflow/data/raw/industrial_production_2025-01-10.csv
+[2025-01-10T12:23:13.778-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date   value
+0     2024-12-17   2024-12-17  1919-01-01  4.8654
+1     2024-12-17   2024-12-17  1919-02-01  4.6504
+2     2024-12-17   2024-12-17  1919-03-01   4.516
+3     2024-12-17   2024-12-17  1919-04-01  4.5966
+4     2024-12-17   2024-12-17  1919-05-01  4.6235
+[2025-01-10T12:23:13.809-0800] {processor.py:925} INFO - DAG(s) 'CovidE2EPipeDag' retrieved from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:23:13.964-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:23:13.964-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-10T12:23:13.994-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:23:13.994-0800] {dag.py:4180} INFO - Setting next_dagrun for CovidE2EPipeDag to 2025-01-10 20:00:00+00:00, run_after=2025-01-11 20:00:00+00:00
+[2025-01-10T12:23:14.025-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py took 3.954 seconds
+[2025-01-10T12:28:58.828-0800] {processor.py:186} INFO - Started process (PID=28693) to work on /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:28:58.830-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py for tasks to queue
+[2025-01-10T12:28:58.831-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:28:58.831-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:29:00.558-0800] {logging_mixin.py:190} INFO - 30yr_mortage data was saved to /Users/matthewmac/airflow/data/raw/30yr_mortage_2025-01-10.csv
+[2025-01-10T12:29:00.598-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date value
+0     2025-01-09   2025-01-09  1971-04-02  7.33
+1     2025-01-09   2025-01-09  1971-04-09  7.31
+2     2025-01-09   2025-01-09  1971-04-16  7.31
+3     2025-01-09   2025-01-09  1971-04-23  7.31
+4     2025-01-09   2025-01-09  1971-04-30  7.29
+[2025-01-10T12:29:00.835-0800] {logging_mixin.py:190} INFO - unemployment_rate data was saved to /Users/matthewmac/airflow/data/raw/unemployment_rate_2025-01-10.csv
+[2025-01-10T12:29:00.860-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date value
+0     2025-01-10   2025-01-10  1948-01-01   3.4
+1     2025-01-10   2025-01-10  1948-02-01   3.8
+2     2025-01-10   2025-01-10  1948-03-01   4.0
+3     2025-01-10   2025-01-10  1948-04-01   3.9
+4     2025-01-10   2025-01-10  1948-05-01   3.5
+[2025-01-10T12:29:01.095-0800] {logging_mixin.py:190} INFO - GDP data was saved to /Users/matthewmac/airflow/data/raw/GDP_2025-01-10.csv
+[2025-01-10T12:29:01.105-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date    value
+0     2024-12-19   2024-12-19  1946-01-01        .
+1     2024-12-19   2024-12-19  1946-04-01        .
+2     2024-12-19   2024-12-19  1946-07-01        .
+3     2024-12-19   2024-12-19  1946-10-01        .
+4     2024-12-19   2024-12-19  1947-01-01  243.164
+[2025-01-10T12:29:01.408-0800] {logging_mixin.py:190} INFO - US_CPI data was saved to /Users/matthewmac/airflow/data/raw/US_CPI_2025-01-10.csv
+[2025-01-10T12:29:01.437-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date  value
+0     2024-12-12   2024-12-12  1947-01-01  21.48
+1     2024-12-12   2024-12-12  1947-02-01  21.62
+2     2024-12-12   2024-12-12  1947-03-01   22.0
+3     2024-12-12   2024-12-12  1947-04-01   22.0
+4     2024-12-12   2024-12-12  1947-05-01  21.95
+[2025-01-10T12:29:01.688-0800] {logging_mixin.py:190} INFO - trade_balance data was saved to /Users/matthewmac/airflow/data/raw/trade_balance_2025-01-10.csv
+[2025-01-10T12:29:01.727-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date   value
+0     2024-12-21   2024-12-21  1946-01-01       .
+1     2024-12-21   2024-12-21  1946-04-01       .
+2     2024-12-21   2024-12-21  1946-07-01       .
+3     2024-12-21   2024-12-21  1946-10-01       .
+4     2024-12-21   2024-12-21  1947-01-01  10.875
+[2025-01-10T12:29:01.959-0800] {logging_mixin.py:190} INFO - industrial_production data was saved to /Users/matthewmac/airflow/data/raw/industrial_production_2025-01-10.csv
+[2025-01-10T12:29:01.969-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date   value
+0     2024-12-17   2024-12-17  1919-01-01  4.8654
+1     2024-12-17   2024-12-17  1919-02-01  4.6504
+2     2024-12-17   2024-12-17  1919-03-01   4.516
+3     2024-12-17   2024-12-17  1919-04-01  4.5966
+4     2024-12-17   2024-12-17  1919-05-01  4.6235
+[2025-01-10T12:29:01.993-0800] {processor.py:925} INFO - DAG(s) 'CovidE2EPipeDag' retrieved from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:29:02.507-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:29:02.507-0800] {override.py:1911} INFO - Created Permission View: can read on DAG:CovidE2EPipeDag
+[2025-01-10T12:29:02.519-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:29:02.518-0800] {override.py:1911} INFO - Created Permission View: can delete on DAG:CovidE2EPipeDag
+[2025-01-10T12:29:02.527-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:29:02.526-0800] {override.py:1911} INFO - Created Permission View: can edit on DAG:CovidE2EPipeDag
+[2025-01-10T12:29:02.541-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:29:02.541-0800] {override.py:1911} INFO - Created Permission View: can read on DAG Run:CovidE2EPipeDag
+[2025-01-10T12:29:02.559-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:29:02.559-0800] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:CovidE2EPipeDag
+[2025-01-10T12:29:02.576-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:29:02.575-0800] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:CovidE2EPipeDag
+[2025-01-10T12:29:02.588-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:29:02.588-0800] {override.py:1911} INFO - Created Permission View: can create on DAG Run:CovidE2EPipeDag
+[2025-01-10T12:29:02.589-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:29:02.589-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-10T12:29:02.606-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:29:02.605-0800] {dag.py:3262} INFO - Creating ORM DAG for CovidE2EPipeDag
+[2025-01-10T12:29:02.616-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:29:02.616-0800] {dag.py:4180} INFO - Setting next_dagrun for CovidE2EPipeDag to 2025-01-01 20:00:00+00:00, run_after=2025-01-02 20:00:00+00:00
+[2025-01-10T12:29:02.646-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py took 3.822 seconds
+[2025-01-10T12:29:35.563-0800] {processor.py:186} INFO - Started process (PID=28799) to work on /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:29:35.564-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py for tasks to queue
+[2025-01-10T12:29:35.566-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:29:35.565-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:29:36.471-0800] {logging_mixin.py:190} INFO - 30yr_mortage data was saved to /Users/matthewmac/airflow/data/raw/30yr_mortage_2025-01-10.csv
+[2025-01-10T12:29:36.487-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date value
+0     2025-01-09   2025-01-09  1971-04-02  7.33
+1     2025-01-09   2025-01-09  1971-04-09  7.31
+2     2025-01-09   2025-01-09  1971-04-16  7.31
+3     2025-01-09   2025-01-09  1971-04-23  7.31
+4     2025-01-09   2025-01-09  1971-04-30  7.29
+[2025-01-10T12:29:36.706-0800] {logging_mixin.py:190} INFO - unemployment_rate data was saved to /Users/matthewmac/airflow/data/raw/unemployment_rate_2025-01-10.csv
+[2025-01-10T12:29:36.725-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date value
+0     2025-01-10   2025-01-10  1948-01-01   3.4
+1     2025-01-10   2025-01-10  1948-02-01   3.8
+2     2025-01-10   2025-01-10  1948-03-01   4.0
+3     2025-01-10   2025-01-10  1948-04-01   3.9
+4     2025-01-10   2025-01-10  1948-05-01   3.5
+[2025-01-10T12:29:36.964-0800] {logging_mixin.py:190} INFO - GDP data was saved to /Users/matthewmac/airflow/data/raw/GDP_2025-01-10.csv
+[2025-01-10T12:29:36.976-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date    value
+0     2024-12-19   2024-12-19  1946-01-01        .
+1     2024-12-19   2024-12-19  1946-04-01        .
+2     2024-12-19   2024-12-19  1946-07-01        .
+3     2024-12-19   2024-12-19  1946-10-01        .
+4     2024-12-19   2024-12-19  1947-01-01  243.164
+[2025-01-10T12:29:37.212-0800] {logging_mixin.py:190} INFO - US_CPI data was saved to /Users/matthewmac/airflow/data/raw/US_CPI_2025-01-10.csv
+[2025-01-10T12:29:37.222-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date  value
+0     2024-12-12   2024-12-12  1947-01-01  21.48
+1     2024-12-12   2024-12-12  1947-02-01  21.62
+2     2024-12-12   2024-12-12  1947-03-01   22.0
+3     2024-12-12   2024-12-12  1947-04-01   22.0
+4     2024-12-12   2024-12-12  1947-05-01  21.95
+[2025-01-10T12:29:37.441-0800] {logging_mixin.py:190} INFO - trade_balance data was saved to /Users/matthewmac/airflow/data/raw/trade_balance_2025-01-10.csv
+[2025-01-10T12:29:37.458-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date   value
+0     2024-12-21   2024-12-21  1946-01-01       .
+1     2024-12-21   2024-12-21  1946-04-01       .
+2     2024-12-21   2024-12-21  1946-07-01       .
+3     2024-12-21   2024-12-21  1946-10-01       .
+4     2024-12-21   2024-12-21  1947-01-01  10.875
+[2025-01-10T12:29:37.774-0800] {logging_mixin.py:190} INFO - industrial_production data was saved to /Users/matthewmac/airflow/data/raw/industrial_production_2025-01-10.csv
+[2025-01-10T12:29:37.783-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date   value
+0     2024-12-17   2024-12-17  1919-01-01  4.8654
+1     2024-12-17   2024-12-17  1919-02-01  4.6504
+2     2024-12-17   2024-12-17  1919-03-01   4.516
+3     2024-12-17   2024-12-17  1919-04-01  4.5966
+4     2024-12-17   2024-12-17  1919-05-01  4.6235
+[2025-01-10T12:29:37.796-0800] {processor.py:925} INFO - DAG(s) 'CovidE2EPipeDag' retrieved from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:29:37.927-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:29:37.926-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-10T12:29:37.955-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:29:37.954-0800] {dag.py:4180} INFO - Setting next_dagrun for CovidE2EPipeDag to 2025-01-01 20:00:00+00:00, run_after=2025-01-02 20:00:00+00:00
+[2025-01-10T12:29:37.978-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py took 2.419 seconds
+[2025-01-10T12:30:13.726-0800] {processor.py:186} INFO - Started process (PID=28847) to work on /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:30:13.729-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py for tasks to queue
+[2025-01-10T12:30:13.731-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:30:13.731-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:30:15.388-0800] {logging_mixin.py:190} INFO - 30yr_mortage data was saved to /Users/matthewmac/airflow/data/raw/30yr_mortage_2025-01-10.csv
+[2025-01-10T12:30:15.409-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date value
+0     2025-01-09   2025-01-09  1971-04-02  7.33
+1     2025-01-09   2025-01-09  1971-04-09  7.31
+2     2025-01-09   2025-01-09  1971-04-16  7.31
+3     2025-01-09   2025-01-09  1971-04-23  7.31
+4     2025-01-09   2025-01-09  1971-04-30  7.29
+[2025-01-10T12:30:15.692-0800] {logging_mixin.py:190} INFO - unemployment_rate data was saved to /Users/matthewmac/airflow/data/raw/unemployment_rate_2025-01-10.csv
+[2025-01-10T12:30:15.701-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date value
+0     2025-01-10   2025-01-10  1948-01-01   3.4
+1     2025-01-10   2025-01-10  1948-02-01   3.8
+2     2025-01-10   2025-01-10  1948-03-01   4.0
+3     2025-01-10   2025-01-10  1948-04-01   3.9
+4     2025-01-10   2025-01-10  1948-05-01   3.5
+[2025-01-10T12:30:15.908-0800] {logging_mixin.py:190} INFO - GDP data was saved to /Users/matthewmac/airflow/data/raw/GDP_2025-01-10.csv
+[2025-01-10T12:30:15.916-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date    value
+0     2024-12-19   2024-12-19  1946-01-01        .
+1     2024-12-19   2024-12-19  1946-04-01        .
+2     2024-12-19   2024-12-19  1946-07-01        .
+3     2024-12-19   2024-12-19  1946-10-01        .
+4     2024-12-19   2024-12-19  1947-01-01  243.164
+[2025-01-10T12:30:16.156-0800] {logging_mixin.py:190} INFO - US_CPI data was saved to /Users/matthewmac/airflow/data/raw/US_CPI_2025-01-10.csv
+[2025-01-10T12:30:16.165-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date  value
+0     2024-12-12   2024-12-12  1947-01-01  21.48
+1     2024-12-12   2024-12-12  1947-02-01  21.62
+2     2024-12-12   2024-12-12  1947-03-01   22.0
+3     2024-12-12   2024-12-12  1947-04-01   22.0
+4     2024-12-12   2024-12-12  1947-05-01  21.95
+[2025-01-10T12:30:16.410-0800] {logging_mixin.py:190} INFO - trade_balance data was saved to /Users/matthewmac/airflow/data/raw/trade_balance_2025-01-10.csv
+[2025-01-10T12:30:16.421-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date   value
+0     2024-12-21   2024-12-21  1946-01-01       .
+1     2024-12-21   2024-12-21  1946-04-01       .
+2     2024-12-21   2024-12-21  1946-07-01       .
+3     2024-12-21   2024-12-21  1946-10-01       .
+4     2024-12-21   2024-12-21  1947-01-01  10.875
+[2025-01-10T12:30:16.762-0800] {logging_mixin.py:190} INFO - industrial_production data was saved to /Users/matthewmac/airflow/data/raw/industrial_production_2025-01-10.csv
+[2025-01-10T12:30:16.773-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date   value
+0     2024-12-17   2024-12-17  1919-01-01  4.8654
+1     2024-12-17   2024-12-17  1919-02-01  4.6504
+2     2024-12-17   2024-12-17  1919-03-01   4.516
+3     2024-12-17   2024-12-17  1919-04-01  4.5966
+4     2024-12-17   2024-12-17  1919-05-01  4.6235
+[2025-01-10T12:30:16.798-0800] {processor.py:925} INFO - DAG(s) 'CovidE2EPipeDag' retrieved from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:30:16.980-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:30:16.980-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-10T12:30:17.009-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:30:17.008-0800] {dag.py:4180} INFO - Setting next_dagrun for CovidE2EPipeDag to 2025-01-01 20:00:00+00:00, run_after=2025-01-02 20:00:00+00:00
+[2025-01-10T12:30:17.032-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py took 3.311 seconds
+[2025-01-10T12:31:03.900-0800] {processor.py:186} INFO - Started process (PID=28908) to work on /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:31:03.903-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py for tasks to queue
+[2025-01-10T12:31:03.905-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:31:03.905-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:31:05.649-0800] {logging_mixin.py:190} INFO - 30yr_mortage data was saved to /Users/matthewmac/airflow/data/raw/30yr_mortage_2025-01-10.csv
+[2025-01-10T12:31:05.671-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date value
+0     2025-01-09   2025-01-09  1971-04-02  7.33
+1     2025-01-09   2025-01-09  1971-04-09  7.31
+2     2025-01-09   2025-01-09  1971-04-16  7.31
+3     2025-01-09   2025-01-09  1971-04-23  7.31
+4     2025-01-09   2025-01-09  1971-04-30  7.29
+[2025-01-10T12:31:05.895-0800] {logging_mixin.py:190} INFO - unemployment_rate data was saved to /Users/matthewmac/airflow/data/raw/unemployment_rate_2025-01-10.csv
+[2025-01-10T12:31:05.908-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date value
+0     2025-01-10   2025-01-10  1948-01-01   3.4
+1     2025-01-10   2025-01-10  1948-02-01   3.8
+2     2025-01-10   2025-01-10  1948-03-01   4.0
+3     2025-01-10   2025-01-10  1948-04-01   3.9
+4     2025-01-10   2025-01-10  1948-05-01   3.5
+[2025-01-10T12:31:06.144-0800] {logging_mixin.py:190} INFO - GDP data was saved to /Users/matthewmac/airflow/data/raw/GDP_2025-01-10.csv
+[2025-01-10T12:31:06.176-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date    value
+0     2024-12-19   2024-12-19  1946-01-01        .
+1     2024-12-19   2024-12-19  1946-04-01        .
+2     2024-12-19   2024-12-19  1946-07-01        .
+3     2024-12-19   2024-12-19  1946-10-01        .
+4     2024-12-19   2024-12-19  1947-01-01  243.164
+[2025-01-10T12:31:06.397-0800] {logging_mixin.py:190} INFO - US_CPI data was saved to /Users/matthewmac/airflow/data/raw/US_CPI_2025-01-10.csv
+[2025-01-10T12:31:06.411-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date  value
+0     2024-12-12   2024-12-12  1947-01-01  21.48
+1     2024-12-12   2024-12-12  1947-02-01  21.62
+2     2024-12-12   2024-12-12  1947-03-01   22.0
+3     2024-12-12   2024-12-12  1947-04-01   22.0
+4     2024-12-12   2024-12-12  1947-05-01  21.95
+[2025-01-10T12:31:06.630-0800] {logging_mixin.py:190} INFO - trade_balance data was saved to /Users/matthewmac/airflow/data/raw/trade_balance_2025-01-10.csv
+[2025-01-10T12:31:06.641-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date   value
+0     2024-12-21   2024-12-21  1946-01-01       .
+1     2024-12-21   2024-12-21  1946-04-01       .
+2     2024-12-21   2024-12-21  1946-07-01       .
+3     2024-12-21   2024-12-21  1946-10-01       .
+4     2024-12-21   2024-12-21  1947-01-01  10.875
+[2025-01-10T12:31:06.930-0800] {logging_mixin.py:190} INFO - industrial_production data was saved to /Users/matthewmac/airflow/data/raw/industrial_production_2025-01-10.csv
+[2025-01-10T12:31:06.940-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date   value
+0     2024-12-17   2024-12-17  1919-01-01  4.8654
+1     2024-12-17   2024-12-17  1919-02-01  4.6504
+2     2024-12-17   2024-12-17  1919-03-01   4.516
+3     2024-12-17   2024-12-17  1919-04-01  4.5966
+4     2024-12-17   2024-12-17  1919-05-01  4.6235
+[2025-01-10T12:31:06.966-0800] {processor.py:925} INFO - DAG(s) 'CovidE2EPipeDag' retrieved from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:31:07.116-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:31:07.116-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-10T12:31:07.145-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:31:07.145-0800] {dag.py:4180} INFO - Setting next_dagrun for CovidE2EPipeDag to 2025-01-01 20:00:00+00:00, run_after=2025-01-02 20:00:00+00:00
+[2025-01-10T12:31:07.206-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py took 3.315 seconds
+[2025-01-10T12:46:09.125-0800] {processor.py:186} INFO - Started process (PID=29271) to work on /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:46:09.127-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py for tasks to queue
+[2025-01-10T12:46:09.128-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:46:09.128-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:46:12.713-0800] {logging_mixin.py:190} INFO - 30yr_mortage data was saved to /Users/matthewmac/airflow/data/raw/30yr_mortage_2025-01-10.csv
+[2025-01-10T12:46:12.748-0800] {logging_mixin.py:190} INFO -   realtime_start  ... value
+0     2025-01-09  ...  7.33
+1     2025-01-09  ...  7.31
+2     2025-01-09  ...  7.31
+3     2025-01-09  ...  7.31
+4     2025-01-09  ...  7.29
+
+[5 rows x 4 columns]
+[2025-01-10T12:46:13.046-0800] {logging_mixin.py:190} INFO - unemployment_rate data was saved to /Users/matthewmac/airflow/data/raw/unemployment_rate_2025-01-10.csv
+[2025-01-10T12:46:13.058-0800] {logging_mixin.py:190} INFO -   realtime_start  ... value
+0     2025-01-10  ...   3.4
+1     2025-01-10  ...   3.8
+2     2025-01-10  ...   4.0
+3     2025-01-10  ...   3.9
+4     2025-01-10  ...   3.5
+
+[5 rows x 4 columns]
+[2025-01-10T12:46:13.360-0800] {logging_mixin.py:190} INFO - GDP data was saved to /Users/matthewmac/airflow/data/raw/GDP_2025-01-10.csv
+[2025-01-10T12:46:13.387-0800] {logging_mixin.py:190} INFO -   realtime_start  ...    value
+0     2024-12-19  ...        .
+1     2024-12-19  ...        .
+2     2024-12-19  ...        .
+3     2024-12-19  ...        .
+4     2024-12-19  ...  243.164
+
+[5 rows x 4 columns]
+[2025-01-10T12:46:14.140-0800] {logging_mixin.py:190} INFO - US_CPI data was saved to /Users/matthewmac/airflow/data/raw/US_CPI_2025-01-10.csv
+[2025-01-10T12:46:14.153-0800] {logging_mixin.py:190} INFO -   realtime_start  ...  value
+0     2024-12-12  ...  21.48
+1     2024-12-12  ...  21.62
+2     2024-12-12  ...   22.0
+3     2024-12-12  ...   22.0
+4     2024-12-12  ...  21.95
+
+[5 rows x 4 columns]
+[2025-01-10T12:46:14.699-0800] {logging_mixin.py:190} INFO - trade_balance data was saved to /Users/matthewmac/airflow/data/raw/trade_balance_2025-01-10.csv
+[2025-01-10T12:46:14.711-0800] {logging_mixin.py:190} INFO -   realtime_start  ...   value
+0     2024-12-21  ...       .
+1     2024-12-21  ...       .
+2     2024-12-21  ...       .
+3     2024-12-21  ...       .
+4     2024-12-21  ...  10.875
+
+[5 rows x 4 columns]
+[2025-01-10T12:46:15.017-0800] {logging_mixin.py:190} INFO - industrial_production data was saved to /Users/matthewmac/airflow/data/raw/industrial_production_2025-01-10.csv
+[2025-01-10T12:46:15.029-0800] {logging_mixin.py:190} INFO -   realtime_start  ...   value
+0     2024-12-17  ...  4.8654
+1     2024-12-17  ...  4.6504
+2     2024-12-17  ...   4.516
+3     2024-12-17  ...  4.5966
+4     2024-12-17  ...  4.6235
+
+[5 rows x 4 columns]
+[2025-01-10T12:46:15.056-0800] {processor.py:925} INFO - DAG(s) 'CovidE2EPipeDag' retrieved from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:46:15.215-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:46:15.214-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-10T12:46:15.249-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:46:15.248-0800] {dag.py:4180} INFO - Setting next_dagrun for CovidE2EPipeDag to 2025-01-01 20:00:00+00:00, run_after=2025-01-02 20:00:00+00:00
+[2025-01-10T12:46:15.279-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py took 6.161 seconds
+[2025-01-10T12:46:52.955-0800] {processor.py:186} INFO - Started process (PID=29330) to work on /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:46:52.962-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py for tasks to queue
+[2025-01-10T12:46:52.966-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:46:52.965-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:46:54.826-0800] {logging_mixin.py:190} INFO - 30yr_mortage data was saved to /Users/matthewmac/airflow/data/raw/30yr_mortage_2025-01-10.csv
+[2025-01-10T12:46:54.857-0800] {logging_mixin.py:190} INFO -   realtime_start  ... value
+0     2025-01-09  ...  7.33
+1     2025-01-09  ...  7.31
+2     2025-01-09  ...  7.31
+3     2025-01-09  ...  7.31
+4     2025-01-09  ...  7.29
+
+[5 rows x 4 columns]
+[2025-01-10T12:46:55.113-0800] {logging_mixin.py:190} INFO - unemployment_rate data was saved to /Users/matthewmac/airflow/data/raw/unemployment_rate_2025-01-10.csv
+[2025-01-10T12:46:55.129-0800] {logging_mixin.py:190} INFO -   realtime_start  ... value
+0     2025-01-10  ...   3.4
+1     2025-01-10  ...   3.8
+2     2025-01-10  ...   4.0
+3     2025-01-10  ...   3.9
+4     2025-01-10  ...   3.5
+
+[5 rows x 4 columns]
+[2025-01-10T12:46:55.394-0800] {logging_mixin.py:190} INFO - GDP data was saved to /Users/matthewmac/airflow/data/raw/GDP_2025-01-10.csv
+[2025-01-10T12:46:55.414-0800] {logging_mixin.py:190} INFO -   realtime_start  ...    value
+0     2024-12-19  ...        .
+1     2024-12-19  ...        .
+2     2024-12-19  ...        .
+3     2024-12-19  ...        .
+4     2024-12-19  ...  243.164
+
+[5 rows x 4 columns]
+[2025-01-10T12:46:55.718-0800] {logging_mixin.py:190} INFO - US_CPI data was saved to /Users/matthewmac/airflow/data/raw/US_CPI_2025-01-10.csv
+[2025-01-10T12:46:55.732-0800] {logging_mixin.py:190} INFO -   realtime_start  ...  value
+0     2024-12-12  ...  21.48
+1     2024-12-12  ...  21.62
+2     2024-12-12  ...   22.0
+3     2024-12-12  ...   22.0
+4     2024-12-12  ...  21.95
+
+[5 rows x 4 columns]
+[2025-01-10T12:46:56.028-0800] {logging_mixin.py:190} INFO - trade_balance data was saved to /Users/matthewmac/airflow/data/raw/trade_balance_2025-01-10.csv
+[2025-01-10T12:46:56.035-0800] {logging_mixin.py:190} INFO -   realtime_start  ...   value
+0     2024-12-21  ...       .
+1     2024-12-21  ...       .
+2     2024-12-21  ...       .
+3     2024-12-21  ...       .
+4     2024-12-21  ...  10.875
+
+[5 rows x 4 columns]
+[2025-01-10T12:46:56.743-0800] {logging_mixin.py:190} INFO - industrial_production data was saved to /Users/matthewmac/airflow/data/raw/industrial_production_2025-01-10.csv
+[2025-01-10T12:46:56.757-0800] {logging_mixin.py:190} INFO -   realtime_start  ...   value
+0     2024-12-17  ...  4.8654
+1     2024-12-17  ...  4.6504
+2     2024-12-17  ...   4.516
+3     2024-12-17  ...  4.5966
+4     2024-12-17  ...  4.6235
+
+[5 rows x 4 columns]
+[2025-01-10T12:46:56.785-0800] {processor.py:925} INFO - DAG(s) 'CovidE2EPipeDag' retrieved from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:46:56.958-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:46:56.958-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-10T12:46:57.003-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:46:57.003-0800] {dag.py:4180} INFO - Setting next_dagrun for CovidE2EPipeDag to 2025-01-01 20:00:00+00:00, run_after=2025-01-02 20:00:00+00:00
+[2025-01-10T12:46:57.033-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py took 4.089 seconds
+[2025-01-10T12:47:32.614-0800] {processor.py:186} INFO - Started process (PID=29410) to work on /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:47:32.617-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py for tasks to queue
+[2025-01-10T12:47:32.619-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:47:32.619-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:47:34.461-0800] {logging_mixin.py:190} INFO - 30yr_mortage data was saved to /Users/matthewmac/airflow/data/raw/30yr_mortage_2025-01-10.csv
+[2025-01-10T12:47:34.484-0800] {logging_mixin.py:190} INFO -   realtime_start  ... value
+0     2025-01-09  ...  7.33
+1     2025-01-09  ...  7.31
+2     2025-01-09  ...  7.31
+3     2025-01-09  ...  7.31
+4     2025-01-09  ...  7.29
+
+[5 rows x 4 columns]
+[2025-01-10T12:47:35.345-0800] {logging_mixin.py:190} INFO - unemployment_rate data was saved to /Users/matthewmac/airflow/data/raw/unemployment_rate_2025-01-10.csv
+[2025-01-10T12:47:35.357-0800] {logging_mixin.py:190} INFO -   realtime_start  ... value
+0     2025-01-10  ...   3.4
+1     2025-01-10  ...   3.8
+2     2025-01-10  ...   4.0
+3     2025-01-10  ...   3.9
+4     2025-01-10  ...   3.5
+
+[5 rows x 4 columns]
+[2025-01-10T12:47:36.467-0800] {logging_mixin.py:190} INFO - GDP data was saved to /Users/matthewmac/airflow/data/raw/GDP_2025-01-10.csv
+[2025-01-10T12:47:36.480-0800] {logging_mixin.py:190} INFO -   realtime_start  ...    value
+0     2024-12-19  ...        .
+1     2024-12-19  ...        .
+2     2024-12-19  ...        .
+3     2024-12-19  ...        .
+4     2024-12-19  ...  243.164
+
+[5 rows x 4 columns]
+[2025-01-10T12:47:36.756-0800] {logging_mixin.py:190} INFO - US_CPI data was saved to /Users/matthewmac/airflow/data/raw/US_CPI_2025-01-10.csv
+[2025-01-10T12:47:36.765-0800] {logging_mixin.py:190} INFO -   realtime_start  ...  value
+0     2024-12-12  ...  21.48
+1     2024-12-12  ...  21.62
+2     2024-12-12  ...   22.0
+3     2024-12-12  ...   22.0
+4     2024-12-12  ...  21.95
+
+[5 rows x 4 columns]
+[2025-01-10T12:47:37.308-0800] {logging_mixin.py:190} INFO - trade_balance data was saved to /Users/matthewmac/airflow/data/raw/trade_balance_2025-01-10.csv
+[2025-01-10T12:47:37.322-0800] {logging_mixin.py:190} INFO -   realtime_start  ...   value
+0     2024-12-21  ...       .
+1     2024-12-21  ...       .
+2     2024-12-21  ...       .
+3     2024-12-21  ...       .
+4     2024-12-21  ...  10.875
+
+[5 rows x 4 columns]
+[2025-01-10T12:47:37.716-0800] {logging_mixin.py:190} INFO - industrial_production data was saved to /Users/matthewmac/airflow/data/raw/industrial_production_2025-01-10.csv
+[2025-01-10T12:47:37.728-0800] {logging_mixin.py:190} INFO -   realtime_start  ...   value
+0     2024-12-17  ...  4.8654
+1     2024-12-17  ...  4.6504
+2     2024-12-17  ...   4.516
+3     2024-12-17  ...  4.5966
+4     2024-12-17  ...  4.6235
+
+[5 rows x 4 columns]
+[2025-01-10T12:47:37.758-0800] {processor.py:925} INFO - DAG(s) 'CovidE2EPipeDag' retrieved from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:47:37.910-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:47:37.909-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-10T12:47:37.936-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:47:37.936-0800] {dag.py:4180} INFO - Setting next_dagrun for CovidE2EPipeDag to 2025-01-01 20:00:00+00:00, run_after=2025-01-02 20:00:00+00:00
+[2025-01-10T12:47:37.962-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py took 5.353 seconds
+[2025-01-10T12:48:14.127-0800] {processor.py:186} INFO - Started process (PID=29458) to work on /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:48:14.130-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py for tasks to queue
+[2025-01-10T12:48:14.132-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:48:14.132-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:48:15.829-0800] {logging_mixin.py:190} INFO - 30yr_mortage data was saved to /Users/matthewmac/airflow/data/raw/30yr_mortage_2025-01-10.csv
+[2025-01-10T12:48:15.855-0800] {logging_mixin.py:190} INFO -   realtime_start  ... value
+0     2025-01-09  ...  7.33
+1     2025-01-09  ...  7.31
+2     2025-01-09  ...  7.31
+3     2025-01-09  ...  7.31
+4     2025-01-09  ...  7.29
+
+[5 rows x 4 columns]
+[2025-01-10T12:48:16.445-0800] {logging_mixin.py:190} INFO - unemployment_rate data was saved to /Users/matthewmac/airflow/data/raw/unemployment_rate_2025-01-10.csv
+[2025-01-10T12:48:16.464-0800] {logging_mixin.py:190} INFO -   realtime_start  ... value
+0     2025-01-10  ...   3.4
+1     2025-01-10  ...   3.8
+2     2025-01-10  ...   4.0
+3     2025-01-10  ...   3.9
+4     2025-01-10  ...   3.5
+
+[5 rows x 4 columns]
+[2025-01-10T12:48:16.691-0800] {logging_mixin.py:190} INFO - GDP data was saved to /Users/matthewmac/airflow/data/raw/GDP_2025-01-10.csv
+[2025-01-10T12:48:16.710-0800] {logging_mixin.py:190} INFO -   realtime_start  ...    value
+0     2024-12-19  ...        .
+1     2024-12-19  ...        .
+2     2024-12-19  ...        .
+3     2024-12-19  ...        .
+4     2024-12-19  ...  243.164
+
+[5 rows x 4 columns]
+[2025-01-10T12:48:16.941-0800] {logging_mixin.py:190} INFO - US_CPI data was saved to /Users/matthewmac/airflow/data/raw/US_CPI_2025-01-10.csv
+[2025-01-10T12:48:16.952-0800] {logging_mixin.py:190} INFO -   realtime_start  ...  value
+0     2024-12-12  ...  21.48
+1     2024-12-12  ...  21.62
+2     2024-12-12  ...   22.0
+3     2024-12-12  ...   22.0
+4     2024-12-12  ...  21.95
+
+[5 rows x 4 columns]
+[2025-01-10T12:48:17.255-0800] {logging_mixin.py:190} INFO - trade_balance data was saved to /Users/matthewmac/airflow/data/raw/trade_balance_2025-01-10.csv
+[2025-01-10T12:48:17.266-0800] {logging_mixin.py:190} INFO -   realtime_start  ...   value
+0     2024-12-21  ...       .
+1     2024-12-21  ...       .
+2     2024-12-21  ...       .
+3     2024-12-21  ...       .
+4     2024-12-21  ...  10.875
+
+[5 rows x 4 columns]
+[2025-01-10T12:48:17.653-0800] {logging_mixin.py:190} INFO - industrial_production data was saved to /Users/matthewmac/airflow/data/raw/industrial_production_2025-01-10.csv
+[2025-01-10T12:48:17.674-0800] {logging_mixin.py:190} INFO -   realtime_start  ...   value
+0     2024-12-17  ...  4.8654
+1     2024-12-17  ...  4.6504
+2     2024-12-17  ...   4.516
+3     2024-12-17  ...  4.5966
+4     2024-12-17  ...  4.6235
+
+[5 rows x 4 columns]
+[2025-01-10T12:48:17.705-0800] {processor.py:925} INFO - DAG(s) 'CovidE2EPipeDag' retrieved from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:48:17.881-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:48:17.880-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-10T12:48:17.907-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:48:17.907-0800] {dag.py:4180} INFO - Setting next_dagrun for CovidE2EPipeDag to 2025-01-01 20:00:00+00:00, run_after=2025-01-02 20:00:00+00:00
+[2025-01-10T12:48:17.932-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py took 3.808 seconds
+[2025-01-10T12:49:53.207-0800] {processor.py:186} INFO - Started process (PID=29649) to work on /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:49:53.209-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py for tasks to queue
+[2025-01-10T12:49:53.212-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:49:53.211-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:49:55.017-0800] {logging_mixin.py:190} INFO - 30yr_mortage data was saved to /Users/matthewmac/airflow/data/raw/30yr_mortage_2025-01-10.csv
+[2025-01-10T12:49:55.035-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date value
+0     2025-01-09   2025-01-09  1971-04-02  7.33
+1     2025-01-09   2025-01-09  1971-04-09  7.31
+2     2025-01-09   2025-01-09  1971-04-16  7.31
+3     2025-01-09   2025-01-09  1971-04-23  7.31
+4     2025-01-09   2025-01-09  1971-04-30  7.29
+[2025-01-10T12:49:55.328-0800] {logging_mixin.py:190} INFO - unemployment_rate data was saved to /Users/matthewmac/airflow/data/raw/unemployment_rate_2025-01-10.csv
+[2025-01-10T12:49:55.338-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date value
+0     2025-01-10   2025-01-10  1948-01-01   3.4
+1     2025-01-10   2025-01-10  1948-02-01   3.8
+2     2025-01-10   2025-01-10  1948-03-01   4.0
+3     2025-01-10   2025-01-10  1948-04-01   3.9
+4     2025-01-10   2025-01-10  1948-05-01   3.5
+[2025-01-10T12:49:55.556-0800] {logging_mixin.py:190} INFO - GDP data was saved to /Users/matthewmac/airflow/data/raw/GDP_2025-01-10.csv
+[2025-01-10T12:49:55.567-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date    value
+0     2024-12-19   2024-12-19  1946-01-01        .
+1     2024-12-19   2024-12-19  1946-04-01        .
+2     2024-12-19   2024-12-19  1946-07-01        .
+3     2024-12-19   2024-12-19  1946-10-01        .
+4     2024-12-19   2024-12-19  1947-01-01  243.164
+[2025-01-10T12:49:55.795-0800] {logging_mixin.py:190} INFO - US_CPI data was saved to /Users/matthewmac/airflow/data/raw/US_CPI_2025-01-10.csv
+[2025-01-10T12:49:55.806-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date  value
+0     2024-12-12   2024-12-12  1947-01-01  21.48
+1     2024-12-12   2024-12-12  1947-02-01  21.62
+2     2024-12-12   2024-12-12  1947-03-01   22.0
+3     2024-12-12   2024-12-12  1947-04-01   22.0
+4     2024-12-12   2024-12-12  1947-05-01  21.95
+[2025-01-10T12:49:56.090-0800] {logging_mixin.py:190} INFO - trade_balance data was saved to /Users/matthewmac/airflow/data/raw/trade_balance_2025-01-10.csv
+[2025-01-10T12:49:56.099-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date   value
+0     2024-12-21   2024-12-21  1946-01-01       .
+1     2024-12-21   2024-12-21  1946-04-01       .
+2     2024-12-21   2024-12-21  1946-07-01       .
+3     2024-12-21   2024-12-21  1946-10-01       .
+4     2024-12-21   2024-12-21  1947-01-01  10.875
+[2025-01-10T12:49:56.616-0800] {logging_mixin.py:190} INFO - industrial_production data was saved to /Users/matthewmac/airflow/data/raw/industrial_production_2025-01-10.csv
+[2025-01-10T12:49:56.627-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date   value
+0     2024-12-17   2024-12-17  1919-01-01  4.8654
+1     2024-12-17   2024-12-17  1919-02-01  4.6504
+2     2024-12-17   2024-12-17  1919-03-01   4.516
+3     2024-12-17   2024-12-17  1919-04-01  4.5966
+4     2024-12-17   2024-12-17  1919-05-01  4.6235
+[2025-01-10T12:49:56.650-0800] {processor.py:925} INFO - DAG(s) 'CovidE2EPipeDag' retrieved from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:49:56.813-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:49:56.812-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-10T12:49:56.836-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:49:56.836-0800] {dag.py:4180} INFO - Setting next_dagrun for CovidE2EPipeDag to 2025-01-01 20:00:00+00:00, run_after=2025-01-02 20:00:00+00:00
+[2025-01-10T12:49:56.864-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py took 3.675 seconds
+[2025-01-10T12:50:32.840-0800] {processor.py:186} INFO - Started process (PID=29744) to work on /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:50:32.844-0800] {processor.py:914} INFO - Processing file /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py for tasks to queue
+[2025-01-10T12:50:32.846-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:50:32.845-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:50:34.549-0800] {logging_mixin.py:190} INFO - 30yr_mortage data was saved to /Users/matthewmac/airflow/data/raw/30yr_mortage_2025-01-10.csv
+[2025-01-10T12:50:34.567-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date value
+0     2025-01-09   2025-01-09  1971-04-02  7.33
+1     2025-01-09   2025-01-09  1971-04-09  7.31
+2     2025-01-09   2025-01-09  1971-04-16  7.31
+3     2025-01-09   2025-01-09  1971-04-23  7.31
+4     2025-01-09   2025-01-09  1971-04-30  7.29
+[2025-01-10T12:50:34.852-0800] {logging_mixin.py:190} INFO - unemployment_rate data was saved to /Users/matthewmac/airflow/data/raw/unemployment_rate_2025-01-10.csv
+[2025-01-10T12:50:34.862-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date value
+0     2025-01-10   2025-01-10  1948-01-01   3.4
+1     2025-01-10   2025-01-10  1948-02-01   3.8
+2     2025-01-10   2025-01-10  1948-03-01   4.0
+3     2025-01-10   2025-01-10  1948-04-01   3.9
+4     2025-01-10   2025-01-10  1948-05-01   3.5
+[2025-01-10T12:50:35.087-0800] {logging_mixin.py:190} INFO - GDP data was saved to /Users/matthewmac/airflow/data/raw/GDP_2025-01-10.csv
+[2025-01-10T12:50:35.103-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date    value
+0     2024-12-19   2024-12-19  1946-01-01        .
+1     2024-12-19   2024-12-19  1946-04-01        .
+2     2024-12-19   2024-12-19  1946-07-01        .
+3     2024-12-19   2024-12-19  1946-10-01        .
+4     2024-12-19   2024-12-19  1947-01-01  243.164
+[2025-01-10T12:50:35.330-0800] {logging_mixin.py:190} INFO - US_CPI data was saved to /Users/matthewmac/airflow/data/raw/US_CPI_2025-01-10.csv
+[2025-01-10T12:50:35.339-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date  value
+0     2024-12-12   2024-12-12  1947-01-01  21.48
+1     2024-12-12   2024-12-12  1947-02-01  21.62
+2     2024-12-12   2024-12-12  1947-03-01   22.0
+3     2024-12-12   2024-12-12  1947-04-01   22.0
+4     2024-12-12   2024-12-12  1947-05-01  21.95
+[2025-01-10T12:50:35.561-0800] {logging_mixin.py:190} INFO - trade_balance data was saved to /Users/matthewmac/airflow/data/raw/trade_balance_2025-01-10.csv
+[2025-01-10T12:50:35.569-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date   value
+0     2024-12-21   2024-12-21  1946-01-01       .
+1     2024-12-21   2024-12-21  1946-04-01       .
+2     2024-12-21   2024-12-21  1946-07-01       .
+3     2024-12-21   2024-12-21  1946-10-01       .
+4     2024-12-21   2024-12-21  1947-01-01  10.875
+[2025-01-10T12:50:35.877-0800] {logging_mixin.py:190} INFO - industrial_production data was saved to /Users/matthewmac/airflow/data/raw/industrial_production_2025-01-10.csv
+[2025-01-10T12:50:35.888-0800] {logging_mixin.py:190} INFO -   realtime_start realtime_end   curr_date   value
+0     2024-12-17   2024-12-17  1919-01-01  4.8654
+1     2024-12-17   2024-12-17  1919-02-01  4.6504
+2     2024-12-17   2024-12-17  1919-03-01   4.516
+3     2024-12-17   2024-12-17  1919-04-01  4.5966
+4     2024-12-17   2024-12-17  1919-05-01  4.6235
+[2025-01-10T12:50:35.914-0800] {processor.py:925} INFO - DAG(s) 'CovidE2EPipeDag' retrieved from /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py
+[2025-01-10T12:50:36.073-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:50:36.073-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-10T12:50:36.097-0800] {logging_mixin.py:190} INFO - [2025-01-10T12:50:36.097-0800] {dag.py:4180} INFO - Setting next_dagrun for CovidE2EPipeDag to 2025-01-01 20:00:00+00:00, run_after=2025-01-02 20:00:00+00:00
+[2025-01-10T12:50:36.124-0800] {processor.py:208} INFO - Processing /Users/matthewmac/airflow/dags/CovidE2EPipeDag.py took 3.289 seconds

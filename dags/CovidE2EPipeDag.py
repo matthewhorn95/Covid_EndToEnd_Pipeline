@@ -159,7 +159,7 @@ archive_raw_data = BashOperator(
 # Task to delete raw csv files that have already been archived
 delete_archived_raw_data = BashOperator(
     task_id='deleted_archived_raw_data',
-    bash_command='rm /Users/matthewmac/airflow/data/raw/*.csv',
+    bash_command='cd /Users/matthewmac/airflow/data/raw && chmod +x *.csv && rm *.csv',
     dag=dag
 )
 
