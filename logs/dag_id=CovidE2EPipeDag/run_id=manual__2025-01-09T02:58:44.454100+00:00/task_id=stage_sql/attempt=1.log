@@ -1,0 +1,36 @@
+[2025-01-08T19:01:15.500-0800] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-01-08T19:01:15.515-0800] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: CovidE2EPipeDag.stage_sql manual__2025-01-09T02:58:44.454100+00:00 [queued]>
+[2025-01-08T19:01:15.524-0800] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: CovidE2EPipeDag.stage_sql manual__2025-01-09T02:58:44.454100+00:00 [queued]>
+[2025-01-08T19:01:15.524-0800] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2025-01-08T19:01:15.539-0800] {taskinstance.py:2889} INFO - Executing <Task(BashOperator): stage_sql> on 2025-01-09 02:58:44.454100+00:00
+[2025-01-08T19:01:15.542-0800] {standard_task_runner.py:72} INFO - Started process 7832 to run task
+[2025-01-08T19:01:15.550-0800] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'CovidE2EPipeDag', 'stage_sql', 'manual__2025-01-09T02:58:44.454100+00:00', '--job-id', '1656', '--raw', '--subdir', 'DAGS_FOLDER/CovidE2EPipeDag.py', '--cfg-path', '/var/folders/vm/rn9v1g1j739_mq8j5pfl1yxm0000gn/T/tmpwfjm4_tw']
+[2025-01-08T19:01:15.553-0800] {standard_task_runner.py:105} INFO - Job 1656: Subtask stage_sql
+[2025-01-08T19:01:15.602-0800] {task_command.py:467} INFO - Running <TaskInstance: CovidE2EPipeDag.stage_sql manual__2025-01-09T02:58:44.454100+00:00 [running]> on host Matthews-MacBook-Air.local
+[2025-01-08T19:01:15.694-0800] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Matthew Horn' AIRFLOW_CTX_DAG_ID='CovidE2EPipeDag' AIRFLOW_CTX_TASK_ID='stage_sql' AIRFLOW_CTX_EXECUTION_DATE='2025-01-09T02:58:44.454100+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-01-09T02:58:44.454100+00:00'
+[2025-01-08T19:01:15.696-0800] {taskinstance.py:731} INFO - ::endgroup::
+[2025-01-08T19:01:15.714-0800] {subprocess.py:78} INFO - Tmp dir root location: /var/folders/vm/rn9v1g1j739_mq8j5pfl1yxm0000gn/T
+[2025-01-08T19:01:15.716-0800] {subprocess.py:88} INFO - Running command: ['/bin/bash', '-c', 'snow stage copy /Users/matthewmac/airflow/helper_scripts/load_staged_data_2025-01-08.sql @CovidE2EPipeDatabase.raw_data.raw_data_stage']
+[2025-01-08T19:01:15.723-0800] {subprocess.py:99} INFO - Output:
+[2025-01-08T19:01:21.692-0800] {subprocess.py:106} INFO - +----------------------------------------------------------+
+[2025-01-08T19:01:21.692-0800] {subprocess.py:106} INFO - |      |      |       |      |       | targ |       |      |
+[2025-01-08T19:01:21.693-0800] {subprocess.py:106} INFO - |      |      |       |      | sourc | et_c |       |      |
+[2025-01-08T19:01:21.694-0800] {subprocess.py:106} INFO - |      |      | sourc | targ | e_com | ompr |       |      |
+[2025-01-08T19:01:21.694-0800] {subprocess.py:106} INFO - | sour | targ | e_siz | et_s | press | essi | statu | mess |
+[2025-01-08T19:01:21.695-0800] {subprocess.py:106} INFO - | ce   | et   | e     | ize  | ion   | on   | s     | age  |
+[2025-01-08T19:01:21.696-0800] {subprocess.py:106} INFO - |------+------+-------+------+-------+------+-------+------|
+[2025-01-08T19:01:21.697-0800] {subprocess.py:106} INFO - | load | load | 1627  | 0    | NONE  | NONE | SKIPP |      |
+[2025-01-08T19:01:21.698-0800] {subprocess.py:106} INFO - | _sta | _sta |       |      |       |      | ED    |      |
+[2025-01-08T19:01:21.699-0800] {subprocess.py:106} INFO - | ged_ | ged_ |       |      |       |      |       |      |
+[2025-01-08T19:01:21.700-0800] {subprocess.py:106} INFO - | data | data |       |      |       |      |       |      |
+[2025-01-08T19:01:21.700-0800] {subprocess.py:106} INFO - | _202 | _202 |       |      |       |      |       |      |
+[2025-01-08T19:01:21.701-0800] {subprocess.py:106} INFO - | 5-01 | 5-01 |       |      |       |      |       |      |
+[2025-01-08T19:01:21.701-0800] {subprocess.py:106} INFO - | -08. | -08. |       |      |       |      |       |      |
+[2025-01-08T19:01:21.701-0800] {subprocess.py:106} INFO - | sql  | sql  |       |      |       |      |       |      |
+[2025-01-08T19:01:21.702-0800] {subprocess.py:106} INFO - +----------------------------------------------------------+
+[2025-01-08T19:01:22.179-0800] {subprocess.py:110} INFO - Command exited with return code 0
+[2025-01-08T19:01:22.204-0800] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-01-08T19:01:22.205-0800] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=CovidE2EPipeDag, task_id=stage_sql, run_id=manual__2025-01-09T02:58:44.454100+00:00, execution_date=20250109T025844, start_date=20250109T030115, end_date=20250109T030122
+[2025-01-08T19:01:22.258-0800] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-01-08T19:01:22.292-0800] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-01-08T19:01:22.296-0800] {local_task_job_runner.py:245} INFO - ::endgroup::

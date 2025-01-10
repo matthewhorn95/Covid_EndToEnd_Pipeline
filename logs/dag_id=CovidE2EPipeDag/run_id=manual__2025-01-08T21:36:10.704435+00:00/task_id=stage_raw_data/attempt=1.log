@@ -1,0 +1,77 @@
+[2025-01-08T13:39:36.308-0800] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-01-08T13:39:36.321-0800] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: CovidE2EPipeDag.stage_raw_data manual__2025-01-08T21:36:10.704435+00:00 [queued]>
+[2025-01-08T13:39:36.332-0800] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: CovidE2EPipeDag.stage_raw_data manual__2025-01-08T21:36:10.704435+00:00 [queued]>
+[2025-01-08T13:39:36.333-0800] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2025-01-08T13:39:36.351-0800] {taskinstance.py:2889} INFO - Executing <Task(BashOperator): stage_raw_data> on 2025-01-08 21:36:10.704435+00:00
+[2025-01-08T13:39:36.354-0800] {standard_task_runner.py:72} INFO - Started process 5687 to run task
+[2025-01-08T13:39:36.364-0800] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'CovidE2EPipeDag', 'stage_raw_data', 'manual__2025-01-08T21:36:10.704435+00:00', '--job-id', '1201', '--raw', '--subdir', 'DAGS_FOLDER/CovidE2EPipeDag.py', '--cfg-path', '/var/folders/vm/rn9v1g1j739_mq8j5pfl1yxm0000gn/T/tmplzmp_o9y']
+[2025-01-08T13:39:36.367-0800] {standard_task_runner.py:105} INFO - Job 1201: Subtask stage_raw_data
+[2025-01-08T13:39:36.438-0800] {task_command.py:467} INFO - Running <TaskInstance: CovidE2EPipeDag.stage_raw_data manual__2025-01-08T21:36:10.704435+00:00 [running]> on host Matthews-MacBook-Air.local
+[2025-01-08T13:39:36.575-0800] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Matthew Horn' AIRFLOW_CTX_DAG_ID='CovidE2EPipeDag' AIRFLOW_CTX_TASK_ID='stage_raw_data' AIRFLOW_CTX_EXECUTION_DATE='2025-01-08T21:36:10.704435+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-01-08T21:36:10.704435+00:00'
+[2025-01-08T13:39:36.577-0800] {taskinstance.py:731} INFO - ::endgroup::
+[2025-01-08T13:39:36.601-0800] {subprocess.py:78} INFO - Tmp dir root location: /var/folders/vm/rn9v1g1j739_mq8j5pfl1yxm0000gn/T
+[2025-01-08T13:39:36.602-0800] {subprocess.py:88} INFO - Running command: ['/bin/bash', '-c', 'snow stage copy /Users/matthewmac/airflow/data/raw/industrial_production_2025-01-08.csv @CovidE2EPipeDatabase.raw_data.raw_data_stage']
+[2025-01-08T13:39:36.610-0800] {subprocess.py:99} INFO - Output:
+[2025-01-08T13:39:44.089-0800] {subprocess.py:106} INFO - +--------------------------------+
+[2025-01-08T13:39:44.092-0800] {subprocess.py:106} INFO - |   |   |   |   | s | t |   |    |
+[2025-01-08T13:39:44.092-0800] {subprocess.py:106} INFO - |   |   |   |   | o | a |   |    |
+[2025-01-08T13:39:44.093-0800] {subprocess.py:106} INFO - |   |   |   |   | u | r |   |    |
+[2025-01-08T13:39:44.094-0800] {subprocess.py:106} INFO - |   |   |   |   | r | g |   |    |
+[2025-01-08T13:39:44.095-0800] {subprocess.py:106} INFO - |   |   |   |   | c | e |   |    |
+[2025-01-08T13:39:44.096-0800] {subprocess.py:106} INFO - |   |   |   |   | e | t |   |    |
+[2025-01-08T13:39:44.096-0800] {subprocess.py:106} INFO - |   |   |   |   | _ | _ |   |    |
+[2025-01-08T13:39:44.097-0800] {subprocess.py:106} INFO - |   |   | s | t | c | c |   |    |
+[2025-01-08T13:39:44.097-0800] {subprocess.py:106} INFO - |   |   | o | a | o | o |   |    |
+[2025-01-08T13:39:44.099-0800] {subprocess.py:106} INFO - |   |   | u | r | m | m |   |    |
+[2025-01-08T13:39:44.100-0800] {subprocess.py:106} INFO - |   |   | r | g | p | p |   |    |
+[2025-01-08T13:39:44.100-0800] {subprocess.py:106} INFO - |   |   | c | e | r | r |   |    |
+[2025-01-08T13:39:44.101-0800] {subprocess.py:106} INFO - | s | t | e | t | e | e | s |    |
+[2025-01-08T13:39:44.101-0800] {subprocess.py:106} INFO - | o | a | _ | _ | s | s | t |    |
+[2025-01-08T13:39:44.102-0800] {subprocess.py:106} INFO - | u | r | s | s | s | s | a | me |
+[2025-01-08T13:39:44.102-0800] {subprocess.py:106} INFO - | r | g | i | i | i | i | t | ss |
+[2025-01-08T13:39:44.103-0800] {subprocess.py:106} INFO - | c | e | z | z | o | o | u | ag |
+[2025-01-08T13:39:44.103-0800] {subprocess.py:106} INFO - | e | t | e | e | n | n | s | e  |
+[2025-01-08T13:39:44.103-0800] {subprocess.py:106} INFO - |---+---+---+---+---+---+---+----|
+[2025-01-08T13:39:44.104-0800] {subprocess.py:106} INFO - | i | i | 5 | 5 | N | N | U |    |
+[2025-01-08T13:39:44.104-0800] {subprocess.py:106} INFO - | n | n | 7 | 7 | O | O | P |    |
+[2025-01-08T13:39:44.105-0800] {subprocess.py:106} INFO - | d | d | 1 | 1 | N | N | L |    |
+[2025-01-08T13:39:44.105-0800] {subprocess.py:106} INFO - | u | u | 1 | 2 | E | E | O |    |
+[2025-01-08T13:39:44.106-0800] {subprocess.py:106} INFO - | s | s | 6 | 0 |   |   | A |    |
+[2025-01-08T13:39:44.107-0800] {subprocess.py:106} INFO - | t | t |   |   |   |   | D |    |
+[2025-01-08T13:39:44.107-0800] {subprocess.py:106} INFO - | r | r |   |   |   |   | E |    |
+[2025-01-08T13:39:44.108-0800] {subprocess.py:106} INFO - | i | i |   |   |   |   | D |    |
+[2025-01-08T13:39:44.108-0800] {subprocess.py:106} INFO - | a | a |   |   |   |   |   |    |
+[2025-01-08T13:39:44.109-0800] {subprocess.py:106} INFO - | l | l |   |   |   |   |   |    |
+[2025-01-08T13:39:44.109-0800] {subprocess.py:106} INFO - | _ | _ |   |   |   |   |   |    |
+[2025-01-08T13:39:44.110-0800] {subprocess.py:106} INFO - | p | p |   |   |   |   |   |    |
+[2025-01-08T13:39:44.110-0800] {subprocess.py:106} INFO - | r | r |   |   |   |   |   |    |
+[2025-01-08T13:39:44.111-0800] {subprocess.py:106} INFO - | o | o |   |   |   |   |   |    |
+[2025-01-08T13:39:44.111-0800] {subprocess.py:106} INFO - | d | d |   |   |   |   |   |    |
+[2025-01-08T13:39:44.112-0800] {subprocess.py:106} INFO - | u | u |   |   |   |   |   |    |
+[2025-01-08T13:39:44.112-0800] {subprocess.py:106} INFO - | c | c |   |   |   |   |   |    |
+[2025-01-08T13:39:44.113-0800] {subprocess.py:106} INFO - | t | t |   |   |   |   |   |    |
+[2025-01-08T13:39:44.113-0800] {subprocess.py:106} INFO - | i | i |   |   |   |   |   |    |
+[2025-01-08T13:39:44.115-0800] {subprocess.py:106} INFO - | o | o |   |   |   |   |   |    |
+[2025-01-08T13:39:44.116-0800] {subprocess.py:106} INFO - | n | n |   |   |   |   |   |    |
+[2025-01-08T13:39:44.116-0800] {subprocess.py:106} INFO - | _ | _ |   |   |   |   |   |    |
+[2025-01-08T13:39:44.117-0800] {subprocess.py:106} INFO - | 2 | 2 |   |   |   |   |   |    |
+[2025-01-08T13:39:44.118-0800] {subprocess.py:106} INFO - | 0 | 0 |   |   |   |   |   |    |
+[2025-01-08T13:39:44.118-0800] {subprocess.py:106} INFO - | 2 | 2 |   |   |   |   |   |    |
+[2025-01-08T13:39:44.119-0800] {subprocess.py:106} INFO - | 5 | 5 |   |   |   |   |   |    |
+[2025-01-08T13:39:44.119-0800] {subprocess.py:106} INFO - | - | - |   |   |   |   |   |    |
+[2025-01-08T13:39:44.120-0800] {subprocess.py:106} INFO - | 0 | 0 |   |   |   |   |   |    |
+[2025-01-08T13:39:44.120-0800] {subprocess.py:106} INFO - | 1 | 1 |   |   |   |   |   |    |
+[2025-01-08T13:39:44.121-0800] {subprocess.py:106} INFO - | - | - |   |   |   |   |   |    |
+[2025-01-08T13:39:44.121-0800] {subprocess.py:106} INFO - | 0 | 0 |   |   |   |   |   |    |
+[2025-01-08T13:39:44.122-0800] {subprocess.py:106} INFO - | 8 | 8 |   |   |   |   |   |    |
+[2025-01-08T13:39:44.122-0800] {subprocess.py:106} INFO - | . | . |   |   |   |   |   |    |
+[2025-01-08T13:39:44.123-0800] {subprocess.py:106} INFO - | c | c |   |   |   |   |   |    |
+[2025-01-08T13:39:44.124-0800] {subprocess.py:106} INFO - | s | s |   |   |   |   |   |    |
+[2025-01-08T13:39:44.124-0800] {subprocess.py:106} INFO - | v | v |   |   |   |   |   |    |
+[2025-01-08T13:39:44.125-0800] {subprocess.py:106} INFO - +--------------------------------+
+[2025-01-08T13:39:44.564-0800] {subprocess.py:110} INFO - Command exited with return code 0
+[2025-01-08T13:39:44.610-0800] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-01-08T13:39:44.612-0800] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=CovidE2EPipeDag, task_id=stage_raw_data, run_id=manual__2025-01-08T21:36:10.704435+00:00, execution_date=20250108T213610, start_date=20250108T213936, end_date=20250108T213944
+[2025-01-08T13:39:44.680-0800] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-01-08T13:39:44.715-0800] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-01-08T13:39:44.716-0800] {local_task_job_runner.py:245} INFO - ::endgroup::

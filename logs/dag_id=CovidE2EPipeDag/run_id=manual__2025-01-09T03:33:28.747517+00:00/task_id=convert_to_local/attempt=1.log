@@ -1,0 +1,17 @@
+[2025-01-08T19:34:01.077-0800] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-01-08T19:34:01.090-0800] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: CovidE2EPipeDag.convert_to_local manual__2025-01-09T03:33:28.747517+00:00 [queued]>
+[2025-01-08T19:34:01.100-0800] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: CovidE2EPipeDag.convert_to_local manual__2025-01-09T03:33:28.747517+00:00 [queued]>
+[2025-01-08T19:34:01.101-0800] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2025-01-08T19:34:01.119-0800] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): convert_to_local> on 2025-01-09 03:33:28.747517+00:00
+[2025-01-08T19:34:01.122-0800] {standard_task_runner.py:72} INFO - Started process 9494 to run task
+[2025-01-08T19:34:01.133-0800] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'CovidE2EPipeDag', 'convert_to_local', 'manual__2025-01-09T03:33:28.747517+00:00', '--job-id', '1679', '--raw', '--subdir', 'DAGS_FOLDER/CovidE2EPipeDag.py', '--cfg-path', '/var/folders/vm/rn9v1g1j739_mq8j5pfl1yxm0000gn/T/tmphhd_otry']
+[2025-01-08T19:34:01.136-0800] {standard_task_runner.py:105} INFO - Job 1679: Subtask convert_to_local
+[2025-01-08T19:34:01.189-0800] {task_command.py:467} INFO - Running <TaskInstance: CovidE2EPipeDag.convert_to_local manual__2025-01-09T03:33:28.747517+00:00 [running]> on host Matthews-MacBook-Air.local
+[2025-01-08T19:34:01.287-0800] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='CovidE2EPipeDag' AIRFLOW_CTX_TASK_ID='convert_to_local' AIRFLOW_CTX_EXECUTION_DATE='2025-01-09T03:33:28.747517+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-01-09T03:33:28.747517+00:00'
+[2025-01-08T19:34:01.288-0800] {taskinstance.py:731} INFO - ::endgroup::
+[2025-01-08T19:34:01.345-0800] {python.py:240} INFO - Done. Returned value was: None
+[2025-01-08T19:34:01.352-0800] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-01-08T19:34:01.354-0800] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=CovidE2EPipeDag, task_id=convert_to_local, run_id=manual__2025-01-09T03:33:28.747517+00:00, execution_date=20250109T033328, start_date=20250109T033401, end_date=20250109T033401
+[2025-01-08T19:34:01.401-0800] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-01-08T19:34:01.440-0800] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-01-08T19:34:01.444-0800] {local_task_job_runner.py:245} INFO - ::endgroup::
