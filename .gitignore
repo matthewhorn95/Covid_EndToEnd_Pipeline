@@ -4,3 +4,4 @@
 logs/
 __pycache__/
 *.pyc
+CovidE2EPipe/data
