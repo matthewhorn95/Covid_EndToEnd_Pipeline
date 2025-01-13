@@ -1,7 +1,8 @@
 .env
 *.pid
-*.db
-logs/
+airflow.db
+logs
+logs/*
 __pycache__/
 *.pyc
 CovidE2EPipe/data
