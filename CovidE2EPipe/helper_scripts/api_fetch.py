@@ -70,13 +70,11 @@ def process_fred_observations(json_res):
 
 def main():
     # Make calls to the api_to_csv function for each api
-    """api_to_csv(stocks_api_url, 'stocks_eod', process_stock_data, query_string)
-    api_to_csv(exchange_api_url, 'exchanges', process_conversion_rates)"""
+    api_to_csv(stocks_api_url, 'stocks_eod', process_stock_data, query_string)
+    api_to_csv(exchange_api_url, 'exchanges', process_conversion_rates)
     api_to_csv(f"{fred_series_url}MORTGAGE30US{fred_ending}", '30yr_mortage', process_fred_observations)
     api_to_csv(f"{fred_series_url}UNRATE{fred_ending}", 'unemployment_rate', process_fred_observations)
     api_to_csv(f"{fred_series_url}GDP{fred_ending}", 'GDP', process_fred_observations)
     api_to_csv(f"{fred_series_url}CPIAUCSL{fred_ending}", 'US_CPI', process_fred_observations)
     api_to_csv(f"{fred_series_url}NETEXP{fred_ending}", 'trade_balance', process_fred_observations)
     api_to_csv(f"{fred_series_url}INDPRO{fred_ending}", 'industrial_production', process_fred_observations)
-
-main()
