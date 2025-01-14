@@ -165,11 +165,23 @@ unstage_files = BashOperator(
 # Task to archive old raw data files that have already been uploaded to Snowflake
 archive_raw_data = BashOperator(
     task_id='archive_raw_data',
-    bash_command=f'cd /Users/matthewmac/airflow/CovidE2EPipe/data/raw && zip raw_data_{datetime.now().date()}.zip *.csv && \
-                  mv raw_data_{datetime.now().date()}.zip archived && rm *.csv',
+    bash_command=f'cd /Users/matthewmac/airflow/CovidE2EPipe/data/raw && \
+                    zip raw_data_{datetime.now().date()}.zip *.csv && \
+                  mv raw_data_{datetime.now().date()}.zip archived && \
+                    rm *.csv',
     dag=dag
 )
 
+# Task to archive the previous day's transformed data before overwriting it with the new day's
+archive_transformed_data = BashOperator(
+    task_id='archive_transformed_data',
+    bash_command=f'cd /Users/matthewmac/airflow/CovidE2EPipe/data/transformed && \
+                    zip raw_data_{datetime.now().date()}.zip *.csv && \
+                    mv raw_data_{datetime.now().date()}.zip archived/',
+    dag=dag
+)
+
+# Task to transform the appended raw data via the transform_raw_data.py script
 transform_data = PythonOperator(
     task_id='transform_data',
     python_callable=transform,

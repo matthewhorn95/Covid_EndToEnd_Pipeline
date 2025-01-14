@@ -2,6 +2,7 @@ import modin.pandas as pd
 import snowflake.snowpark.modin.plugin
 from snowflake.snowpark.session import Session
 from functools import reduce
+from datetime import datetime
 
 def main():
     # Create a snowpark session with a default connection
@@ -21,13 +22,13 @@ def main():
     unemployment_df = pd.read_snowflake('CovidE2EPipeDatabase.raw_data.unemployment_rate_appended')[["CURR_DATE", "VALUE"]].rename(columns={'VALUE': 'unemployment_rate'})
 
 
-    stocks_df.to_csv('/Users/matthewmac/airflow/CovidE2EPipe/data/transformed/stocks_df_transformed.csv')
-    currency_df.to_csv('/Users/matthewmac/airflow/CovidE2EPipe/data/transformed/currency_df_transformed.csv')
-    ind_prod_df.to_csv('/Users/matthewmac/airflow/CovidE2EPipe/data/transformed/ind_prod_df_transformed.csv')
-    gdp_df.to_csv('/Users/matthewmac/airflow/CovidE2EPipe/data/transformed/gdp_df_transformed.csv')
-    us_cpi_df.to_csv('/Users/matthewmac/airflow/CovidE2EPipe/data/transformed/us_cpi_df_transformed.csv')
-    trade_balance_df.to_csv('/Users/matthewmac/airflow/CovidE2EPipe/data/transformed/trade_balance_df_transformed.csv')
-    mortgage_df.to_csv('/Users/matthewmac/airflow/CovidE2EPipe/data/transformed/mortgage_df_transformed.csv')
-    unemployment_df.to_csv('/Users/matthewmac/airflow/CovidE2EPipe/data/transformed/unemployment_df_transformed.csv')
+    stocks_df.to_csv(f'/Users/matthewmac/airflow/CovidE2EPipe/data/transformed/stocks_transformed_{datetime.now().date()}.csv')
+    currency_df.to_csv(f'/Users/matthewmac/airflow/CovidE2EPipe/data/transformed/currency_transformed_{datetime.now().date()}.csv')
+    ind_prod_df.to_csv(f'/Users/matthewmac/airflow/CovidE2EPipe/data/transformed/ind_prod_transformed_{datetime.now().date()}.csv')
+    gdp_df.to_csv(f'/Users/matthewmac/airflow/CovidE2EPipe/data/transformed/gdp_transformed_{datetime.now().date()}.csv')
+    us_cpi_df.to_csv(f'/Users/matthewmac/airflow/CovidE2EPipe/data/transformed/us_cpi_transformed_{datetime.now().date()}.csv')
+    trade_balance_df.to_csv(f'/Users/matthewmac/airflow/CovidE2EPipe/data/transformed/trade_balance_transformed_{datetime.now().date()}.csv')
+    mortgage_df.to_csv(f'/Users/matthewmac/airflow/CovidE2EPipe/data/transformed/mortgage_transformed_{datetime.now().date()}.csv')
+    unemployment_df.to_csv(f'/Users/matthewmac/airflow/CovidE2EPipe/data/transformed/unemployment_transformed_{datetime.now().date()}.csv')
 
 main()
