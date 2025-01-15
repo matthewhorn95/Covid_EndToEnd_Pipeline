@@ -47,6 +47,16 @@ def main():
     mortgage_df.to_csv(f'/Users/matthewmac/airflow/CovidE2EPipe/data/transformed/mortgage_transformed_{datetime.now().date()}.csv')
     unemployment_df.to_csv(f'/Users/matthewmac/airflow/CovidE2EPipe/data/transformed/unemployment_transformed_{datetime.now().date()}.csv')
 
+    # Append the transformed data from the day to the appropriate tables in Snowflake
+    session.write_pandas(stocks_df, table_name='stocks_eod_clean_appended', database='CovidE2EPipeDatabase', schema='transformed_data')
+    session.write_pandas(currency_df, table_name='currency_exchanges_clean_appended', database='CovidE2EPipeDatabase', schema='transformed_data')
+    session.write_pandas(ind_prod_df, table_name='industrial_production_clean_appended', database='CovidE2EPipeDatabase', schema='transformed_data')
+    session.write_pandas(gdp_df, table_name='gdp_clean_appended', database='CovidE2EPipeDatabase', schema='transformed_data')
+    session.write_pandas(us_cpi_df, table_name='us_cpi_clean_appended', database='CovidE2EPipeDatabase', schema='transformed_data')
+    session.write_pandas(trade_balance_df, table_name='trade_balance_clean_appended', database='CovidE2EPipeDatabase', schema='transformed_data')
+    session.write_pandas(mortgage_df, table_name='thirty_yr_mortgage_clean_appended', database='CovidE2EPipeDatabase', schema='transformed_data')
+    session.write_pandas(unemployment_df, table_name='unemployment_rate_clean_appended', database='CovidE2EPipeDatabase', schema='transformed_data')
+
 # Make sure the script is only run when executed, not every time it's imported
 if __name__ == "__main__":
     main()

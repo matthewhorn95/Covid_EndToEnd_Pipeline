@@ -171,6 +171,57 @@ CREATE OR REPLACE TABLE industrial_production_appended (
 -- Take the transformed data schema into use
 USE SCHEMA transformed_data;
 
--- Create the stage to upload the local transformed dataframes into
-CREATE OR REPLACE STAGE transformed_data_stage
-    FILE_FORMAT = (TYPE = 'CSV');
+CREATE OR REPLACE TABLE industrial_production_clean_appended(
+    curr_date DATE,
+    industrial_production FLOAT
+);
+
+CREATE OR REPLACE TABLE thirty_yr_mortgage_clean_appended(
+    curr_date DATE,
+    thirty_yr_mortgage FLOAT
+);
+
+CREATE OR REPLACE TABLE gdp_clean_appended(
+    curr_date DATE,
+    gdp FLOAT
+);
+
+CREATE OR REPLACE TABLE trade_balance_clean_appended(
+    curr_date DATE,
+    trade_balance FLOAT
+);
+
+CREATE OR REPLACE TABLE unemployment_rate_clean_appended(
+    curr_date DATE,
+    unemployment_rate FLOAT
+);
+
+CREATE OR REPLACE TABLE us_cpi_clean_appended(
+    curr_date DATE,
+    us_cpi FLOAT
+);
+
+CREATE OR REPLACE TABLE stocks_eod_clean_appended(
+    index NUMBER,
+    open FLOAT,
+    high FLOAT,
+    low FLOAT,
+    close FLOAT,
+    volume FLOAT,
+    adj_high FLOAT,
+    adj_low FLOAT,
+    adj_close FLOAT,
+    adj_open FLOAT,
+    adj_volume FLOAT,
+    split_factor FLOAT,
+    dividend FLOAT,
+    symbol STRING,
+    exchange_name STRING,
+    curr_date DATE
+);
+
+CREATE OR REPLACE TABLE currency_exchanges_clean_appended (
+    index NUMBER,
+    currency STRING,
+    rate FLOAT
+);
