@@ -6,3 +6,4 @@ logs/*
 __pycache__/
 *.pyc
 CovidE2EPipe/data
+dags/__pycache__

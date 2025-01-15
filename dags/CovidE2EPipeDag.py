@@ -5,7 +5,6 @@ from airflow.operators.bash import BashOperator
 from datetime import datetime
 import pendulum
 import sys
-import subprocess
 
 # Include the airflow directory in the python path to access the helper functions
 sys.path.insert(0, '/Users/matthewmac/airflow')
@@ -13,6 +12,10 @@ sys.path.insert(0, '/Users/matthewmac/airflow')
 # Import helper functions for tasks
 from CovidE2EPipe.helper_scripts.api_fetch import main as api_fetch
 from CovidE2EPipe.helper_scripts.transform_raw_data import main as transform
+
+#print("Running fetch imported function")
+#api_fetch()
+#print("Api fetch done")
 
 #
 #
@@ -200,3 +203,4 @@ insert_staged_raw_data >> clean_up_sql_exe
 insert_staged_raw_data >> archive_raw_data
 append_daily_raw_data >> unstage_files
 append_daily_raw_data >> transform_data
+transform_data >> archive_transformed_data

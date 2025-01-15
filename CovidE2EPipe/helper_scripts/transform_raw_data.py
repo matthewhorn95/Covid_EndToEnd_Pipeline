@@ -21,7 +21,23 @@ def main():
     mortgage_df = pd.read_snowflake('CovidE2EPipeDatabase.raw_data.thirty_yr_mortgage_appended')[["CURR_DATE", "VALUE"]].rename(columns={'VALUE': 'thirty_yr_mortgage'})
     unemployment_df = pd.read_snowflake('CovidE2EPipeDatabase.raw_data.unemployment_rate_appended')[["CURR_DATE", "VALUE"]].rename(columns={'VALUE': 'unemployment_rate'})
 
+    # Convert object (string) type to datetime for curr_date variable
+    ind_prod_df["CURR_DATE"] = pd.to_datetime(ind_prod_df["CURR_DATE"])
+    gdp_df["CURR_DATE"] = pd.to_datetime(gdp_df["CURR_DATE"])
+    us_cpi_df["CURR_DATE"] = pd.to_datetime(us_cpi_df["CURR_DATE"])
+    trade_balance_df["CURR_DATE"] = pd.to_datetime(trade_balance_df["CURR_DATE"])
+    mortgage_df["CURR_DATE"] = pd.to_datetime(mortgage_df["CURR_DATE"])
+    unemployment_df["CURR_DATE"] = pd.to_datetime(unemployment_df["CURR_DATE"])
 
+    # Subset the data to keep only years after 2000 (inclusive)
+    ind_prod_df = ind_prod_df.loc[ind_prod_df["CURR_DATE"] >= "2000-01-01"]
+    gdp_df = gdp_df.loc[gdp_df["CURR_DATE"] >= "2000-01-01"]
+    us_cpi_df = us_cpi_df.loc[us_cpi_df["CURR_DATE"] >= "2000-01-01"]
+    trade_balance_df = trade_balance_df.loc[trade_balance_df["CURR_DATE"] >= "2000-01-01"]
+    mortgage_df = mortgage_df.loc[mortgage_df["CURR_DATE"] >= "2000-01-01"]
+    unemployment_df = unemployment_df.loc[unemployment_df["CURR_DATE"] >= "2000-01-01"]
+
+    # Output the data frames to csv in the data/transformed directory for the project
     stocks_df.to_csv(f'/Users/matthewmac/airflow/CovidE2EPipe/data/transformed/stocks_transformed_{datetime.now().date()}.csv')
     currency_df.to_csv(f'/Users/matthewmac/airflow/CovidE2EPipe/data/transformed/currency_transformed_{datetime.now().date()}.csv')
     ind_prod_df.to_csv(f'/Users/matthewmac/airflow/CovidE2EPipe/data/transformed/ind_prod_transformed_{datetime.now().date()}.csv')
@@ -31,4 +47,6 @@ def main():
     mortgage_df.to_csv(f'/Users/matthewmac/airflow/CovidE2EPipe/data/transformed/mortgage_transformed_{datetime.now().date()}.csv')
     unemployment_df.to_csv(f'/Users/matthewmac/airflow/CovidE2EPipe/data/transformed/unemployment_transformed_{datetime.now().date()}.csv')
 
-main()
+# Make sure the script is only run when executed, not every time it's imported
+if __name__ == "__main__":
+    main()
