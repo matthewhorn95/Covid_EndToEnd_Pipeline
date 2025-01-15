@@ -13,10 +13,6 @@ sys.path.insert(0, '/Users/matthewmac/airflow')
 from CovidE2EPipe.helper_scripts.api_fetch import main as api_fetch
 from CovidE2EPipe.helper_scripts.transform_raw_data import main as transform
 
-#print("Running fetch imported function")
-#api_fetch()
-#print("Api fetch done")
-
 #
 #
 #
